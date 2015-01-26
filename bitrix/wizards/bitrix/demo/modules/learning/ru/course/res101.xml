@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>702</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>300</sort>
+<timestamp_x>1374677073</timestamp_x>
+<date_create>1374677073</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Наполнение каталога товаров</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Мы разместили комплексный компонент <b>Каталог</b>, который сразу создаст все нужные страницы. И теперь наполним каталог содержимым.</p>
+
+<ul><li>Перейдите в режим правки.
+
+<li>Наведите курсор мыши на место расположения компонента. Высветятся кнопки управления контентом каталога:
+
+<p><img height="45" width="348" src="cid:resources/res101/YpIk1.xlrii.content_buttons_11.png" /></p>
+</li>
+<li>Нажмите кнопку <b>Добавить раздел</b>. В открывшейся форме укажите название раздела.
+
+<p><img height="423" width="569" src="cid:resources/res101/vlDNb.mMbYd.add_section_11.png" /></p>
+
+</li>
+<li>Нажмите <b>Сохранить</b>. Вы окажетесь во вновь созданном разделе. Добавим книги в этот раздел.
+</li>
+<li>Нажмите <b>Добавить книгу</b>, откроется форма добавления книги:
+
+<p><img height="543" width="700" src="cid:resources/res101/2UV9i.ZDvof.new_book_11.png" /></p>
+
+Введите параметры книги: название, свойства, анонс, подробное описание и нажмите <b>Сохранить</b>. Книга будет добавлена: 
+<br /><br />
+<img src="cid:resources/res101/CXqwa.xBw1w.new_book_public.png" width="526" height="492" border="0">
+
+</li>
+</ul>
+<p><div class="hint"><b>Примечание:</b> При добавлении книг вы должны указывать уже имеющихся авторов, т.е. заполнить каталог <b>Авторы</b> необходимо перед заполнением каталога <b>Книги</b>. </div></p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>300</edge_sort>
+<id>702</id>
+</content>

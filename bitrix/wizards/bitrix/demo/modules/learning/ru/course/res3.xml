@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>603</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1374730592</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры решения типовых задач</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Большая часть решений типовых задач Контент-менеджера описана в текстах курса, в соответствующих местах. Ниже приведены ссылки на такие страницы.</p>
+
+<ul>
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=3512">Как добавить новость на сайт</a></li>
+
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=2055">Как наполнить фотогалерею</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&CHAPTER_ID=04593">Как наполнить видеотеку</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1833">Как вернуть потерянные данные в случае нештатной ситуации</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=3068">Как настроить рабочий стол и разместить на нем средства для вывода различных данных</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1911">Как создать раздел или страницу</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1878">Как ограничить доступ к странице или разделу</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1862#change_menu">Как создать и редактировать пункты меню сайта</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1874">Как создать таблицу</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1873">Как работать с гиперссылками</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1877">Как добавлять на страницу заранее подготовленный текст или код</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=1840#quick_grupp_edit">Как быстро отредактировать несколько элементов</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=2200">Как вставить видео, размещенное на другом сервере, например, на YouTube</a></li>
+
+<li><a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=34&LESSON_ID=3579">Использование ЧПУ</a></li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>603</id>
+</content>

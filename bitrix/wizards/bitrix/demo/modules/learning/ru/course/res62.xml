@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>663</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1374677073</timestamp_x>
+<date_create>1374677073</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Копирование и вставка текста</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Для копирования и вставки текста служат следующие кнопки:</p>
+ 
+<table width="80%" cellspacing="0" cellpadding="0" border="0"> 
+  <tbody> 
+    <tr bgcolor="white"> <td bgcolor="#8c8c8c"> 
+        <table cellspacing="1" cellpadding="6" border="0"> 
+          <tbody> 
+            <tr bgcolor="silver"><td align="center"><b>Кнопка</b></td><td align="center"><b>Действие</b></td></tr>
+           
+            <tr bgcolor="white"><td align="center"><img src="cid:resources/res62/cqPaw.wzq93.cut.gif" border="0"  /></td><td>Позволяет вырезать выделенный фрагмент и поместить его в буфер обмена.</td></tr>
+           
+            <tr bgcolor="#eeeeee"><td align="center"><img src="cid:resources/res62/MYPlg.FRpUL.copy.gif" border="0"  /></td><td>С помощью этой кнопки можно скопировать какой-нибудь фрагмент в буфер обмена.</td></tr>
+           
+            <tr bgcolor="white"><td align="center"><img src="cid:resources/res62/7XFuP.y7Xto.paste.gif" border="0"  /></td><td>Вставляет фрагмент из буфера обмена.</td></tr>
+           
+            <tr bgcolor="#eeeeee"><td align="center"><img src="cid:resources/res62/8ucaK.IqwKB.pasteword.gif" border="0"  /></td><td>Вставляет фрагмент из редактора MS Word. Позволяет очистить добавляемый текст от дополнительных элементов форматирования (например, стилей, шрифтов, дополнительных отступов).</td></tr>
+           
+            <tr bgcolor="white"><td align="center"><img src="cid:resources/res62/zdFty.M2nv9.pastetext.gif" border="0"  /></td><td>Вставляет фрагмент как текст.</td></tr>
+           
+            <tr bgcolor="#eeeeee"><td align="center"><img src="cid:resources/res62/xKUXC.V9zyK.selectall.gif" border="0"  /></td><td>Позволяет выделить все содержимое страницы.</td></tr>
+           </tbody>
+         </table>
+       </td></tr>
+   </tbody>
+ </table>
+ 
+<p>Рассмотрим разницу между возможными режимами вставки текста, скопировав текст из редактора MS Word в визуальный редактор разными способами. Пусть мы хотим скопировать из MS Word следующий текст:</p>
+ 
+<p><img src="cid:resources/res62/yjYfD.h51Y4.text_orig.png" width="511" height="146" border="0"  /> </p>
+ 
+<p>Скопируем этот фрагмент в буфер и вставим его в содержание страницы тремя разными способами:</p>
+ 
+<ol> 
+  <li>При вставке текста из редактора MS Word по кнопке <img src="cid:resources/res62/1tvRd.dGL4n.paste.gif" border="0"  /> <b>Вставить</b> появляется вопрос: 
+    <p><img src="cid:resources/res62/wClz8.vkM3H.question.png" width="490" height="171" border="0"  /></p>
+   
+    <p>При ответе <b>OK</b> действия редактора будут теми же, что и при вставке текста по кнопке <img src="cid:resources/res62/e5IUD.cgfjA.pasteword.gif" border="0"  /> <b>Вставить из Word</b>. Работа в этом случае подробно описана ниже. </p>
+   
+    <p>Если на вопрос <b>Хотите ли Вы очистить текст перед вставкой?</b> ответить <b>Отмена</b>, то текст будет вставлен без удаления каких-либо элементов форматирования:</p>
+   
+    <p><img src="cid:resources/res62/0jSvn.S1jYG.text_asis.png" width="511" height="146" border="0"  /></p>
+   
+    <p>В этом случае код будет таким:</p>
+   
+    <pre class="syntax">&lt;p style=&quot;LINE-HEIGHT: normal; MARGIN: 12pt 0cm 3pt; mso-outline-level: 2&quot; class=&quot;MsoNormal&quot;&gt;<br />&lt;b&gt;&lt;i&gt;&lt;span style=&quot;FONT-FAMILY: &amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;; COLOR: black; FONT-SIZE: 18pt;<br /> mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU&quot;&gt;<br />Осень <br />&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;b&gt;<br />&lt;span style=&quot;FONT-FAMILY: &amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;; FONT-SIZE: 18pt;<br /> mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU&quot;&gt;<br />      &lt;p&gt;&lt;/p&gt;<br />    &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;<br /><br />&lt;p style=&quot;LINE-HEIGHT: normal; TEXT-INDENT: 35.4pt; MARGIN: 0cm 0cm 0pt&quot; class=&quot;MsoNormal&quot;&gt;<br />&lt;span style=&quot;FONT-FAMILY: &amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;; FONT-SIZE: 9pt; <br />mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU&quot;&gt; <br />Еще очень тепло, но наступление осени ощущается в каждом дуновении ветерка. <br />Деревья сбрасывают обожженную за лето листву. Кажется, что стволы темнеют, <br />они устали и хотят спать. Неугомонные мелкие паучки с невероятной скоростью плетут паутины, <br />и ты, не видя, срываешь их ловушки&amp;hellip; <br />&lt;/span&gt;&lt;span style=&quot;FONT-FAMILY: &amp;quot;Times New Roman&amp;quot;,&amp;quot;serif&amp;quot;; FONT-SIZE: 12pt; <br />mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU&quot;&gt; &lt;/span&gt; <br />&lt;span style=&quot;FONT-FAMILY: &amp;quot;Arial&amp;quot;,&amp;quot;sans-serif&amp;quot;; FONT-SIZE: 12pt; <br />mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU&quot;&gt;<br />    &lt;p&gt;&lt;/p&gt;<br />  &lt;/span&gt;&lt;/p&gt;<br /><br />&lt;p&gt;&lt;/p&gt;<br /></pre>
+   
+    <p>Как видим, при таком варианте вставки многое в коде является лишним. Это приводит к передаче лишней, незначимой информации, что в свою очередь увеличивает время ее загрузки.</p>
+   
+    <div class="hint">Если копировать текст из редактора MS Word с помощью комбинации клавиш <b>Ctrl+Insert</b> или <b>Ctrl+C</b>, а вставлять при помощи <b>Shift+Insert</b> и <b>Ctrl+V</b> соответственно, то редактор будет реагировать как в случае вставки текста по кнопке <img src="cid:resources/res62/7OBpS.3cLT2.paste.gif" border="0"  />. </div>
+   
+    <br />
+   
+    <br />
+   Если вставлять текст из браузера при помощи этой же кнопки <img src="cid:resources/res62/lWnao.ZJcRz.paste.gif" border="0"  /> <b>Вставить</b>, то он скопируется с сохранением форматирования без каких-либо предупреждений. Скопируем из браузера следующий фрагмент: 
+    <p><img src="cid:resources/res62/F1qgG.i2aV1.browser.png" width="389" height="105" border="0"  /></p>
+   Вставим его в содержание страницы с помощью кнопки <img src="cid:resources/res62/Hv4E5.apd9p.paste.gif" border="0"  />. Внешне он будет таким же как и в браузере, откуда мы его копировали. Код этого фрагмента текста будет таким: 
+    <pre class="syntax">&lt;ul&gt;<br />&lt;li&gt;&lt;strong&gt;&lt;font class=&quot;text&quot;&gt;15% &lt;/font&gt;&lt;/strong&gt;&lt;font class=&quot;text&quot;&gt;- <br />при покупке товаров на сумму больше чем на $500&lt;/font&gt; &lt;/li&gt;<br /><br />&lt;li&gt;&lt;strong&gt;&lt;font class=&quot;text&quot;&gt;20% &lt;/font&gt;&lt;/strong&gt;&lt;font class=&quot;text&quot;&gt;- <br />при покупке товаров на сумму больше чем на $800&lt;/font&gt; &lt;/li&gt;<br /><br />&lt;li&gt;&lt;strong&gt;&lt;font class=&quot;text&quot;&gt;25% &lt;/font&gt;&lt;/strong&gt;&lt;font class=&quot;text&quot;&gt;- <br />при покупке товаров на сумму больше чем на $1500&lt;/font&gt; &lt;/li&gt;<br /><br />&lt;/ul&gt;<br /></pre>
+   Код этого фрагмента текста &ndash; стандартные HTML-теги без дополнительного форматирования. </li>
+ 
+  <li>По нажатии на кнопку <img src="cid:resources/res62/4h7Rj.2rpis.pasteword.gif" border="0"  /> <b>Вставить из Word</b> появляется диалоговое окно для установки уровней очистки текста от тегов редактора MS Word. Отметим, что пустые теги (<code>&lt;span&gt;&lt;/span&gt;</code>, <code>&lt;p&gt;&lt;/p&gt;</code>), незначащие стили, все размеры шрифта и некоторое другое форматирование будет удалено автоматически. Это позволяет сократить размер страницы и увеличить скорость ее загрузки, при этом сохранив основное оформление текста. 
+   
+    <p><img src="cid:resources/res62/qiCC5.3fxex.text_clear_dialog2_11.png" width="524" height="580" border="0"  /></p>
+   
+    <p>В данном диалоге, работая с опциями, можно управлять уровнями очистки кода копируемого фрагмента: удалять или сохранять определения шрифтов, стилей, отступы.</p>
+   
+    <p>Если отключить все опции, т.е. сохранить определения шрифтов, стилей и отступы, то в диалоговом окне можно увидеть HTML-код до изменения.</p>
+ 
+    <p>После нажатия кнопки <b>Сохранить</b> текст в визуальном редакторе будет выглядеть так: </p>
+   
+    <p><img src="cid:resources/res62/mvAM1.Vnc6W.text_clear.png" width="511" height="146" border="0"  /></p>
+   </li>
+ 
+  <li>Если вставлять &quot;как текст&quot;, т.е. по кнопке <img src="cid:resources/res62/LpFVD.letfL.pastetext.gif" border="0"  /> <b>Вставить как текст</b>, то удаляется вообще какое-либо форматирование. Как видим, осталось только выделение абзацев: 
+    <p><img src="cid:resources/res62/qC2GD.A91Sn.text_text.png" width="511" height="146" border="0"  /> </p>
+   
+    <p>Код в этом случае будет таким:</p>
+   
+    <pre class="syntax">Осень <br />&lt;br /&gt;<br />Еще очень тепло, но наступление осени ощущается в каждом дуновении ветерка.<br />Деревья сбрасывают обожженную за лето листву.<br />Кажется, что стволы темнеют, они устали и хотят спать.<br />Неугомонные мелкие паучки с невероятной скоростью плетут паутины,<br />и ты, не видя, срываешь их ловушки&amp;hellip; <br />&lt;br /&gt;<br /><br />    </pre>
+   То есть, при вставке текста по кнопке <img src="cid:resources/res62/dDEAZ.moeBS.pastetext.gif" border="0"  /> любое форматирование будет удалено, не зависимо от источника копирования. </li>
+ </ol>
+ 
+<div class="hint"><b>Примечание:</b> в любой момент (до сохранения изменений) вы можете отменить выполненные действия с помощью кнопки <img src="cid:resources/res62/45NbM.XbNgB.undo.gif" border="0"  /> и заново повторить действие после отмены по кнопке <img src="cid:resources/res62/hdeGs.Q5Vwt.redo.gif" border="0"  />.</div>
+ 
+<p>Ниже вы можете познакомиться с двумя видео-роликами, наглядно демонстрирующими способы копирования и вставки текста. 
+  <br />
+ </p>
+ 
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_996749" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=/download/files/video/learning/teachvideo/6-3.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res62/XpzFq.lPUmP.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_996749" menu="true" wmode="transparent" width="800" height="620" flashvars="file=/download/files/video/learning/teachvideo/6-3.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object></p>
+ <a href="/download/files/video/learning/teachvideo/6-3.flv" >Загрузить</a> ролик. (3 минуты 1 секунда, 12.01 Мб.) 
+<br />
+ 
+<br />
+ <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="bxid_36798" width="800" height="620" ><param name="movie" value="/bitrix/components/bitrix/player/mediaplayer/player"><param name="menu" value="true"><param name="wmode" value="transparent"><param name="width" value="800"><param name="height" value="620"><param name="flashvars" value="file=/download/files/video/learning/teachvideo/6-4.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true"><embed src="cid:resources/res62/fk90f.pafoB.player" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.macromedia.com/go/getflashplayer" id="bxid_36798" menu="true" wmode="transparent" width="800" height="620" flashvars="file=/download/files/video/learning/teachvideo/6-4.flv&logo.hide=true&skin=/bitrix/components/bitrix/player/mediaplayer/skins/bitrix.swf&repeat=N&bufferlength=10&dock=true" /></object> 
+<br />
+ 
+<br />
+ <a href="/download/files/video/learning/teachvideo/6-4.flv" >Загрузить</a> ролик. (1 минута 51 секунда, 5.05 Мб.) 			 			 
+<br />
+ ]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>663</id>
+</content>

@@ -1,0 +1,1 @@
+<? $arFilesInfo = array( 'FILES' => array("/bitrix/templates/.default/components/bitrix/menu/menu-main2/script.js" => "1395831508469","/js/43328/jquery.tabs.min.js" => "1393658086497",), 'CUR_SEL_CNT' => '0', 'CUR_IE_CNT' => '0'); ?>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>614</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>500</sort>
+<timestamp_x>1374733734</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Веб-мессенджер</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+</p>Интерактивный инструмент <b>Веб-мессенджер</b> позволяет эффективно общаться и получать информацию прямо через браузер:</p>
+
+<p><img src="cid:resources/res14/mWbeX.ONtJ2.im_default2.png" border="0" width="774" height="487" ></p>
+
+<p><div class="warning"><b>Внимание! </b>Для добавления пользователя в список контактов <b>Веб-мессенджера</b> необходимо предварительно добавить его в свои друзья. </div></p>
+
+<p><div class="warning"><b>Примечание: </b>В «1C-Битрикс: Управление сайтом» версии 12 и выше можно написать сообщение пользователю не из вашего контакт-листа (не из ваших друзей), используя <b>Веб-мессенджер</b>. Для этого нужно найти пользователя через поиск в <b>Социальной сети</b>, зайти в его профиль  и кликнуть на ссылку <b>Написать сообщение</b>. Откроется окно диалогов <b>Веб-мессенджера</b>.</div></p>
+
+
+<br />
+<p>На панели Веб-мессенджера присутствуют 2 кнопки, рядом с которыми отображается счетчик непрочитанных сообщений:</p>
+<p><img src="cid:resources/res14/2FEYY.h2LYx.im_panel.png" border="0" width="90" height="58" > - панель Веб-мессенджера до версии 12;</p>
+
+<p><img src="cid:resources/res14/gczLj.NYV2J.im_2.png" border="0" width="107" height="60" > - панель Веб-мессенджера версии 12.</p>
+<ul>
+<li><font color="red"><b>1</b></font> - вызывает окно диалогов.</li>
+<li><font color="blue"><b>2</b></font> - вызывает окно <b>Центра нотификаций</b>, в котором выводится информация о различных событиях на портале.</li>
+</ul>
+
+
+
+
+<p><div class="hint"><b>Примечание: </b>Подробнее о работе <b>Веб-мессенджера</b> см. в <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=45&CHAPTER_ID=04995" target="_blank" />курсе «Пользователь корпоративного портала»</a>.</div></p>
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>614</id>
+</content>

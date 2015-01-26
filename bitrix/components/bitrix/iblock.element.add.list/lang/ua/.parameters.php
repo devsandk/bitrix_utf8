@@ -1,0 +1,29 @@
+<?
+$MESS["IBLOCK_ADD_PREVIEW_PICTURE"] = "— картинка анонса —";
+$MESS["IBLOCK_ADD_TAGS"] = "— теги —";
+$MESS["IBLOCK_ADD_PREVIEW_TEXT"] = "— текст анонсу —";
+$MESS["IBLOCK_ADD_NAME"] = "— найменування —";
+$MESS["IBLOCK_ADD_IBLOCK_SECTION"] = "— розділ інфоблоку —";
+$MESS["IBLOCK_ADD_DETAIL_TEXT"] = "— детальний текст —";
+$MESS["IBLOCK_ADD_DETAIL_PICTURE"] = "— детальна картинка —";
+$MESS["IBLOCK_CREATED_BY"] = "автору";
+$MESS["IBLOCK_STATUS_ANY"] = "будь-яких елементів";
+$MESS["IBLOCK_GROUPS"] = "Групи користувачів, що мають право на додавання/редагування";
+$MESS["IBLOCK_ALLOW_DELETE"] = "Дозволяти видалення";
+$MESS["IBLOCK_ALLOW_EDIT"] = "Дозволяти редагування";
+$MESS["IBLOCK_ELEMENT_ASSOC_PROPERTY"] = "за властивістю інфоблоку —>";
+$MESS["IBLOCK_PROPERTY_ID"] = "за властивістю інфоблоку —>";
+$MESS["IBLOCK_IBLOCK"] = "Інфоблок";
+$MESS["IBLOCK_NAV_ON_PAGE"] = "Кількість елементів на сторінці";
+$MESS["IBLOCK_STATUS_INCATIVE"] = "неактивних елементів";
+$MESS["IBLOCK_ALLOW_N"] = "нікому";
+$MESS["IBLOCK_MAX_USER_ENTRIES"] = "Обмежити кількість елементів для одного користувача";
+$MESS["IBLOCK_ACCESS"] = "Параметри доступа";
+$MESS["IBLOCK_PARAMS"] = "Параметри компонента";
+$MESS["IBLOCK_ELEMENT_ASSOC"] = "Прив'язка до користувача";
+$MESS["IBLOCK_SEF_EDIT"] = "редагування";
+$MESS["IBLOCK_S_ACTIVE"] = "Редагування можливе";
+$MESS["CP_BIEAL_IBLOCK_STATUS"] = "Редагування можливе для статусу";
+$MESS["IBLOCK_ADD_EDIT_URL"] = "Сторінка редагування елемента";
+$MESS["IBLOCK_TYPE"] = "Тип інфоблоку";
+?>

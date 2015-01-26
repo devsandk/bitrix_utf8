@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>651</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>400</sort>
+<timestamp_x>1374677072</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Управление элементами коллекции</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<h3>Контекстная панель элемента</h3>
+<p>При наведении курсора на элемент коллекции отображается контекстная панель данного элемента, позволяющая:</p>
+<p><img src="cid:resources/res50/6h6JU.F5KFX.medialib_edit_elem.png" width="157" height="142"></p>
+<ul>
+	<li><img src="cid:resources/res50/tUEKX.hhA7y.view.png" width="17" height="18"> - перейти к детальному просмотру элемента:</li>
+
+<p><img height="580" border="0" width="590" src="cid:resources/res50/QAER7.GXyCS.medialib_view_elem.png" /></p>
+
+	<li><img src="cid:resources/res50/mtf0Y.epxlW.edit_elem.png" width="17" border="0"  height="18"> - перейти к редактированию элемента;</li>
+	<li><img src="cid:resources/res50/sDQg0.aXaz1.delete.png" width="17" border="0"  height="18"> - удалить элемент из коллекции.</li>
+</ul>
+
+<h3>Редактирование элемента</h3>
+<p>Чтобы отредактировать элемент коллекции, выполните следующее:</p>
+<ul>
+	<li>Наведите курсор на изображение и кликните по иконке <img src="cid:resources/res50/PpifH.6oSUf.edit_elem.png" width="17" border="0"  height="18">;</li>
+	<li>В открывшейся форме редактирования элемента внесите необходимые изменения:</li>
+
+<p><img height="342" border="0" width="422" src="cid:resources/res50/UH6FD.J46K9.medialib_edit_elem_form.png" /></p>
+	<p>Ссылка <b>Изменить</b> позволяет выбрать новый файл вместо текущего:</p>
+
+<p><img height="342" border="0" width="422" src="cid:resources/res50/As8OG.ND1mF.medialib_edit_elem_new.png" /></p>
+	
+	<li>Нажмите кнопку <b>Сохранить</b>, чтобы изменения вступили в силу. Чтобы изменения не были сохранены, воспользуйтесь кнопкой <b>Отмена</b>.</li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>400</edge_sort>
+<id>651</id>
+</content>

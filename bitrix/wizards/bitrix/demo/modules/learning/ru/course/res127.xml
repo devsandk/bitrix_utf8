@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>728</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1374677074</timestamp_x>
+<date_create>1374677074</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Публикация сообщений с помощью MS Word</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Программа <b>MS Word</b> – самый распространенный текстовый редактор, поддерживающий <b>MetaWeblog API</b>.</p>
+
+<h4>Настройка MS Word</h4>
+<ul>
+ <li>Запустите программу <b>MS Word</b>.</li>
+<li>Нажмите кнопку <b>Файл</b> и выберите команду <b>Создать</b>.</li>
+<li>Дважды щелкните мышью по значку <b>Запись блога</b> <img height="114" border="0" width="104" src="cid:resources/res127/aGNbW.ZzFmB.new_blog_mes.png" />. Откроется диалог <b>Регистрация учетной записи блога</b>
+<br /><br />
+
+<img height="190" border="0" width="364" src="cid:resources/res127/421A2.8VlWq.dialog.png" />
+<br /><br />
+<div class="hint"><b>Примечание:</b> при помощи MS Word нельзя создать новую учетную запись блога, можно только использовать только уже имеющуюся.</div>
+</li>
+
+<li>Нажмите кнопку <b>Зарегистрировать</b>. Откроется диалог <b>Создание учетной записи блога</b>. </li>
+
+<li>В поле <b>Блог</b> выберите <b>Другой</b>.
+<br /><br />
+
+<img height="261" border="0" width="435" src="cid:resources/res127/k0gqC.SgepW.dialog1.png" />
+</li>
+
+<li>Нажмите кнопку <b>Далее</b>. Откроется диалог ввода параметров.
+<br /><br />
+
+<img height="330" border="0" width="487" src="cid:resources/res127/jafPV.79zS1.add_profil.png" />
+
+ </li>
+<li>В поле <b>API</b> выберите <b>Метавеб-журнал</b>.</li>
+<li>Введите: 
+<ul> 
+      <li><b>URL-адрес записи блога</b>. Если в системе установлен комплексный компонент <b>Блоги</b>, то в данном поле указывается адрес страницы, на которой находится данный комплексный компонент. Если в компоненте используется ЧПУ ("человекопонятный урл"), то в конце строки адреса блога необходимо дописать: <code><b>/metaweblog.php</b></code>. Если в компоненте ЧПУ не используется, то к адресу блога добавляется строка: <code><b>index.php?page=metaweblog</b></code>. Для уточнения правильности настроек обратитесь к системному администратору.</li>
+      <li><b>Имя пользователя</b> - ваш логин на ресурсе, где располагается блог;</li>
+      <li><b>Пароль</b> - ваш пароль на ресурсе, где располагается блог;</li>
+      <li>Установка флажка <b>Сохранить пароль</b> позволит при повторных запусках программы не вводить данные заново.</li>
+</ul>
+<li>Нажмите кнопку <b>Параметры рисунка</b>. Откроется соответствующий диалог.
+<br /><br />
+
+<img height="227" border="0" width="454" src="cid:resources/res127/Qh3q4.vENg1.dialog3.png" />
+
+
+  </li>
+<li>В поле <b>Поставщик рисунка</b> выберите <b>Мой поставщик блога</b>.</li>
+<li>Нажмите <b>OK</b>.</li>
+<li>Нажмите <b>ОК</b> в диалоге <b>Создание учетной записи</b>. Программа свяжется с сайтом и запросит разрешение на отправку ваших данных поставщику услуги блога.
+<br /><br />
+<img height="135" border="0" width="800" src="cid:resources/res127/b8Bwy.nFmqT.dialog4.png" /> 
+
+<br /><br />
+<div class="hint"><b>Примечание:</b> в случае некорректного ввода данных, будет выведено сообщение о невозможности регистрации учетной записи. Проверьте введенные данные. Обратитесь к поставщику услуги блогов.</div>
+ </li>
+
+<li>Нажмите <b>Да</b>. Выведется сообщение об успешном завершении регистрации учетной записи.
+<br /><br />
+<img height="105" border="0" width="800" src="cid:resources/res127/b7saR.yqQWQ.final_reg.png"  /> 
+</li>
+</ul>
+
+<h4>Управление учетными записями</h4>
+<p>Вы можете создать любое количество учетных записей для публикации сообщений в блогах на разных ресурсах. Управление созданными учетными записями осуществляется по кнопке <img height="22" border="0" width="22" src="cid:resources/res127/WEERG.mXuiS.profil_manage.png" />  на панели инструментов MS Word. По нажатию на данную кнопку открывается список созданных учетных записей.
+
+</p>
+<p><img height="350" border="0" width="510" src="cid:resources/res127/EujUF.o8EFe.profil_list.png" />
+
+</p>
+
+<p>Используя кнопки данной формы вы можете:</p>
+<ul>
+   <li>Создать новую учетную запись;</li>
+   <li>Изменить настройки выбранной учетной записи;</li>
+   <li>Выбрать учетную запись, которая будет использоваться по умолчанию;</li>
+   <li>Удалить учетную запись.</li>
+</ul>
+
+<h4>Создание и публикация сообщений</h4>
+
+<p>После того, как учетные записи настроены, при создании новой записи блога открывается окно MS Word в следующем виде:</p>
+<p><img height="340" border="0" width="536" src="cid:resources/res127/XRzlK.RcwI9.new_post.png" />
+</p>
+<p>Если настроено несколько учетных записей, то в процессе создания сообщения вы можете выбрать блог, в который оно должно быть опубликовано. </p>
+<p>Также в режиме создания сообщений для публикации в блоге панель MS Word представлена двумя вкладками:</p>
+<ul>
+    <li>На вкладке <b>Запись блога</b> размещены инструменты для форматирования, редактирования, публикации сообщений, управления учетными записями и т.д.</li>
+    <li>На вкладке <b>Вставка</b> содержатся кнопки для добавления в блог дополнительных данных: даграмм, таблиц, иллюстраций, текста WordArt, ссылок, символов, объектов SmartArt и т.д.</li>
+</ul>
+<p>Введем сообщение, которое хотим опубликовать в блог.</p>
+<p><img height="389" border="0" width="498" src="cid:resources/res127/uU8JW.8ShHw.first_post.png" />
+</p>
+<ul>
+   <li>Нажмите кнопку <img height="66" border="0" width="82" src="cid:resources/res127/E5q6F.BBVdN.publish.png" /> на панели инструментов. Сообщение будет опубликовано в выбранном блоге. Сведения об этом вы увидите над названием записи:
+<br /><br />
+
+<img height="413" border="0" width="502" src="cid:resources/res127/BeNm4.ka1qz.post_published.png" />
+
+<br /><br />
+После того, как сообщение опубликовано, вы можете видеть его в своем блоге:
+<br /><br />
+
+<img height="314" border="0" width="453" src="cid:resources/res127/xdRSY.KwLEy.my_blog.png" />
+</li>
+</ul>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>728</id>
+</content>

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001422306377';
+$dateexpire = '001422309977';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:9:{i:0;a:3:{s:4:"LINK";s:13:"/catalog/kkm/";s:5:"LINKS";a:1:{i:0;s:13:"/catalog/kkm/";}s:4:"PERM";s:1:"R";}i:1;a:3:{s:4:"LINK";s:44:"/catalog/kompyutery_pos_i_komplektuyushchie/";s:5:"LINKS";a:1:{i:0;s:44:"/catalog/kompyutery_pos_i_komplektuyushchie/";}s:4:"PERM";s:1:"R";}i:2;a:3:{s:4:"LINK";s:36:"/catalog/ekvayringovoe_oborudovanie/";s:5:"LINKS";a:1:{i:0;s:36:"/catalog/ekvayringovoe_oborudovanie/";}s:4:"PERM";s:1:"R";}i:3;a:3:{s:4:"LINK";s:31:"/catalog/torgovoe_oborudovanie/";s:5:"LINKS";a:1:{i:0;s:31:"/catalog/torgovoe_oborudovanie/";}s:4:"PERM";s:1:"R";}i:4;a:3:{s:4:"LINK";s:34:"/catalog/programmnoe_obespechenie/";s:5:"LINKS";a:1:{i:0;s:34:"/catalog/programmnoe_obespechenie/";}s:4:"PERM";s:1:"R";}i:5;a:3:{s:4:"LINK";s:30:"/dogovor_na_obsluzhivanie_kkm/";s:5:"LINKS";a:1:{i:0;s:30:"/dogovor_na_obsluzhivanie_kkm/";}s:4:"PERM";s:1:"R";}i:6;a:3:{s:4:"LINK";s:36:"/registracija_v_nalogovoj_inspekcii/";s:5:"LINKS";a:1:{i:0;s:36:"/registracija_v_nalogovoj_inspekcii/";}s:4:"PERM";s:1:"R";}i:7;a:3:{s:4:"LINK";s:12:"/remont_KKM/";s:5:"LINKS";a:1:{i:0;s:12:"/remont_KKM/";}s:4:"PERM";s:1:"R";}i:8;a:3:{s:4:"LINK";s:7:"/price/";s:5:"LINKS";a:1:{i:0;s:7:"/price/";}s:4:"PERM";s:1:"R";}}}';
+return true;
+?>

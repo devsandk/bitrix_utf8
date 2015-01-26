@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>660</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>200</sort>
+<timestamp_x>1374741703</timestamp_x>
+<date_create>1374677073</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Редактирование текстовых описаний</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Следующим режимом работы редактора является его использование для редактирования текстовых описаний внутри формы, например, для редактирования элементов информационных блоков.</p>
+ 
+<p>Используя режимы работы публичного интерфейса можно добавлять/изменять элементы или разделы инфоблоков. </p>
+ 
+<p>Приведем пример управления новостями.</p>
+ 
+<ul> 
+  <li>Для этого перейдите в <b>Режим правки</b>. 
+    <p><img height="63" width="86" border="0" src="cid:resources/res59/g4IlN.rBozR.edit_mode_95_new.png"  /></p>
+   </li>
+ 
+  <li>Наведите курсор мыши на внутреннюю область страницы, где размещены новости.</li>
+ 
+  <li>На появившейся <strong>Панели компонента</strong> выберите кнопку <strong>Добавить новость/раздел</strong>.</li>
+ 
+  <p><img src="cid:resources/res59/fI2yF.YxtQm.add_news.png" height="442" width="576" alt="Панель компонента"  /></p>
+ </ul>
+ 
+<p>Загрузится форма добавления, в которой можно использовать визуальный редактор. </p>
+ 
+<p><img src="cid:resources/res59/byeEk.HOVO4.add_news_form.png" height="535" width="631" alt="Форма добавления новости"  /></p>
+ 
+<br />
+ 
+<p>Аналогичный режим редактирования возможен для веб-форм:</p>
+ 
+<p><img src="cid:resources/res59/ZiYu2.9958J.web_form_edit_11.png" height="326" width="574"  /></p>
+
+<p><img height="481" width="700" src="cid:resources/res59/EI7Om.sKjhj.web_form_edit_pub_11.png" /></p>
+ 
+
+ 
+<br />
+ 
+<p>Для редактирования уроков обучающих курсов также удобно использовать визуальный редактор:</p>
+ 
+<p><img src="cid:resources/res59/KB3js.qDhzu.learning_2_11.png" border="0" height="307" width="433"  /></p>
+
+<p><img height="646" width="738" src="cid:resources/res59/crr7u.5RPXJ.lesson_form_edit_pub_11.png" /></p>
+ 
+
+ 
+<p>Также визуальный редактор используется в других модулях системы: <b>Опросы, голосования</b>, <b>Подписка, рассылки</b> и др.</p>
+ 
+<div class="warning"><b>Внимание!</b> Возможность использования визуального редактора может быть отключена администратором сайта. Кроме того, редактор может быть не виден, если форме снят флажок с чекбокса <b>Визуальный редактор</b>.</div>
+ 
+<p><div class="warning"><b>Внимание!</b> В дополнительных диалоговых окнах визуального редактора есть одна особенность. Установив курсор в поле и нажав левую кнопку мыши, вы не увидите в поле мигающего указателя, как это происходит во всех обычных программах. Учтите это и не пугайтесь. Начнете набирать текст на клавиатуре, и он, текст, будет отображаться так, как нужно.</div>
+</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>200</edge_sort>
+<id>660</id>
+</content>

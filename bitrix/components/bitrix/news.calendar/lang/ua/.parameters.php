@@ -1,0 +1,29 @@
+<?
+$MESS["IBLOCK_DETAIL_URL"] = "URL, що веде на сторінку зі вмістом елемента розділу";
+$MESS["T_IBLOCK_DESC_CAL_WS_2"] = "Вівторок";
+$MESS["T_IBLOCK_DESC_CAL_DATE_ACTIVE_TO"] = "дата активності до";
+$MESS["T_IBLOCK_DESC_CAL_DATE_ACTIVE_FROM"] = "дата активності з";
+$MESS["T_IBLOCK_DESC_CAL_DATE_CREATE"] = "Дата створення";
+$MESS["T_IBLOCK_DESC_CAL_TITLE_LEN"] = "Довжина заголовка (0 — не обмежувати)";
+$MESS["T_IBLOCK_DESC_CAL_MVN"] = "Ім'я змінної для місяця";
+$MESS["T_IBLOCK_DESC_CAL_YVN"] = "Ім'я змінної для року";
+$MESS["T_IBLOCK_DESC_CAL_NEWS_COUNT"] = "Кількість новин на день (0 — не обмежувати)";
+$MESS["T_IBLOCK_DESC_LIST_ID"] = "Код інформаційного блоку";
+$MESS["T_IBLOCK_DESC_CAL_WS_0"] = "Неділя";
+$MESS["T_IBLOCK_DESC_CAL_TYPE_NEWS"] = "Новинний";
+$MESS["T_IBLOCK_DESC_CAL_TYPE_EVENTS"] = "Подієвий";
+$MESS["T_IBLOCK_DESC_CAL_SHOW_MONTH_LIST"] = "Показувати випадаючий список місяців";
+$MESS["T_IBLOCK_DESC_CAL_SHOW_YEAR"] = "Показувати перехід по роках";
+$MESS["T_IBLOCK_DESC_CAL_SHOW_CURRENT_DATE"] = "Показувати поточний місяць і рік";
+$MESS["T_IBLOCK_DESC_CAL_SHOW_TIME"] = "Показувати час новин";
+$MESS["T_IBLOCK_DESC_CAL_DATE_FIELD"] = "Поле дати";
+$MESS["T_IBLOCK_DESC_CAL_WS_1"] = "Понеділок";
+$MESS["T_IBLOCK_DESC_CAL_WS"] = "Початок тижня";
+$MESS["T_IBLOCK_DESC_CAL_WS_5"] = "П'ятниця";
+$MESS["T_IBLOCK_DESC_CAL_WS_3"] = "Середа";
+$MESS["T_IBLOCK_DESC_CAL_WS_6"] = "Субота";
+$MESS["T_IBLOCK_DESC_LIST_TYPE"] = "Тип інформаційного блоку (використовується тільки для перевірки)";
+$MESS["T_IBLOCK_DESC_CAL_TYPE"] = "Тип календаря";
+$MESS["T_IBLOCK_DESC_CAL_TIMESTAMP_X"] = "Час останнього змінення";
+$MESS["T_IBLOCK_DESC_CAL_WS_4"] = "Четвер";
+?>

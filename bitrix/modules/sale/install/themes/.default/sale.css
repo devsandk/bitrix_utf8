@@ -1,0 +1,982 @@
+/*Menu icon*/
+#sale_menu_icon {background-image:url(icons/sale/mnu_sale.gif);}
+#sale_menu_icon_orders {background-image:url(icons/sale/mnu_orders.gif);}
+#sale_menu_icon_crm {background-image:url(icons/sale/mnu_crm.gif);}
+#sale_menu_icon_recurring {background-image:url(icons/sale/mnu_recurring.gif);}
+#sale_menu_icon_buyers {background-image:url(icons/sale/mnu_buyers.gif);}
+#sale_menu_icon_statistic {background-image:url(icons/sale/mnu_statistic.gif);}
+
+#sale_page_icon {background-image:url(icons/sale/title.gif);}
+#sale_page_icon_orders {background-image:url(icons/sale/title_orders.gif);}
+#sale_page_icon_crm {background-image:url(icons/sale/title_crm.gif);}
+#sale_page_icon_recurring {background-image:url(icons/sale/title_recurring.gif);}
+#sale_page_icon_buyers {background-image:url(icons/sale/title_buyers.gif);}
+#sale_page_icon_statistic {background-image:url(icons/sale/title_statistic.gif);}
+
+
+.crm-admin-wrap {font-family:Arial, sans-serif; font-size:12px; padding: 15px; background: #fff; border: solid 1px #C5CECF; border-radius: 4px; }
+.crm-admin-paragraph {padding:0 0 11px; margin:0; font-size: 12px;}
+.crm-admin-banner {margin-top:11px; height:375px;}
+.crm-admin-banner-ru {background:url("/bitrix/images/sale/banner_ru.png") no-repeat left top;}
+.crm-admin-banner-en {background:url("/bitrix/images/sale/banner_en.png") no-repeat left top;}
+.crm-admin-banner-de {background:url("/bitrix/images/sale/banner_de.png") no-repeat left top;}
+.crm-admin-buttons {padding-top:16px;}
+.crm-admin-button-wrap {display:inline-block; vertical-align:top;}
+.crm-admin-button-or {display:inline-block; font-size:13px; padding-top:7px; margin-right:10px; vertical-align:top;}
+.crm-admin-buttons .crm-admin-wf-button-text {font-size:13px;}
+.crm-admin-button-text {text-align:left; font-size:11px; color:#7f7f7f; padding:14px 0 0 9px;}
+
+.crm-admin-set {font-family:Arial, sans-serif; padding-top:16px;}
+.crm-admin-set-title {border-bottom:1px solid #d6d6d6; font-size:16px; font-weight:bold; padding-bottom:10px; }
+.crm-admin-set-content-table {margin:22px 0 0 0;}
+.crm-admin-set-left {color:#808080; font-size:14px; text-align:right; vertical-align:top; padding:5px 20px 0 0;}
+.crm-admin-set-right {font-size:12px; vertical-align:top; padding:0 0 21px;}
+.crm-admin-set-select {font-size:15px; height:28px;}
+.crm-admin-set-input{
+	border: 1px solid #BDBDBD;
+	-moz-box-shadow: 0 1px 1px #E9E8E8 inset;
+	-webkit-box-shadow: 0 1px 1px #E9E8E8 inset;
+	box-shadow: 0 1px 1px #E9E8E8 inset;
+	display: inline-block;
+	height: 27px;
+	margin-right: 10px;
+	outline: medium none;
+	padding: 0 3px;
+	vertical-align: middle;
+	width: 200px;
+}
+.crm-admin-set-text {display:inline-block; font-size:15px; margin:0 5px 0 15px; vertical-align:middle;}
+.crm-admin-set-checkbox {margin:0 8px 0 0; vertical-align:middle;}
+.crm-admin-set-checkbox-label {display:inline-block; vertical-align:middle;}
+
+.crm-admin-set-button {border-top:1px solid #e8e8e8; padding-top:10px; text-align:center;}
+
+.crm-admin-title {font-weight:bold; font-size:18px; padding-bottom:14px;}
+.crm-admin-statistics-block {background-color:#f5f5f5; margin-top:12px; padding:15px 21px 28px 17px; width:620px;}
+.crm-admin-stat-top {border-bottom:1px solid #dcdcdc; padding-bottom:11px; position:relative;}
+.crm-admin-title-link {color:#2f58a4; font-size:16px; font-weight:bold; text-decoration:underline;}
+.crm-admin-title-link:link,
+.crm-admin-title-link:active,
+.crm-admin-title-link:hover,
+.crm-admin-title-link:visited {color:#2f58a4; text-decoration:underline}
+.crm-admin-reset {color:#898989; text-decoration:underline; position:absolute; right:5px; top:5px;}
+.crm-admin-reset:hover,
+.crm-admin-reset:active,
+.crm-admin-reset:visited,
+.crm-admin-reset:link {color:#898989; text-decoration:underline;}
+
+.crm-admin-stat-content {border:none; margin-top:12px;}
+.crm-admin-stat-content td {color:#000; vertical-align:bottom; padding:0 0 15px; font-size: 12px;}
+td.crm-admin-stat-cont-left {padding-right:25px; width:100px;}
+.crm-admin-stat-link,
+.crm-admin-stat-link:hover,
+.crm-admin-stat-link:visited,
+.crm-admin-stat-link:link,
+.crm-admin-stat-link:active {color:#607fb8; text-decoration:underline;}
+
+.crm-admin-add-integration {border-top:1px solid #e5e5e5; margin-top:27px; padding-top:27px;}
+.crm-admin-add-integration .crm-admin-buttons {padding-top:33px;}
+
+
+
+.crm-admin-wf-buttons { margin: 15px 0 0 0; text-align: center; }
+.crm-admin-wf-button, .crm-admin-wf-button-left, .crm-admin-wf-button-right, .crm-admin-wf-button-text {
+	display: inline-block; vertical-align: top !important; height:35px; line-height:35px; cursor:pointer; text-decoration:none !important; outline:none;
+}
+
+.crm-admin-wf-button { margin: 0 10px 0 0; background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -1110px;}
+.crm-admin-wf-button-left { width:4px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -1075px;}
+.crm-admin-wf-button-text { font: normal normal normal 17px/33px Arial, Helvetica, sans-serif; padding:0 8px; color: #4f4f4f; }
+.crm-admin-wf-button-right { width:6px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -4px -1075px;}
+
+.crm-admin-wf-button:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -1147px; }
+.crm-admin-wf-button:hover .crm-admin-wf-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -20px -1075px; }
+.crm-admin-wf-button:hover .crm-admin-wf-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -24px -1075px; }
+
+.crm-admin-wf-button-accept, .crm-admin-wf-button-create { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -86px; }
+.crm-admin-wf-button-accept .crm-admin-wf-button-left, .crm-admin-wf-button-create .crm-admin-wf-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -51px; }
+.crm-admin-wf-button-accept .crm-admin-wf-button-text, .crm-admin-wf-button-create .crm-admin-wf-button-text { color: #fff; text-shadow: #20ad0f -1px -1px 0, #55c747 1px 1px 0; }
+.crm-admin-wf-button-accept .crm-admin-wf-button-right, .crm-admin-wf-button-create .crm-admin-wf-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -4px -51px; }
+.crm-admin-wf-button-accept:hover, .crm-admin-wf-button-create:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -818px; }
+.crm-admin-wf-button-accept:hover .crm-admin-wf-button-left, .crm-admin-wf-button-create:hover .crm-admin-wf-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -783px; }
+.crm-admin-wf-button-accept:hover .crm-admin-wf-button-right, .crm-admin-wf-button-create:hover .crm-admin-wf-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -4px -783px; }
+
+.crm-admin-wf-button-decline { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -1218px; }
+.crm-admin-wf-button-decline .crm-admin-wf-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -1183px; }
+.crm-admin-wf-button-decline .crm-admin-wf-button-text { text-shadow: #e15252 -1px -1px 0; color: #fff;}
+.crm-admin-wf-button-decline .crm-admin-wf-button-right {  background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -4px -1183px; }
+.crm-admin-wf-button-decline:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -890px; }
+.crm-admin-wf-button-decline:hover .crm-admin-wf-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -855px; }
+.crm-admin-wf-button-decline:hover .crm-admin-wf-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -4px -855px; }
+
+.crm-admin-wf-button-link { display: inline-block; margin: 8px 15px 0 0; text-decoration: underline !important; font: normal 15px Arial, Helvetica, sans-serif;}
+.crm-admin-wf-button-link-cancel  { color: #d83e3e !important; }
+
+.crm-admin-wf-small-button, .crm-admin-wf-small-button-left, .crm-admin-wf-small-button-icon, .crm-admin-wf-small-button-right, .crm-admin-wf-small-button-text {
+	display: inline-block; vertical-align: middle; height:27px;
+	cursor:pointer; text-decoration:none !important; outline:none;
+}
+
+.crm-admin-wf-small-button { margin: 0 12px 0 0; background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -551px;}
+.crm-admin-wf-small-button-left { width:4px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -15px -493px; margin-right: 8px; }
+.crm-admin-wf-small-button-text { font: normal normal normal 13px/24px Arial, Helvetica, sans-serif; color: #4f4f4f;}
+.crm-admin-wf-small-button-right { width:6px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -22px -493px; margin-left: 8px;}
+
+.crm-admin-wf-small-button:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -985px; }
+.crm-admin-wf-small-button:hover .crm-admin-wf-small-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -15px -927px; }
+.crm-admin-wf-small-button:hover .crm-admin-wf-small-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -22px -927px; }
+
+.crm-admin-wf-small-button-accept { margin: 0 12px 0 0; background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -356px;}
+.crm-admin-wf-small-button-accept .crm-admin-wf-small-button-left { width:4px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -328px; margin-right: 6px; }
+.crm-admin-wf-small-button-accept .crm-admin-wf-small-button-text { font: normal normal normal 13px/24px Arial, Helvetica, sans-serif; color: #fff; text-shadow: #75ab6f -1px -1px 0/*, #72c868 1px 1px 0*/;}
+.crm-admin-wf-small-button-accept .crm-admin-wf-small-button-right { width:6px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -6px -328px; margin-left: 6px;}
+
+.crm-admin-wf-small-button-accept:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -1044px; }
+.crm-admin-wf-small-button-accept:hover .crm-admin-wf-small-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -1016px; }
+.crm-admin-wf-small-button-accept:hover .crm-admin-wf-small-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -6px -1016px; }
+
+.crm-admin-wf-small-button-decline  { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -522px;  }
+.crm-admin-wf-small-button-decline .crm-admin-wf-small-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -493px; }
+.crm-admin-wf-small-button-decline .crm-admin-wf-small-button-text { text-shadow: #e15252 -1px -1px 0; color: #fff;}
+.crm-admin-wf-small-button-decline .crm-admin-wf-small-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -6px -493px;}
+
+.crm-admin-wf-small-button-decline:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -956px; }
+.crm-admin-wf-small-button-decline:hover .crm-admin-wf-small-button-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -927px; }
+.crm-admin-wf-small-button-decline:hover .crm-admin-wf-small-button-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -6px -927px; }
+
+.crm-admin-wf-small-button-link { display: inline-block; vertical-align: middle; margin: 0 15px 0 0; text-decoration: underline !important;}
+
+.crm-admin-wf-button-upload, .crm-admin-wf-button-upload .crm-admin-wf-button-left, .crm-admin-wf-button-upload .crm-admin-wf-button-right, .crm-admin-wf-button-upload .crm-admin-wf-button-text { display: inline-block; vertical-align: top; height:27px; line-height:27px; cursor:pointer;}
+.crm-admin-wf-button-upload .crm-admin-wf-button-left { width:15px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -222px;}
+.crm-admin-wf-button-upload .crm-admin-wf-button-text { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -251px; font: normal normal normal 14px/26px Arial, Helvetica, sans-serif; padding:0 8px; color: #5b5b5b; text-shadow: none;}
+.crm-admin-wf-button-upload .crm-admin-wf-button-right { width:6px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat right -222px;}
+
+
+/*style for order edit*/
+.no_foto {
+	width: 78px;
+	height: 78px;
+	border: 1px solid #dcdcdc;
+	background-color: #f5f5f5;
+	text-align:center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #adadad;
+	font-size: 11px !important;
+	line-height: 76px;
+	display: inline-block;
+}
+span.pencil {
+	width:15px;
+	background: url("/bitrix/images/sale/order_new.png") left 0 no-repeat;
+	display:none;
+	float:right;
+	margin-top:5px;
+}
+
+#tabs {width:100%;}
+#tabs div.tabs {float:left; margin: 0 3px;background-color: #E3EBEE; position: relative;bottom:-1px;text-shadow:0 1px #fff;}
+#tabs div.tabs {cursor:pointer;display:block;padding:7px 10px;color: #555556;text-decoration: none;border-left:1px solid #F8F9FC;border-right:1px solid #F8F9FC;}
+#tabs div.tabs:hover {text-decoration: underline;}
+
+#tabs div.tabs.active {border-left:1px solid #dcdcdc;border-top:1px solid #dcdcdc; border-right:1px solid #dcdcdc;border-bottom:1px solid #F8F9FC; color: #000;background-color: #F5F9F9;}
+#tabs div.tabs.active a:hover {text-decoration: none;}
+
+#tabs div.tabstext {display:none;margin-left: 0px;padding: 5px;text-align: left;}
+#tabs div.tabstext.active {clear:both;display:block;border-top:1px solid #dcdcdc;}
+
+/* basket tabs */
+#basket_tabs {width:100%;}
+#basket_tabs div.tabs {float:left; margin: 0 3px;background-color: #E3EBEE; position: relative;bottom:-1px;text-shadow:0 1px #fff;}
+#basket_tabs div.tabs {cursor:pointer;display:block;padding:7px 10px;color: #555556;text-decoration: none;border-left:1px solid #F8F9FC;border-right:1px solid #F8F9FC;}
+#basket_tabs div.tabs:hover {text-decoration: underline;}
+
+#basket_tabs div.tabs.active {border-left:1px solid #dcdcdc;border-top:1px solid #dcdcdc; border-right:1px solid #dcdcdc;border-bottom:1px solid #F8F9FC; color: #000;background-color: #F5F9F9;}
+#basket_tabs div.tabs.active a:hover {text-decoration: none;}
+
+#basket_tabs div.tabstext {display:none;margin-left: 0px;padding: 5px;text-align: left;}
+#basket_tabs div.tabstext.active {clear:both;display:block;border-top:1px solid #dcdcdc;}
+
+.order_summary td {
+	width: 50% !important;
+	text-align: right;
+}
+table.order_summary td.summary td {
+	font-size: 15px !important;
+}
+.order_summary td.load_product {
+	padding-right: 10px !important;
+}
+.order_summary td.tab_img {
+	text-align: center !important;
+	width: 6% !important;
+	vertical-align: middle !important;
+}
+.order_summary td.tab_text {
+	width: 94% !important;
+}
+#tabs td {padding: 5px !important;border-bottom:1px solid #dcdcdc;text-align: left;}
+
+.order_summary a.get_new_order, a.get_more {
+	color: #717171;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.order_summary td.tab_text a.get_new_order span {
+	background: url('/bitrix/images/sale/order_new.png') -15px 0 no-repeat;
+	padding-left: 17px;
+}
+.order_summary td.more_product a.get_more span {
+	background: url('/bitrix/images/sale/order_new.png') -46px -8px no-repeat;
+	display: inline-block;
+	height: 5px;
+	width: 8px;
+}
+.order_summary div.order_name {
+	font-size: 14px !important;
+	margin-bottom: 7px;
+}
+.order_summary div.order_price {
+	margin-bottom: 10px;
+}
+.order_summary div.order_price b{
+	font-size: 15px !important;
+}
+.order_summary .more_product {
+	text-align: right !important;
+	border-bottom: none !important;
+}
+.order-itog {
+	background-color:#ecf2d3;
+	padding: 10px;
+	width:425px;
+	width:98%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.order-itog table {
+	width:100%;
+	border-collapse:collapse;
+}
+.order-itog	table tr td {
+	padding: 8px !important;
+	background-color:#ecf2d3;
+	border:none;
+	/*text-align: left !important;*/
+}
+.order-itog	table tr td.title {
+	width: 85% !important;
+	text-align: left;
+}
+.order-itog	table tr td:last-child {
+	text-align:right;
+}
+.order-itog	.price td {
+	color:#af0000;
+}
+.order-itog	table tr.itog td {
+	padding:0 !important;
+}
+.order-itog	.itog td div {
+	color:#000;
+	font-weight:bold;
+	background:#dbe4b7;
+	-webkit-box-shadow:  1px 1px 1px 1px #dee4cb;
+	box-shadow:  1px 1px 1px 1px #dee4cb;
+}
+.order-itog	.itog td.ileft {
+	text-align: left;
+}
+.order-itog	.itog td.ileft div {
+	padding: 8px 0 8px 8px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	white-space:nowrap;
+}
+.order-itog	.itog td.iright div {
+	padding: 8px !important;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	white-space:nowrap;
+}
+
+td.user_name div {float: left;}
+td.user_name span.pencil {margin-left: 10px;margin-top: 0;}
+td.user_name:hover span.pencil {display: inline-block;}
+div.fio {margin-bottom: 10px;}
+
+#user_name {width: auto;}
+#user_name .pencil {
+	float: none  !important;
+	margin: 0 0 0 7px;
+}
+#user_name a:hover .pencil {
+	display: inline-block;
+}
+.adm-btn-wrap.active:hover span.adm-btn {
+	background: none !important;
+	background-color: #DDD !important;
+}
+input.btn_input:hover, a.btn_input:hover {
+	background-position:0 -783px;
+}
+td.btn_order a {
+	width: 135px;
+	text-align: center;
+}
+#BREAK_NAME .fio.newo_break_active input {
+	color: #CCC;
+}
+
+
+/*order list*/
+#BASKET_TABLE td {
+	height: 100%;
+}
+#BASKET_TABLE td.COLUMN_PROPS {
+	vertical-align: top;
+	font-size: 12px !important;
+}
+#BASKET_TABLE td.action {
+	width: 20px !important;
+}
+#BASKET_TABLE td.COLUMN_IMAGE {
+	width: 110px !important;
+	text-align: center;
+}
+#BASKET_TABLE td.COLUMN_NAME {
+	vertical-align: top;
+	font-size: 14px !important;
+	font-weight: bold;
+}
+
+#BASKET_TABLE td.COLUMN_NUMBER, td.property_field {
+	font-size: 14px !important;
+	margin-bottom: 7px;
+	text-align: right;
+	vertical-align: top;
+}
+
+#BASKET_TABLE td.COLUMN_NAME a.name-link {
+	color: #004199;
+}
+
+#BASKET_TABLE td.store {
+	font-size: 15px !important;
+	text-align: right !important;
+	vertical-align: top;
+}
+
+#BASKET_TABLE td.store_barcode, td.store_barcode_found {
+	font-size: 15px !important;
+	text-align: center !important;
+	vertical-align: top;
+}
+
+#BASKET_TABLE td.store_amount {
+	font-size: 15px !important;
+	text-align: left !important;
+	vertical-align: top;
+}
+
+td.store_amount input {
+	text-align: center;
+}
+
+.store_quantity_msg {
+	color: #ccc;
+	text-align: center;
+	padding: 10px;
+}
+
+div.store_barcode_found_wrapper {
+	height: 27px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+td.store_barcode input {
+	text-align: center;
+}
+
+.store_row_element {
+	margin-top: 5px !important;
+	display: block;
+}
+
+.store_first_row_element {
+	display: block;
+}
+
+.store_select_delete {
+	width: 15px;
+	height: 15px;
+	float: left;
+	display: none;
+}
+
+.store_select_delete_button {
+	background: url("/bitrix/images/sale/del.gif") no-repeat scroll left 0 transparent;
+	cursor: pointer;
+	display: inline-block;
+}
+
+/* new barcode styles */
+
+.store_barcode_not_found {
+	border: solid 1px #ff2400 !important;
+	background-color: #fff !important;
+}
+
+.store_barcode_found_input {
+	background-color: #99ff99 !important;
+	/*border: solid 1px green !important;*/
+}
+
+.store_barcode_deducted {
+	border: solid 1px #ccc !important;
+	background-color: #eee !important;
+}
+
+.store_barcode_hidden_div {
+	display: none;
+}
+
+.store_barcode_scroll_div  {
+	min-height: 50px; max-height: 300px; overflow: auto;
+}
+
+.adm-btn-barcode {
+	height: 16px !important;
+}
+
+.store-doc-title {font-weight: bold; text-align: center; font-size: 13px;}
+
+.split-delete-item { width: 15px; height: 15px;  display: inline-block;}
+.split-delete-item {width: 15px; height: 15px; background:url('/bitrix/images/sale/grey_del.gif'); }
+.split-delete-item:hover{background:url('/bitrix/images/sale/red_del.gif') no-repeat; }
+
+td.barcode_table_name,
+td.barcode_table_store,
+td.barcode_table_input,
+td.barcode_table_input input,
+td.barcode_table_checkbox {
+	text-align: center;
+}
+
+td.barcode_table_name a {
+	font-size: 14px !important;
+	font-weight: bold;
+	color: #004199 !important;
+}
+
+#BASKET_TABLE td.COLUMN_REMAINING_QUANTITY {
+	font-size: 15px !important;
+	text-align: right !important;
+	vertical-align: top;
+}
+#BASKET_TABLE td.COLUMN_QUANTITY {
+	font-size: 15px !important;
+	text-align: right !important;
+	vertical-align: top;
+}
+#BASKET_TABLE td.COLUMN_PRICE {
+	min-width: 100px !important;
+	text-align: right !important;
+	vertical-align: top;
+}
+#BASKET_TABLE td.COLUMN_PRICE .discount {
+	color: #be0000;
+	font-size: 12px;
+	padding-top: 3px;
+	clear: left;
+}
+#BASKET_TABLE td.COLUMN_PRICE .base_price_title {
+	font-size:11px;
+	color: #717171;
+}
+#BASKET_TABLE td.COLUMN_PRICE .base_price {
+	font-size:15px !important;
+	color: #717171;
+	text-decoration:line-through;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+#BASKET_TABLE td.COLUMN_PRICE .base_price span {
+	color: #717171;
+	font-size: 11px;
+}
+#BASKET_TABLE .edit_price .formated_price {
+	font-size: 15px !important;
+	font-weight: bold;
+	margin-right: 4px;
+}
+#BASKET_TABLE span.currency_price {
+	font-size: 11px;
+	color: #717171;
+	font-weight: bold;
+	display: inline;
+}
+#BASKET_TABLE .edit_price .default_price_product {
+	padding: 1px 0 0 0;
+	display: inline-block;
+	height:25px;
+}
+#BASKET_TABLE .edit_price .edit_price_product {
+	display: none;
+}
+#BASKET_TABLE .edit_price span.pencil {
+	margin: 0px 0 0 5px !important;
+}
+#BASKET_TABLE .edit_price.edit_enable .edit_price_product {
+	display: inline-block;
+}
+#BASKET_TABLE .edit_price.edit_enable .edit_price_product input {
+	border: 1px solid #dcdcdc;
+	background-color: #FFF;
+	font-weight: bold;
+	margin-top: -1px;
+}
+#BASKET_TABLE .edit_price.edit_enable .default_price_product {
+	display: none;
+}
+#BASKET_TABLE .edit_price span.currency {
+	font-size: 11px;
+	float:left;
+	margin: 10px 5px 0;
+}
+#BASKET_TABLE .edit_price span.pencil {
+	float: none;
+}
+#BASKET_TABLE .edit_enable span.pencil, tr.tr_hover span.pencil {
+	display:inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	margin: 0 0 0 5px;
+}
+#BASKET_TABLE td.COLUMN_SUM {
+	font-size: 15px !important;
+	text-align: right !important;
+	vertical-align: top;
+	font-weight: bold;
+	min-width: 100px !important;
+}
+#BASKET_TABLE td.COLUMN_SUM span {
+	color: #717171;
+	font-size: 11px;
+	font-weight: bold;
+}
+#tabs td.tab_img img {
+	border: none;
+}
+table.itog_header td, table td.heading {
+	background-color: #E0E8EA;
+	padding: 8px 15px 10px;
+	text-align: center !important;
+	color: #4B6267;
+	font-weight: bold;
+}
+
+.order_count input {
+	border: 1px solid #dcdcdc;
+	font-size: 15px;
+	box-shadow: none !important;
+	text-align: center;
+}
+div.set_coupon {
+	float: left;
+	padding: 10px;
+	border: 1px solid #DCDCDC;
+	color: #be0000;
+}
+div.set_coupon input {
+	color: black !important;
+}
+div.set_coupon div {
+	margin-top: 5px;
+	color: #000000;
+}
+div.dont_can_buy {
+	color: #be0000;
+	font-size: 11px;
+	padding-top: 3px;
+}
+
+.store {
+	min-width: 150px !important;
+	text-align: right !important;
+	vertical-align: top;
+	padding-left: 15px;
+}
+
+.store select {
+	width: 97%;
+	margin-left: 15px !important;
+}
+
+.store .store_select_wrapper {
+	width: 100%;
+	/*padding-right: 15px;*/
+}
+
+.store a.add_store, .store .store_product_no_stores {
+	color: #717171;
+	display: inline-block;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.add_store_hidden {
+	display: none !important;
+}
+
+.store span {
+	background: url("/bitrix/images/sale/order_new.png") no-repeat scroll -15px 0 transparent;
+	padding-left: 17px;
+}
+
+/*comment*/
+#manager-comment-text {
+	width:295px;
+	display: none;
+	width:260px;
+	height:80px;
+	border:1px solid;
+	border-color:#87919c #959ea9 #9ea7b1 #959ea9;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	color:#3f4b54;
+	padding:0 5px;
+	box-shadow: none !important;
+}
+#manager-comment-title {
+	float: left;
+	cursor: pointer;
+	color: grey;
+}
+#hover_comment:hover .pencil {
+	display:inline-block;
+	height: 14px;
+	position: absolute;
+	margin: 0 0 0 5px;
+
+}
+/*tracking-number*/
+#tracking-number-text {
+	display: none;
+	border:1px solid;
+	border-color:#87919c #959ea9 #9ea7b1 #959ea9;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	color:#3f4b54;
+	padding:0 5px;
+	box-shadow: none !important;
+}
+#tracking-number-title {
+	float: left;
+	cursor: pointer;
+	color: grey;
+}
+
+
+/*popup*/
+.alloy_payed_left {
+	padding: 4px 0 4px 10px;
+	background-color:#e1e9c5;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	display:inline-block;
+	text-align: right;
+}
+.alloy_payed_right {
+	padding: 4px 10px;
+	background-color:#e1e9c5;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	display:inline-block;
+	text-align: left;
+	margin-left: -9px;
+}
+.order_cancel_left {
+	padding: 4px 0 4px 10px;
+	background-color:#FDBFBF;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	display:inline-block;
+	text-align: right;
+}
+
+.order_cancel_right {
+	padding: 3px 10px 5px;
+	background-color:#FDBFBF;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	display:inline-block;
+	text-align: left;
+	margin-left: -9px;
+}
+
+.order_marked_right {
+	padding: 4px 10px 4px;
+	background-color:#FDBFBF;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	display:inline-block;
+	text-align: left;
+	margin-left: -9px;
+}
+
+#listItemPrice {
+	font-size: 14px;
+}
+#listItemOldPrice {
+	color: red;
+	font-size: 12px;
+}
+
+.sale_popup_form {
+	font-size: 12px;
+	display: none;
+	padding-top: 8px;
+}
+.sale_popup_form input.popup_input {
+	height: 24px;
+	width: 238px;
+
+}
+.sale_popup_form select {
+	height: 30px;
+	width: 250px;
+
+}
+.sale_popup_form td {
+	text-align: left;
+}
+.sale_popup_form td.head {
+
+}
+.sale_popup_form .title {
+	font-size: 14px;
+	color:grey;
+	padding-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+.popup_form_sku_order {
+	display: none;
+	border:1px solid #999;
+	background-color: #FFF;
+	padding: 10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	-webkit-border-radius: 4px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+}
+#sku_selectors_list td {
+	width: 100px;
+}
+#listItemOldPrice {
+	text-decoration:line-through;
+}
+.sale-popup-title-bar {font-size: 13px; font-weight: bold; text-align: center; display: inline-block; width: 100%;}
+
+tr.adm-list-table-row.border_sku td {
+	background-color: rgb(224, 233, 236) !important;
+}
+span.warning_balance {
+	font-size:11px;
+	display:inline-block;
+	color:rgb(190, 0, 0);
+	line-height:11px;
+	margin-top:5px;
+}
+.adm-filter-box-sizing .adm-list {
+	margin-left:10px;
+}
+
+.adm-not-visible {
+	display: none;
+}
+
+.adm-table-row-visible {
+	display: table-row;
+}
+
+#order_related_props {
+	width: 100%;
+}
+
+#table_settings {
+	background: url("images/action_head.gif") no-repeat scroll center #E3EBEE !important;
+}
+
+table#total_count_table {
+	width: 100%;
+	margin: 0px;
+}
+
+#total_number {
+	text-align: right;
+	background: none !important;
+	padding: 3px 3px 0px 3px;
+	height: 15px;
+	margin: 0px;
+}
+
+.scrollable {
+   overflow: auto;
+   width: 340px;
+   height: 250px;
+   border: 1px silver solid;
+}
+
+.settings_select {
+	border: none !important;
+	overflow: hidden !important;
+	min-width: 340px;
+	min-height: 250px !important;
+}
+
+.quantity-block {
+	width: 150px;
+	display: block;
+	margin: 0;
+	position: relative;
+	float: right;
+}
+
+.quantity-block-wrap {
+	position: relative;
+	float: right;
+	margin: auto;
+}
+
+/* quantity */
+
+.quantity-wrap {
+	display: block;
+	position: relative;
+	float:left;
+	margin: 0;
+}
+
+.quantity-field {
+	height: 27px !important;
+}
+
+/* measure */
+
+.measure-wrap {
+	display: block;
+	position: relative;
+	float:left;
+	left: 2px;
+	height: 25px;
+	width: 30px;
+	margin: 0;
+	padding: 8px 3px 0px 3px;
+}
+
+/* delivery info */
+
+a.dashed-link {
+	text-decoration: none;
+	border-bottom: dashed 1px #808080;
+	color: #808080 !important;
+	font-weight: none;
+	border-spacing: 0;
+}
+
+a.dashed-link:hover {
+	text-decoration: none;
+}
+
+.hidden-delivery-info {
+	display: none;
+}
+
+.adm-cell-aligned-right {
+	text-align: right;
+}
+
+
+.quantity_control {
+	display: inline-block;
+	margin-left: 53px;
+	margin-top: 3px;
+	padding: 0;
+	position: absolute;
+	float:left;
+	left: 0px;
+	top: 0px;
+}
+
+.quantity_control a {
+    background: url("/bitrix/images/sale/arrows.png") no-repeat scroll 0 0 transparent;
+    border: 1px solid #D8D8D8;
+    display: block;
+    height: 10px;
+    text-align: center;
+    width: 11px;
+}
+
+.quantity_control a.plus {
+    background-position: 0px 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.quantity_control a.minus {
+    background-position: 0px -20px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
+}
+
+.https_check_success {
+	font-weight: bold;
+	color: green;
+}
+
+.https_check_fail {
+	font-weight: bold;
+	color: red;
+}
+
+.show-set-link {
+	display: inline-block;
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+.show-set-link:active {
+	background-color: none;
+}
+
+.set-link-block {
+}
+
+.name-dash {
+	font-weight: normal;
+}
+
+.set-item-link-name {
+	font-style: italic;
+}
+
+.sum_paid:hover span.pencil {
+	display:inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	margin: 2px 0 0 5px;
+}
+
+.adm-detail-content-cell-r select[multiple].sale-options-location-mselect{
+	height: 300px;
+	width: 150px;
+}

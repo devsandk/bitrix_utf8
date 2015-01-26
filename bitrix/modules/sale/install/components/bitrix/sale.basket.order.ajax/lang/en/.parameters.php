@@ -1,0 +1,29 @@
+<?
+$MESS["SBB_DESC_YES"] = "Yes";
+$MESS["SBB_DESC_NO"] = "No";
+$MESS["SBB_HIDE_COUPON"] = "Hide coupon field";
+$MESS["SBB_COLUMNS_LIST"] = "Show columns";
+$MESS["SBB_BNAME"] = "Product name";
+$MESS["SBB_BPROPS"] = "Product properties";
+$MESS["SBB_BPRICE"] = "Price";
+$MESS["SBB_BTYPE"] = "Price type";
+$MESS["SBB_BQUANTITY"] = "Quantity";
+$MESS["SBB_BDELETE"] = "Delete";
+$MESS["SBB_BDELAY"] = "Add to wish list";
+$MESS["SBB_BWEIGHT"] = "Weight";
+$MESS["SBB_BDISCOUNT"] = "Discount";
+$MESS["SBB_WEIGHT_UNIT"] = "Weight unit";
+$MESS["SBB_WEIGHT_UNIT_G"] = "g";
+$MESS["SBB_WEIGHT_KOEF"] = "Specifies the count of units in gram.";
+$MESS["SBB_QUANTITY_FLOAT"] = "Use fractional quantities";
+$MESS["SBB_VAT_SHOW_VALUE"] = "Show tax value";
+$MESS["SBB_TAX_SHOW_VALUE"] = "Show tax amount";
+$MESS["SBB_VAT_INCLUDE"] = "Include tax in price";
+$MESS["SBB_ORDER_SHOW"] = "Show ordering progress";
+$MESS["SOA_PATH_TO_PERSONAL"] = "Customer account page";
+$MESS["SOA_PATH_TO_PAYMENT"] = "Payment system page";
+$MESS["SOA_SEND_NEW_USER_NOTIFY"] = "Send \"user registered\" notification";
+$MESS["SBB_TEMPLATE_LOCATION"] = "Location template";
+$MESS["SBB_TMP_DEFAULT"] = "Default";
+$MESS["SBB_TMP_POPUP"] = "Search string";
+?>

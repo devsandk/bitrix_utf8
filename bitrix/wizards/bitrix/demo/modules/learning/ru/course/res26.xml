@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>626</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>400</sort>
+<timestamp_x>1374677072</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Навигация, Избранное и поиск</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>В Административном разделе предусмотрено несколько способов навигации и поиска.</p>
+ 
+<h4>Навигация</h4>
+ 
+<p>Традиционно навигация осуществляется с помощью пунктов в <b>Административного меню</b> и <b>Меню функций</b>. Но есть и быстрый способ навигации - с помощью навигационной цепочки:</p>
+ 
+<p><img height="579" width="700" src="cid:resources/res26/MNbF9.vkNO8.quick_navigation_11.png"  /></p>
+
+<a name="izbr"></a><h4>Избранное</h4>
+
+<p>Как элемент навигации можно использовать механизм <b>Избранного</b>. Избранное позволяет в один клик мыши перейти в нужный раздел Административного интерфейса:</p>
+
+<p><img height="401" width="453" src="cid:resources/res26/OgSlw.FMGQV.izbr_11.png" /></p>
+
+<p>В избранное можно добавить любую страницу как Публичного, так и Административного раздела, а так же созданные вами фильтры.</p>
+
+<p>Добавить страницу с публичного раздела в <b>Избранное</b> можно так:</p>
+ 
+<ul> 
+<li>В Публичном разделе:</li>
+<ul> <li>Откройте необходимую страницу.</li>
+ 
+  <li>Выполните команду <span class="path">Меню &gt; Избранное &gt; Добавить в избранное</span>. В Административном разделе откроется форма редактирования ссылки <b>Избранного</b>.</li>
+ 
+  <li>Заполните поля ссылки и сохраните изменения.</li>
+ 
+ </ul>
+
+<li>В Административном разделе:</li> 
+<ul>
+<li>с помощью специальной кнопки:
+<p><img height="183" width="553" src="cid:resources/res26/56uho.qReaA.add_link_11.png" /></p></li>
+
+<li>перетаскиванием (drag&drop) страницы (или предустановленного фильтра) из <b>Меню функций</b> к правому краю экрана:
+<p><img height="344" width="700" src="cid:resources/res26/Ogj0U.0yuvx.add_izbr_11.png" /></p></li> 
+ 
+ </ul>
+
+ </ul>
+
+
+<p>Ссылки в <b>Избранном</b> можно удалить, расположить в определенном порядке, так же как вы это будете делать с любыми другими данными с помощью команды <span class="path">Меню &gt; Организовать избранное</span>. При этом откроется страница Административного раздела <span class="path">Настройки > Избранное</span>. При редактировании ссылки на странице  можно изменить название ссылки, но нельзя менять ее путь (поле <b>Ссылка</b>). При необходимости можно добавить комментарий в специальное поле. </p>
+<p>Добавленные в <b>Меню</b> ссылки видны только тому пользователю, который их добавил.</p>
+
+
+<h4>&quot;Умный&quot; поиск</h4>
+ 
+<p>На любой странице Административного раздела можно воспользоваться &quot;умным&quot; поиском, который при наборе слова уже начинает предлагать возможные варианты страниц, где встречается набираемое слово:</p>
+ 
+<p><img height="368" width="485" src="cid:resources/res26/Lz2xD.es8D7.search_11.png"  /></p>
+ 
+<h4>Поиск по файлам</h4>
+ 
+<p>В рамках файловой структуры есть ещё один механизм поиска, который предназначен для администраторов сайта. Если у вас есть доступ к файловой структуре, то про этот вид поиска можно прочитать <a href="http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=35&LESSON_ID=1932" target="_blank" >здесь</a>.</p>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>400</edge_sort>
+<id>626</id>
+</content>

@@ -1,0 +1,37 @@
+<?
+$MESS["F_SHOW_TAGS"] = "Tags anzeigen";
+$MESS["F_DEFAULT_PATH_TO_SMILE"] = "Pfad zum Ordner mit Smileys relativ zum Root";
+$MESS["F_DEFAULT_PATH_TO_ICON"] = "Pfad zum Ordner mit Themen-Icons relativ zum Root";
+$MESS["F_PAGE_NAVIGATION_TEMPLATE"] = "Vorlagenname fьr die Seitennavigation";
+$MESS["F_THEMES"] = "Themen";
+$MESS["F_PAGE_NAVIGATION_WINDOW"] = "Anzahl Seiten in der Seitennavigation";
+$MESS["F_THEME_BEIGE"] = "Beige";
+$MESS["F_THEME_BLUE"] = "Hellblau";
+$MESS["F_THEME_FLUXBB"] = "FlexBB";
+$MESS["F_THEME_GRAY"] = "Grau";
+$MESS["F_THEME_GREEN"] = "Grьn";
+$MESS["F_THEME_ORANGE"] = "Orange";
+$MESS["F_THEME_RED"] = "Rot";
+$MESS["F_THEME_WHITE"] = "WeiЯ";
+$MESS["F_SHOW_AUTH"] = "Autorisierungsformular anzeigen";
+$MESS["F_SHOW_ADDITIONAL_MARKER"] = "Zusдtzliche Markierung fьr neue Beitrдge";
+$MESS["F_SHOW_NAVIGATION"] = "Breadcrumb-Navigation anzeigen";
+$MESS["F_SHOW_SUBSCRIBE_LINK"] = "Link \"Abonnements\" anzeigen";
+$MESS["F_SMILES_COUNT"] = "Smileys pro Zeile, die statisch angezeigt werden (wenn die Anzahl gleich 0 angegeben wird, wird die Anzahl der Smileys pro Zeile dynamisch ausgerechnet)";
+$MESS["F_SHOW_LEGEND"] = "Legende anzeigen";
+$MESS["F_SHOW_FIRST_POST"] = "Ersten Themenbeitrag immer anzeigen";
+$MESS["F_SHOW_FORUMS"] = "Foren fьr den schnellen Zugriff anzeigen";
+$MESS["F_SHOW_AUTHOR_COLUMN"] = "Spalte \"Autor\" in der Themenliste anzeigen";
+$MESS["F_SHOW_STATISTIC"] = "Statistik zeigen";
+$MESS["F_AJAX_POST"] = "AJAX in den Dialogen benutzen";
+$MESS["F_SHOW_STATISTIC_BLOCK"] = "Statistikblцcke anzeigen";
+$MESS["F_STATISTIC_BLOCK_STATISTIC"] = "Anzahl der Beitrдge und Themen ";
+$MESS["F_STATISTIC_BLOCK_BIRTHDAY"] = "Geburtstage";
+$MESS["F_STATISTIC_BLOCK_ONLINE"] = "Nutzer online";
+$MESS["F_SHOW_FORUM_USERS"] = "Nutzerliste anzeigen";
+$MESS["F_SEO_USER_1"] = "Ansichtsformat fьr Nutzernamen";
+$MESS["F_SEO_USER_2"] = "Vor Suchmaschinen ausgeblendeter Link";
+$MESS["F_SEO_USER_3"] = "Link";
+$MESS["F_SEO_USER_4"] = "Nur Text";
+$MESS["F_SEO_USE_AN_EXTERNAL_SERVICE"] = "Fьr Ьbersetzung des Themennamens (SEO) einen externen Service benutzen";
+?>

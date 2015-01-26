@@ -1,0 +1,5 @@
+<?
+$MESS ['IBLOCK_ELEMENT_TEMPLATE_DESCRIPTION'] = "Zeigt Fotos an";
+$MESS ['IBLOCK_ELEMENT_TEMPLATE_NAME'] = "Foto (Liste)";
+$MESS ['T_IBLOCK_DESC_PHOTO'] = "Fotogalerie 2.0";
+?>

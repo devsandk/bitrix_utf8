@@ -1,0 +1,31 @@
+<?
+$MESS["BP_SET_NAV_CHAIN"] = "Punkt zur Breadcrumb-Navigation hinzufьgen";
+$MESS["BP_BLOG_VAR"] = "Variable fьr die Blog-ID";
+$MESS["BP_POST_VAR"] = "Variable fьr die Blognbeitrags-ID";
+$MESS["BP_PATH_TO_BLOG"] = "Pfadvorlage zur Blogseite";
+$MESS["BP_PATH_TO_BLOG_CATEGORY"] = "Pfadvorlage zur Blogseite mit dem Tag-Filter";
+$MESS["BP_BLOG_URL"] = "Blog URL";
+$MESS["BP_USER_VAR"] = "Variable fьr die Blognutzer-ID";
+$MESS["BC_DATE_TIME_FORMAT"] = "Datum- und Zeitformat";
+$MESS["POST_PROPERTY"] = "Zusдtzliche Nachrichteneigenschaften anzeigen";
+$MESS["BP_ID"] = "Nachrichten ID";
+$MESS["BP_PAGE_VAR"] = "Variable fьr die Seite";
+$MESS["BB_PATH_TO_SMILE"] = "Pfad zum Smiley-Verzeichnis, relativ zum Root-Verzeichnis";
+$MESS["BP_PATH_TO_POST_EDIT"] = "Pfadvorlage zur Seite der Nachrichtenverwaltung des Blogs";
+$MESS["BP_PATH_TO_USER"] = "Pfadvorlage zum Profil des Blognutzers";
+$MESS["B_VARIABLE_ALIASES"] = "Variablennamen";
+$MESS["BPC_IMAGE_MAX_WIDTH"] = "Maximal zulдssige Bildbreite";
+$MESS["BPC_IMAGE_MAX_HEIGHT"] = "Maximal zulдssige Bildhцhe";
+$MESS["SHOW_RATING"] = "Ranking aktivieren";
+$MESS["SHOW_RATING_CONFIG"] = "StandardmдЯig";
+$MESS["RATING_TYPE"] = "Design der Ranking-Schaltflдchen";
+$MESS["RATING_TYPE_CONFIG"] = "StandardmдЯig";
+$MESS["RATING_TYPE_STANDART_TEXT"] = "Gefдllt mir/Gefдllt mir nicht (Text)";
+$MESS["RATING_TYPE_STANDART_GRAPHIC"] = "Gefдllt mir/Gefдllt mir nicht (Bild)";
+$MESS["RATING_TYPE_LIKE_TEXT"] = "Gefдllt mir (Text)";
+$MESS["RATING_TYPE_LIKE_GRAPHIC"] = "Gefдllt mir (Bild)";
+$MESS["BC_SEO_USE"] = "SEO benutzen";
+$MESS["BC_SEO_N"] = "nicht benutzen";
+$MESS["BC_SEO_Y"] = "Extra Felder fьr Beschreibung";
+$MESS["BC_SEO_D"] = "Standardfelder";
+?>

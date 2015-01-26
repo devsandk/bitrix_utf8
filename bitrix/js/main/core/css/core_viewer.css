@@ -1,0 +1,924 @@
+
+/************ images viewer ******************/
+
+.bx-viewer-lock-scroll
+{
+	overflow: hidden;
+}
+
+.bx-viewer-overlay {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10010;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.bx-ie8 .bx-viewer-overlay,
+.bx-quirks .bx-viewer-overlay
+{
+	background: url("../images/imageviewer_ie8bg.png");
+}
+
+.bx-quirks .bx-viewer-overlay {
+	position: absolute;
+}
+
+.bx-viewer-lock-scroll .bx-viewer-overlay
+{
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.bx-viewer-wrap-outer {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	-webkit-transition:top 0.15s ease-in, left 0.15s ease-in;
+	-moz-transition:top 0.15s ease-in, left 0.15s ease-in;
+	-ms-transition:top 0.15s ease-in, left 0.15s ease-in;
+	-o-transition:top 0.15s ease-in, left 0.15s ease-in;
+	transition:top 0.15s ease-in, left 0.15s ease-in;
+	z-index: 10;
+}
+
+.bx-viewer-wrap-inner {
+	position: relative;
+	background-color: white;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.21);
+	box-shadow: 1px 1px 0 rgba(0,0,0,.21);
+}
+
+.bx-viewer-wrap {
+	overflow: hidden;
+
+	height: 100px;
+	width: 100px;
+
+	-webkit-transition:width 0.15s ease-in, height 0.15s ease-in;
+	-moz-transition:width 0.15s ease-in, height 0.15s ease-in;
+	-ms-transition:width 0.15s ease-in, height 0.15s ease-in;
+	-o-transition:width 0.15s ease-in, height 0.15s ease-in;
+	transition:width 0.15s ease-in, height 0.15s ease-in;
+}
+
+.bx-viewer-wrap-loading-white
+{
+	background: url("../images/wait-big.gif") no-repeat center center #fff !important;
+	min-height: 50px;
+	min-width: 50px;
+}
+
+.bx-viewer-wrap-loading
+{
+	background: url("../images/waiter-f5.gif") no-repeat center center #f5f5f5 !important;
+	min-height: 50px;
+	min-width: 50px;
+}
+
+.bx-viewer-wrap-loading-modal
+{
+	background: url("../images/waiter-f5.gif") no-repeat center center #f8fafb !important;
+	min-height: 50px;
+	min-width: 50px;
+}
+
+.bx-viewer-image {
+	display: block;
+
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+
+	-webkit-transition:opacity 0.15s ease-in;
+	-moz-transition:opacity 0.15s ease-in;
+	-ms-transition:opacity 0.15s ease-in;
+	-o-transition:opacity 0.15s ease-in;
+	transition:opacity 0.15s ease-in;
+	margin: 0 auto;
+}
+
+.bx-viewer-prev-outer,
+.bx-viewer-next-outer
+{
+	display: block;
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	cursor: pointer;
+
+	opacity: 0;
+
+	-webkit-transition:opacity 0.15s ease-in;
+	-moz-transition:opacity 0.15s ease-in;
+	-ms-transition:opacity 0.15s ease-in;
+	-o-transition:opacity 0.15s ease-in;
+	transition:opacity 0.15s ease-in;
+
+	z-index: 1;
+}
+
+.bx-viewer-wrap-outer:hover .bx-viewer-prev-outer,
+.bx-viewer-wrap-outer:hover .bx-viewer-next-outer
+{
+	opacity: 1;
+}
+
+.bx-ie8 .bx-viewer-prev-outer .bx-viewer-prev,
+.bx-ie8 .bx-viewer-next-outer .bx-viewer-next,
+.bx-quirks .bx-viewer-prev-outer .bx-viewer-prev,
+.bx-quirks .bx-viewer-next-outer .bx-viewer-next
+{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.bx-viewer-prev-outer
+{
+	left: -10px;
+}
+
+.bx-viewer-next-outer
+{
+	right: -10px;
+}
+
+
+.bx-viewer-prev-outer:hover,
+.bx-viewer-next-outer:hover
+{
+	opacity: 1 !important;
+}
+
+.bx-ie8 .bx-viewer-prev-outer:hover .bx-viewer-prev,
+.bx-ie8 .bx-viewer-next-outer:hover .bx-viewer-next,
+.bx-quirks .bx-viewer-prev-outer:hover .bx-viewer-prev,
+.bx-quirks .bx-viewer-next-outer:hover .bx-viewer-next
+{
+	filter: none;
+}
+
+.bx-viewer-prev,
+.bx-viewer-next
+{
+	position: absolute;
+	top: 45%;
+	display: block;
+	height: 40px;
+	width: 40px;
+	background-color: #4f4f4f;
+	background: url("../images/imageviewer_sprite.png") no-repeat 0 0 #545454;
+
+	-webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+
+	border-radius: 20px;
+}
+
+/* IE10 has both script positioning of this elements and transitions. so we should animate them with other elements to avoid twitching */
+.bx-ie10 .bx-viewer-prev,
+.bx-ie10 .bx-viewer-next
+{
+	-ms-transition:top 0.15s ease-in;
+	transition:top 0.15s ease-in;
+}
+
+.bx-viewer-next {
+	right: 10%;
+	background: url("../images/imageviewer_sprite.png") no-repeat -30px 0 #4f4f4f;
+}
+
+.bx-viewer-prev {
+	left: 10%;
+	background: url("../images/imageviewer_sprite.png") no-repeat -70px 0 #4f4f4f;
+}
+
+.bx-ie8 .bx-viewer-prev,
+.bx-ie8 .bx-viewer-next,
+.bx-quirks .bx-viewer-prev,
+.bx-quirks .bx-viewer-next
+{
+	border: solid 1px white;
+}
+
+.bx-viewer-close {
+	display: inline-block;
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	top: -33px;
+	right: -33px;
+	cursor: pointer;
+}
+
+.bx-viewer-close-inner {
+	display: inline-block;
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 15px;
+	left: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: 0 0 0 2px white inset, 0 1px 1px 0 rgba(0, 0, 0, 0.21);
+	background: url("../images/imageviewer_sprite.png") no-repeat 0 1px #545454;
+}
+
+.bx-ie8 .bx-viewer-close-inner,
+.bx-quirks .bx-viewer-close-inner
+{
+	border: solid 1px white;
+}
+
+.bx-viewer-close:hover .bx-viewer-close-inner {
+	background: url("../images/imageviewer_sprite.png") no-repeat 0 1px #191919;
+}
+
+.bx-viewer-title {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 30px;
+	top: 0;
+	text-align: center;
+	padding: 2px 15px 0 15px;
+	position: absolute;
+	width: 100%;
+}
+
+.bx-viewer-title-2-btns {padding-right: 230px;}
+
+.bx-ie8 .bx-viewer-title,
+.bx-quirks .bx-viewer-title
+{
+	background: url("../images/imageviewer_ie8bg.png");
+}
+
+.bx-viewer-size-toggle
+{
+	position: absolute;
+	height: 29px;
+	width: 29px;
+	opacity: 0.35;
+
+	cursor: pointer;
+	background: url("../images/imageviewer_sprite.png") no-repeat right bottom;
+}
+
+.bx-viewer-size-toggle:hover
+{
+	opacity: 1;
+}
+
+
+/*=================================================================New=================================================*/
+
+.bx-viewer-top-right {
+	display: inline-block;
+	/*right: 12px;*/
+	top: 8px;
+    left: 12px;
+	position: absolute;
+}
+
+.bx-viewer-file-name-block {
+	color: #535353;
+    float: right;
+	font-size: 14px;
+	font-weight: bold;
+	max-width: 180px;
+    text-align: right;
+	overflow: hidden;
+    padding-top: 6px;
+	white-space: nowrap;
+}
+
+.bx-viewer-file-name {
+	display: block;
+	line-height: 16px;
+}
+
+.bx-viewer-file-center {
+    display: inline-block;
+    float: none;
+    padding-top: 11px;
+    text-align: center;
+    max-width: none;
+}
+
+.bx-viewer-file-right {
+    display: inline-block;
+    float: none;
+    padding-top: 11px;
+    text-align: right;
+    max-width: 100%;
+    width: 100%;
+}
+
+.bx-viewer-file-last-v {
+	color: #979ca3;
+	cursor: pointer;
+	display: block;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 14px;
+}
+
+.bx-viewer-file-last-v:hover {
+	text-decoration:underline;
+}
+
+.bx-viewer-size {
+	display: inline-block;
+	color: #858585;
+	font-size: 12px;
+	padding-top: 7px;
+	vertical-align: top;
+	text-decoration: underline;
+}
+.bx-viewer-size:hover{
+	color: #000;
+}
+
+.bx-viewer-cap {
+	background: #f5f5f5;
+	border: 1px solid #eee;
+	color: #000;
+	height: 348px;
+	position: relative;
+}
+
+.bx-viewer-cap-file .bx-viewer-cap{margin-top: 30px; height:318px;}
+
+.bx-viewer-icon {
+	background: url("../images/bx-viewer-icons.png?10") no-repeat center -129px;
+	height: 120px;
+	left: 47px;
+	top: 85px;
+	position: absolute;
+	width: 130px;
+}
+
+.bx-viewer-folder .bx-viewer-icon {
+	background-position: center 0;
+}
+.bx-viewer-icon-txt {
+	background-position: center -286px;
+}
+.bx-viewer-icon-archive {
+	background-position: center -440px;
+}
+.bx-viewer-icon-rar {
+	background-position: center -593px;
+}
+.bx-viewer-icon-zip {
+	background-position: center -747px;
+}
+.bx-viewer-icon-ppt {
+	background-position: center -901px;
+}
+.bx-viewer-icon-doc {
+	background-position: center -1055px;
+}
+.bx-viewer-icon-xls {
+	background-position: center -1208px;
+}
+.bx-viewer-icon-pdf {
+	background-position: center -1362px;
+}
+
+.bx-viewer-cap-text-block {
+	top:83px;
+	right: 25px;
+	position: absolute;
+	width: 300px;
+}
+
+.bx-viewer-too-big-title {
+	background: url("../images/bx-viewer-icons.png?10") no-repeat -58px -1524px;
+	color: #999;
+	font-size: 12px;
+	margin-top: -3px;
+	text-shadow: 0 1px rgba(255,255,255,.7);
+	padding:0 0 10px 20px;
+}
+
+.bx-viewer-cap-title{
+	font-size: 19px;
+	font-weight: bold;
+	text-shadow: 0 1px #fff;
+	padding-bottom: 9px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.bx-viewer-cap-text {
+	font-size: 15px;
+	line-height: 28px;
+	text-shadow: 0 1px #fff;
+}
+
+.bx-viewer-cap-text-title {color: #808080;}
+
+.bx-viewer-btn,
+.bx-viewer-btn-split-bg {
+	background:#ebf1f3;
+	background:-webkit-linear-gradient(top, #f9fafa, #dee9ec);
+	background:-moz-linear-gradient(top, #f9fafa, #dee9ec);
+	background:-o-linear-gradient(top, #f9fafa, #dee9ec);
+	background:-ms-linear-gradient(top, #f9fafa, #dee9ec);
+	background:linear-gradient(to bottom, #f9fafa, #dee9ec);
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.12), inset 0 1px 0 #fff, inset 0 0 1px rgba(255,255,255,.3);
+	box-shadow: 0 1px 0 rgba(0,0,0,.12), inset 0 1px 0 #fff, inset 0 0 0 1px rgba(255,255,255,.3);
+	border: 1px solid;
+	border-color: #f1f1f1 #d8d8d8 #a9a9a9;
+	border-radius: 4px;
+}
+
+.bx-viewer-btn {
+	color: #555;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	height: 25px;
+	line-height: 24px;
+	margin-right: 5px;
+	min-width: 70px;
+	text-shadow: 0 1px #fff;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+.bx-viewer-btn-save {
+	padding-right: 22px;
+	position: relative;
+}
+
+.bx-viewer-btn-save:before {
+	background: url(../images/bx-viewer-icons.png?10) no-repeat -59px -1563px;
+	content: "";
+	height: 7px;
+	top: 10px;
+	right: 7px;
+	position: absolute;
+	width: 10px;
+}
+
+.bx-viewer-btn:hover,
+.bx-viewer-btn-split-l:hover .bx-viewer-btn-split-bg,
+.bx-viewer-btn-split-r:hover .bx-viewer-btn-split-bg {
+	background:#f6f8f9;
+	background:-webkit-linear-gradient(top, #fafafa, #f1f6f7);
+	background:-moz-linear-gradient(top, #fafafa, #f1f6f7);
+	background:-o-linear-gradient(top, #fafafa, #f1f6f7);
+	background:-ms-linear-gradient(top, #fafafa, #f1f6f7);
+	background:linear-gradient(to bottom, #fafafa, #f1f6f7);
+	color: #555;
+	text-decoration: none;
+
+}
+.bx-viewer-btn:active,
+.bx-viewer-btn-split-l:active .bx-viewer-btn-split-bg,
+.bx-viewer-btn-split-r:active .bx-viewer-btn-split-bg {
+	background:#f6f8f9;
+	background:-webkit-linear-gradient(top, #cbd7db, #dbe5e7);
+	background:-moz-linear-gradient(top, #cbd7db, #dbe5e7);
+	background:-o-linear-gradient(top, #cbd7db, #dbe5e7);
+	background:-ms-linear-gradient(top, #cbd7db, #dbe5e7);
+	background:linear-gradient(to bottom, #cbd7db, #dbe5e7);
+	border-color: #8c939e #9fa7b0 #c8d1d5;
+	-webkit-box-shadow: 0 1px 1px #878e96 inset;
+	box-shadow: 0 1px 1px #878e96 inset;
+	border-radius: 2px;
+	height: 24px;
+	line-height: 23px;
+	margin-top: 1px;
+}
+
+.bx-viewer-cap-text-block .bx-viewer-btn {
+	border-top-color: #eaebeb;
+	margin-top: 20px;
+}
+.bx-viewer-cap-text-block .bx-viewer-btn:active {
+	border-top-color: #8c939e;
+	margin-top: 21px;
+}
+
+.bx-viewer-cap-wrap{
+	width: 100%;
+	height: 100%;
+}
+
+.bx-viewer-pseudo-center{
+	top:50%;
+	position: absolute;
+	margin: 0 auto;
+}
+
+.bx-viewer-full-title {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0,.35);
+	border-radius: 0 0 5px 5px;
+
+	-webkit-transition:bottom 0.15s ease-in, opacity 0.15s ease-in;
+	-moz-transition:bottom 0.15s ease-in, opacity 0.15s ease-in;
+	-ms-transition:bottom 0.15s ease-in, opacity 0.15s ease-in;
+	-o-transition:bottom 0.15s ease-in, opacity 0.15s ease-in;
+	transition:bottom 0.15s ease-in, opacity 0.15s ease-in;
+}
+
+.bx-viewer-full-item
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 32px;
+	margin: 0 15px;
+}
+
+.bx-viewer-full-link
+{
+	color: white !important;
+	text-decoration: underline !important;
+}
+
+.bx-viewer-btn-split {
+	display: inline-block;
+    margin-right: 5px;
+	vertical-align: top;
+}
+
+.bx-viewer-btn-split-l,
+.bx-viewer-btn-split-r {
+	display: inline-block;
+	cursor: pointer;
+	height: 28px;
+	overflow: hidden;
+	vertical-align: top;
+	position: relative;
+}
+
+.bx-viewer-btn-split-l:before {
+	content: "";
+	border-right: 1px solid #ccd1d3;
+	height: 24px;
+	right: 0;
+	top: 2px;
+	position: absolute;
+	width: 1px;
+	z-index: 2;
+}
+
+.bx-viewer-btn-split-text {
+	color: #555;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	min-width: 80px;
+	line-height: 25px;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px #fff;
+	z-index: 1;
+}
+
+.bx-viewer-btn-split-text i {
+	color: #077cc0;
+	display: inline;
+	font-style: normal;
+}
+
+.bx-viewer-btn-split-l:active .bx-viewer-btn-split-text {margin-top: 1px;}
+
+.bx-viewer-btn-split-bg{
+	height: 25px;
+	left: 0;
+	top: 0;
+	padding-right: 10px;
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+}
+
+.bx-viewer-btn-split-r {
+	width: 20px;
+}
+
+.bx-viewer-btn-split-r:before {
+	border-left: 1px solid #fff;
+	content: "";
+	height: 25px;
+	left: 0;
+	top: 1px;
+	position: absolute;
+	width: 1px;
+	z-index: 2;
+}
+
+.bx-viewer-btn-split-r:active:before {display: none;}
+
+.bx-viewer-btn-split-r .bx-viewer-btn-split-bg {
+	left: auto;
+	padding: 0 0 0 10px;
+	right: 0;
+}
+
+.bx-viewer-btn-split-r .bx-viewer-btn-split-bg:before {
+	background: url(../images/bx-viewer-icons.png?10) no-repeat -59px -1563px;
+	content: "";
+	height: 7px;
+	top: 10px;
+	right: 5px;
+	position: absolute;
+	width: 10px;
+}
+
+.bx-viewer-btn-split-disable .bx-viewer-btn-split-text {
+	margin: 0!important;
+	color: #abaeaf;
+}
+
+.bx-viewer-btn-split-disable .bx-viewer-btn-split-l .bx-viewer-btn-split-bg,
+.bx-viewer-btn-split-disable .bx-viewer-btn-split-r .bx-viewer-btn-split-bg {
+	background:#ebf1f3;
+	background:-webkit-linear-gradient(top, #f9fafa, #dee9ec);
+	background:-moz-linear-gradient(top, #f9fafa, #dee9ec);
+	background:-o-linear-gradient(top, #f9fafa, #dee9ec);
+	background:-ms-linear-gradient(top, #f9fafa, #dee9ec);
+	background:linear-gradient(to bottom, #f9fafa, #dee9ec);
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.12), inset 0 1px 0 #fff, inset 0 0 1px rgba(255,255,255,.3);
+	box-shadow: 0 1px 0 rgba(0,0,0,.12), inset 0 1px 0 #fff, inset 0 0 0 1px rgba(255,255,255,.3);
+	border: 1px solid;
+	border-color: #f1f1f1 #d8d8d8 #a9a9a9;
+	border-radius: 4px;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+}
+
+.bx-viewer-btn-split-disable .bx-viewer-btn-split-bg:before {
+	background-position:-59px -1928px;
+}
+.bx-viewer-btn-split-disable i {
+    color: inherit;
+}
+
+.bx-viewer-popup-item .menu-popup-item-icon{
+	background: url(../images/bx-viewer-icons.png?10) no-repeat 100px;
+	display: inline-block;
+	height: 29px;
+	margin:0;
+	vertical-align: top;
+	width: 26px;
+}
+
+.item-b24 .menu-popup-item-icon {background-position: center -1641px;}
+.item-download .menu-popup-item-icon {background-position: center -1673px;}
+.item-gdocs .menu-popup-item-icon {background-position: center -1578px;}
+.item-office .menu-popup-item-icon {background-position: center -1605px;}
+.item-view .menu-popup-item-icon {background-position: center -1776px;}
+.item-edit .menu-popup-item-icon {background-position: center -1812px;}
+.item-history .menu-popup-item-icon {background-position: center -1851px;}
+.item-local .menu-popup-item-icon {background-position: center -2071px;}
+
+.bx-viewer-popup-item .menu-popup-item-text {margin: 0 0 0 4px;}
+
+.status-sky-drive,
+.status-google {
+    color: #555;
+    font-size: 13px;
+	height: 15px;
+    padding: 1px 0 0 21px;
+    position: relative;
+    text-shadow: 0 1px #fff;
+}
+.viewer-toggle-popup-btn .status-sky-drive,
+.viewer-toggle-popup-btn .status-google {
+	padding-left: 38px;
+}
+.status-sky-drive:before,
+.status-google:before {
+	background: url(../images/bx-viewer-icons.png?10) no-repeat 100px 100px;
+	content: "";
+	height: 13px;
+	left: 0;
+	top: 2px;
+	position: absolute;
+	width: 20px;
+}
+.status-sky-drive:before {
+	background-position: -51px -1614px;
+	width: 63px;
+}
+.status-google:before {
+	background-position: -51px -1586px;
+	width: 88px;
+}
+
+.viewer-toggle-popup-btn:hover {
+	background-color: #f7f7f7;
+	border-color: #e5e5e5 #eeeeee #f4f4f4;
+	-webkit-box-shadow: 0 1px 1px #eeeeee inset;
+	box-shadow: 0 1px 1px #eeeeee inset;
+}
+.viewer-toggle-popup-btn-active {
+	background-color: #e2ecef!important;
+	border-color: #c1cacc #d1dbde #dce6ea!important;
+	-webkit-box-shadow: 0 1px 1px #c9d3d6 inset !important;
+	box-shadow: 0 1px 1px #c9d3d6 inset !important;
+}
+
+
+.viewer-toggle-bottom-btn-block .webform-small-button-accept {margin: 0 12px 0 0;}
+.viewer-toggle-bottom-btn-block .task-button-delegate-link {margin: 0;}
+
+.bx-viewer-alert-popup {
+	background-color: #fffcde !important;
+	border: 1px solid #f0f0f0 !important;
+	border-radius: 3px !important;
+	-webkit-box-shadow: 0 19px 24px rgba(88, 112, 118, 0.17) !important;
+	box-shadow: 0 19px 24px rgba(88, 112, 118, 0.17) !important;
+}
+
+
+.bx-viewer-alert {
+	background-color: #fffcde;
+	color: #000;
+	font-size: 15px;
+	min-height: 45px;
+	text-align: center;
+	padding: 12px 40px 12px 60px;
+	position: relative;
+	width: 280px;
+}
+
+.bx-viewer-alert-icon {
+	left: 1px;
+	text-align: center;
+	top: 22px;
+	position: absolute;
+	width: 50px;
+}
+
+.bx-viewer-alert-icon  img {
+	border: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bx-viewer-aligner {
+	display: inline-block;
+	height: 45px;
+	margin-left: -1px;
+	vertical-align: middle;
+	width: 1px;
+}
+
+.bx-viewer-alert-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.bx-viewer-file-link {
+	color: #2067b0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.bx-viewer-file-link:hover {
+	text-decoration: underline;
+}
+
+.bx-viewer-alert-footer {
+	text-align: center;
+}
+
+.bx-viewer-btn-link {
+	color: #2067b0;
+	margin: 0 8px;
+	text-decoration: underline;
+}
+
+.bx-viewer-alert-close-icon {
+	background: url(../images/bx-viewer-icons.png?10) no-repeat center -1742px;
+	height: 23px;
+	opacity: 0.5;
+	right: 5px;
+	top: 5px;
+	position: absolute;
+	width: 23px;
+}
+
+.bx-viewer-alert-close-icon:hover {
+	opacity: 1;
+}
+
+.bx-viewer-confirm {
+	padding: 0 13px 0;
+	width: 409px;
+}
+
+.bx-viewer-confirm-title {
+	border-bottom: 1px solid #dfe1e1;
+	color: #555656;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	padding: 6px 0 10px;
+}
+
+.bx-viewer-confirm-text-wrap {
+	font-size: 13px;
+	border-bottom: 1px solid #dfe1e1;
+	padding: 15px 7px;
+}
+
+.bx-viewer-confirm-text-alignment {
+	display: inline-block;
+	height: 64px;
+	margin-left: -1px;
+	vertical-align: middle;
+	width: 1px;
+}
+
+.bx-viewer-confirm-text {
+	display: inline-block;
+	vertical-align: middle;
+	width: 395px;
+}
+
+.bx-viewer-confirm-popup .popup-window-button-text{
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 67px;
+}
+
+.bx-viewer-confirm-center {
+	padding: 22px 7px;
+	text-align: center;
+}
+
+.bx-viewer-inp {
+	background-color: #fff;
+	border: 1px solid;
+	border-color: #B9BCBE #BDC1C3 #C1C5C8;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+	display:inline-block;
+	color: #78797a;
+	height: 26px;
+	font-size: 15px;
+	padding: 3px 9px;
+	width: 307px;
+}
+
+.bx-viewer-confirm-extension {
+	display: inline-block;
+	color: #78797a;
+	font-size: 15px;
+	margin-left: 6px;
+	vertical-align: middle;
+}
+
+.bx-viewer-save-disable-button .popup-window-button-left,
+.bx-viewer-save-disable-button .popup-window-button-right,
+.bx-viewer-save-disable-button .popup-window-button-left:hover,
+.bx-viewer-save-disable-button .popup-window-button-right:hover
+{
+    cursor: default !important;
+}
+.bx-viewer-save-disable-button,
+.bx-viewer-save-disable-button:hover
+{
+    cursor: default !important;
+    background: url("/bitrix/templates/bitrix24/images/interface/buttons-sprite.png") repeat-x scroll 0 -34px transparent !important;
+}
+.bx-viewer-save-disable-button .popup-window-button-text,
+.bx-viewer-save-disable-button:hover .popup-window-button-text{
+    cursor: default !important;
+    opacity: 0.5;
+}
+/*================================Ненужные стили===============*/
+.bx-viewer-cap {
+	opacity: 1!important;
+}
+/*================================Ненужные стили===============*/
+
+
+/*=================================================================New============================================*/

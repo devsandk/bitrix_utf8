@@ -1,0 +1,29 @@
+<?
+$MESS["LHE_GROUP_BASE_SETTINGS"] = "Основні налаштування";
+$MESS["LHE_GROUP_VIDEO_SETTINGS"] = "Налаштування вставки відео";
+$MESS["LHE_GROUP_ADDITIONAL_SETTINGS"] = "Додаткові налаштування";
+$MESS["LHE_PAR_ID"] = "Службовий ID елемента управління";
+$MESS["LHE_PAR_CONTENT"] = "Вміст";
+$MESS["LHE_PAR_INPUT_NAME"] = "Ім'я елементу управління";
+$MESS["LHE_PAR_INPUT_ID"] = "ID елемента управління";
+$MESS["LHE_PAR_WIDTH"] = "Ширина редактора";
+$MESS["LHE_PAR_HEIGHT"] = "Висота редактора";
+$MESS["LHE_PAR_ADVANCED_MODE"] = "Розширений режим налаштування компоненту";
+$MESS["LHE_PAR_USE_FILE_DIALOGS"] = "Дозволити використання файлового діалогу";
+$MESS["LHE_PAR_JS_OBJ_NAME"] = "Ім'я Javascript-об'єкта";
+$MESS["LHE_PAR_VIDEO_ONLY_FLV"] = "(Тільки для Flash-плеєра)";
+$MESS["LHE_PAR_VIDEO_ONLY_WMV"] = "(Тільки для Silverlight-плеєра)";
+$MESS["LHE_PAR_VIDEO_ALLOW_VIDEO"] = "Дозволити вставку відео";
+$MESS["LHE_PAR_VIDEO_MAX_WIDTH"] = "Максимальна ширина відео";
+$MESS["LHE_PAR_VIDEO_MAX_HEIGHT"] = "Максимальна висота відео";
+$MESS["LHE_PAR_VIDEO_WMODE"] = "Режим вікна (WMode)";
+$MESS["LHE_PAR_WMODE_WINDOW"] = "Звичайний";
+$MESS["LHE_PAR_WMODE_OPAQUE"] = "Непрозорий";
+$MESS["LHE_PAR_WMODE_TRANSPARENT"] = "Прозорий";
+$MESS["LHE_PAR_VIDEO_WINDOWLESS"] = "Режим вікна (windowless)";
+$MESS["LHE_PAR_VIDEO_BUFFER"] = "Розмір буфера в секундах";
+$MESS["LHE_PAR_VIDEO_SKIN"] = "Шлях до скину";
+$MESS["LHE_PAR_VIDEO_LOGO"] = "Шлях до зображення авторського знаку";
+$MESS["LHE_PAR_RESIZABLE"] = "Дозволити користувачеві змінювати висоту області редагування";
+$MESS["LHE_PAR_AUTO_RESIZE"] = "Автоматичне збільшення області редагування при наборі тексту";
+?>

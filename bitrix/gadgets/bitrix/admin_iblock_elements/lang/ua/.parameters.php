@@ -1,0 +1,32 @@
+<?
+$MESS["GD_IBEL_EMPTY"] = "— вибрати —";
+$MESS["GD_IBEL_DONOTUSE"] = "— не використовувати —";
+$MESS["GD_IBEL_SORT_BY_ID"] = "ID";
+$MESS["GD_IBEL_SELECT_ID"] = "ID";
+$MESS["GD_IBEL_SORT_BY_DATE_ACTIVE_FROM"] = "Дата початку активності";
+$MESS["GD_IBEL_SELECT_DATE_ACTIVE_FROM"] = "Дата початку активності";
+$MESS["GD_IBEL_SORT_BY_TIMESTAMP_X"] = "Дата останнього змінення";
+$MESS["GD_IBEL_SELECT_TIMESTAMP_X"] = "Дата останнього змінення";
+$MESS["GD_IBEL_SORT_BY_DATE_CREATE"] = "Дата створення";
+$MESS["GD_IBEL_SELECT_DATE_CREATE"] = "Дата створення";
+$MESS["GD_IBEL_SELECT_DETAIL_PICTURE"] = "Детальна картинка";
+$MESS["GD_IBEL_SELECT_DETAIL_TEXT"] = "Детальний опис";
+$MESS["GD_IBEL_SORT_BY_NAME"] = "Заголовок";
+$MESS["GD_IBEL_SELECT_NAME"] = "Заголовок";
+$MESS["GD_IBEL_IBLOCK_ID"] = "Інфоблок";
+$MESS["GD_IBEL_DATE_FIELD"] = "Використовувати як дату";
+$MESS["GD_IBEL_TITLE_FIELD"] = "Використовувати як заголовок";
+$MESS["GD_IBEL_PICTURE_FIELD"] = "Використовувати як картинку";
+$MESS["GD_IBEL_DESCRIPTION_FIELD"] = "Використовувати як картинку";
+$MESS["GD_IBEL_SELECT_PREVIEW_PICTURE"] = "Картинка для анонсу";
+$MESS["GD_IBEL_ITEMS_COUNT"] = "Кількість елементів";
+$MESS["GD_IBEL_SORT_ORDER"] = "Напрямок сортування";
+$MESS["GD_IBEL_SELECT_PREVIEW_TEXT"] = "Опис для анонсу";
+$MESS["GD_IBEL_SORT_ORDER_ASC"] = "За зростанням";
+$MESS["GD_IBEL_SORT_ORDER_DESC"] = "За спаданням";
+$MESS["GD_IBEL_ADDITIONAL_FIELDS"] = "Поля та властивості для додаткового показу";
+$MESS["GD_IBEL_THUMBNAIL_SIZE"] = "Розмір зображення";
+$MESS["GD_IBEL_DESCRIPTION_CUT"] = "Зкорочувати виведення опису до, символів";
+$MESS["GD_IBEL_SORT_BY"] = "Сортувати за";
+$MESS["GD_IBEL_IBLOCK_TYPE"] = "Тип инфоблоку";
+?>

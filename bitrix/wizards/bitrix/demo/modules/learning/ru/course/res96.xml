@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>697</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>1000300</sort>
+<timestamp_x>1374677073</timestamp_x>
+<date_create>1374677073</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Примеры работы с компонентами</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<h4>Комплексные компоненты</h4>
+<p>Новостной раздел можно создать с помощью комплексного компонента <img width="32" height="16" src="cid:resources/res96/xBJP8.bkxdt.news.png" /> <b>Новости (bitrix:news)</b>. Этот компонент нужно просто установить на страницу (например, <b>index.php)</b> и настроить набор его параметров. При этом настроить обязательно необходимо только поля группы <b>Основные параметры</b>, где указывается Тип инфоблока и сам используемый инфоблок. Все остальные параметры компонента можно оставить как есть.</p>
+ 
+<p>Настроив параметры компонента должным образом, в публичной части имеем тот же результат:</p>
+ 
+<p> 
+  <table> 
+    <tbody>
+      <tr><td>Страница со списком новостей</td><td>Страница детального просмотра новости</td></tr> 
+      <tr><td><img width="406" height="200" border="0" src="cid:resources/res96/u0i2r.wy3RB.complex1.png" />  </td>
+        <td><img width="406" height="200" border="0" src="cid:resources/res96/oqlwt.C6RHy.complex2.png"  /></td></tr>
+     </tbody>
+   </table>
+ </p> 
+ 
+<p>Таким образом, для создания новостного раздела физически создается одна страница, а логически несколько.</p> 
+
+<h4>Простые компоненты</h4>
+<p>Рассмотрим создание новостного раздела с помощью простых компонентов. Особенностью создания такого раздела будет то, что придётся создавать несколько физических страниц и производить дополнительную настройку простых компонентов. При использовании комплексного компонента этих действий можно избежать.</p> 
+
+<p>Для этого необходимо создать, например, страницу списка новостей <b>index.php</b>, на которой разместим компонент <img width="34" height="18" src="cid:resources/res96/BLsqM.cZUTP.news_list.png" /> <b>Список новостей (bitrix:news.list)</b>. Этот компонент выводит на странице, где он размещен, заголовок, текст анонса и прочие параметры новостей в зависимости от настроек компонента. Каждый элемент списка новостей - ссылка на просмотр детальной информации.</p> 
+<p><img width="693" height="500" border="0" src="cid:resources/res96/StfFH.ljthR.bitrix_news_list.png" /></p>
+
+<p>Страница с детальной информацией должна быть создана отдельно, например, <b>detail.php</b>, на которой надо разместить компонент <img width="34" height="18" src="cid:resources/res96/NL6k7.SjRka.news_detail.png" /> <b>Новость детально (bitrix:news.detail)</b>.</p>
+ 
+<p>При этом у компонента <b>Список новостей</b> нужно настроить входные параметры так, чтобы он мог формировать ссылки на страницу детальной новости (с кодом новости). Для этого нужно в группе параметров <b>Шаблоны ссылок</b> в поле <b>URL страницы детального просмотра</b> задать путь к этой странице, а также название параметра, в котором будет передаваться код новости для показа:</p>
+ 
+<p><code>detail.php?ID=#ELEMENT_ID#</code></p>
+
+<p>В данном случае страница <b>detail.php</b> должна находиться в том же разделе, что и страница со списком новостей.</p>
+ 
+<p>Для компонента детальной новости нужно настроить входные параметры так, чтобы он мог формировать ссылку на главную страницу:</p>
+ 
+<p><code>index.php?ID=#IBLOCK_ID#</code></p>
+ 
+<p>Кроме того, во входных параметрах компонента детальной новости (поле <b>ID новости</b> группы параметров <b>Основные параметры</b>) нужно задать php-код, возвращающий ID новости:</p>
+
+<p><code>={$_REQUEST["ELEMENT_ID"]}</code></p>
+ 
+<p>Настроив параметры компонентов должным образом, в публичной части имеем результат:</p>
+ 
+<p> 
+  <table> 
+    <tbody> 
+      <tr><td>Страница со списком новостей</td><td>Страница детального просмотра новости</td></tr>
+      <tr><td><img width="406" height="200" border="0" src="cid:resources/res96/8eIs8.Zi3c4.complex1.png" />  </td>
+        <td><img width="406" height="200" border="0" src="cid:resources/res96/EB7tC.3Sein.complex2.png"  /></td></tr>
+     </tbody>
+   </table>
+ </p>
+
+<br><br>
+
+
+ 
+ ]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>1000300</edge_sort>
+<id>697</id>
+</content>

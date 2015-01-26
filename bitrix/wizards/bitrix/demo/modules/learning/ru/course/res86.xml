@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>687</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1374677073</timestamp_x>
+<date_create>1374677073</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name> Панель компонентов в визуальном редакторе</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Для быстрого размещения компонентов на странице разработан интерфейс на базе визуального HTML-редактора. </p>
+ 
+<p><img src="cid:resources/res86/ytHX0.mbBLh.visual_editor.png"  width="697" height="652" border="0"/></p>
+
+<br>
+ 
+<p>Все визуальные компоненты расположены на специальной панели компонентов. Отображение этой панели зависит от настроек визуального редактора (переход к настройкам осуществляется при помощи кнопки <img width="22" height="22" src="cid:resources/res86/pJ9pC.SdZiD.but_vis_editor_set.png" />).</p>
+
+
+<p>Чтобы панель компонентов отображалась в редакторе, она должна быть отмечена флагом на закладке <b>Панели задач</b> формы <b>Настройки визуального редактора</b>:</p>
+ 
+<p><img src="cid:resources/res86/kBNRb.5WuGS.comp_panel_set.png" border="0" height="358" width="663"  /></p>
+
+<p><div class="warning"><b>Внимание!</b> Закладка <b>Компоненты</b> отображается только при редактировании статических страниц. При редактировании полей элементов информационных блоков закладка недоступна, так как использование компонентов в информационных блоках не допускается.</div></p>
+
+<p>Закладка <b>Компоненты</b> в визуальном редакторе вызывается с помощью кнопки <img src="cid:resources/res86/0Uzf6.uXIBI.but_components.png" width="161" height="22" border="0"/>. Все компоненты сгруппированы по разделам (Контент, Сервис, Общение, Магазин, Служебные), которые в свою очередь состоят из подразделов.</p>
+
+<p><img src="cid:resources/res86/vXklG.5c1rY.all_components_1.png" width="248" height="330" border="0"/> <img src="cid:resources/res86/ni1Xr.Uj98i.all_components_2.png" width="248" height="330" border="0"/></p>
+
+<br>
+<p>Доступны следующие действия управления закладкой <b>Компоненты</b> на панели задач:</p>
+
+<p><img src="cid:resources/res86/KZWPT.4vkKw.taskboard_options.png" width="284" height="341" border="0"/></p>
+
+<ul>
+<li>По кнопке <img src="cid:resources/res86/B9h4T.faikS.but_minimize.png" width="17" height="17" border="0"/> <b>Свернуть</b> можно временно скрыть панель. Вернуть ее можно, используя кнопку <img src="cid:resources/res86/4XqAo.FVZ3I.but_components.png" width="161" height="22" border="0"/>. </li>
+<li>Кнопка <b>Обновить закешированные данные</b> позволяет сбросить кеш, например, если были добавлены собственные компоненты.</li> 
+<li>Кнопка <b>Настроить</b> вызывает форму настройки внешнего вида редактора, которая также доступна по кнопке <img width="22" height="22" src="cid:resources/res86/Jmthj.TNClz.but_vis_editor_set.png" /> <b>Настройки</b> панели инструментов визуального редактора.</li> 
+<li>Кнопка <b>Закрыть</b> закрывает отображаемую панель. Восстановить ее отображение можно с помощью формы настройки редактора (кнопка <img width="22" height="22" src="cid:resources/res86/Iyvzb.qNbcr.but_vis_editor_set.png" />).</li>
+</ul>
+
+<p><div class="learnin-post-text">
+<table class="learning-spoiler">
+<thead onclick="LearningInitSpoiler(this)">
+<tr><th>
+<div>Компоненты 1.0 до v.9.5</div>
+</th></tr></thead>
+<tbody style="display:none;" class="learning-spoiler">
+<tr><td>В версии продукта до 9.5 присутствует закладка <b>Компоненты 1.0</b>. Она позволяет добавлять на страницу компоненты 1.0, которые устарели и не рекомендуются к использованию.
+<p><img src="cid:resources/res86/I7yZN.HYN1k.comp_1.0_tab.png" width="270" height="36" border="0"/></p></td></tr>
+</tbody>
+</table></div></p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>687</id>
+</content>

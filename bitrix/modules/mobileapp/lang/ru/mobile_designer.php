@@ -1,0 +1,37 @@
+<?
+$MESS["MOBILEAPP_ANDROID"] = "OS Android";
+$MESS["MOBILEAPP_IOS"] = "iOS";
+$MESS["MOBILEAPP_WP"] = "Windows Phone";
+$MESS["MOBILEAPP_GLOBAL"] = "Общая";
+$MESS["MOBILEAPP_CONFIGNAME_ANDROID"] = "Конфигурация для OS Android";
+$MESS["MOBILEAPP_CONFIGNAME_GLOBAL"] = "Общая конфигурация";
+$MESS["MOBILEAPP_CONFIGNAME_IOS"] = "Конфигурация для iOS";
+$MESS["MOBILEAPP_CONFIGNAME_WP"] = "Конфигурация для Windows Phone";
+$MESS["MOBILEAPP_ADD_IMAGE"] = "Добавить изображение";
+$MESS["MOBILEAPP_SELECT_IMAGE"] = "Выбрать картинку";
+$MESS["MOBILEAPP_APP_PLATFORM"] = "Добавить платформу";
+$MESS["MOBILEAPP_SAVE"] = "Сохранить";
+$MESS["MOBILEAPP_CREATE"] = "Создать";
+$MESS["MOBILEAPP_CLOSE"] = "Закрыть";
+$MESS["MOBILEAPP_REMOVE"] = "удалить";
+$MESS["MOBILEAPP_BACK"] = "назад";
+$MESS["MOBILEAPP_TITLE"] = "Заголовок";
+$MESS["MOBILEAPP_NO_APPS"] = "У вас нет ни одного приложения";
+$MESS["MOBILEAPP_CREATE_APP"] = "Создать приложение";
+$MESS["MOBILEAPP_APP_NAME"] = "Название";
+$MESS["MOBILEAPP_LABEL_CODE"] = "Код приложения (латиницей)";
+$MESS["MOBILEAPP_LABEL_APP_FOLDER"] = "Папка приложения";
+$MESS["MOBILEAPP_PREVIEW_HINT"] = "Нажмите на элемент приложения, чтобы настроить его параметры";
+
+$MESS["MOBILEAPP_PREVIEW_MAIN"] = "Основной";
+$MESS["MOBILEAPP_PREVIEW_LOAD"] = "Загрузка";
+$MESS["MOBILEAPP_PREVIEW_LISTS"] = "Списки";
+$MESS["MOBILEAPP_CREATE_NEW_TEMPLATE"] = "Создать новый шаблон";
+$MESS["MOBILEAPP_WITHOUT_TEMPLATE"] = "Не создавать шаблон";
+$MESS["MOBILEAPP_NEW_TEMPLATE_NAME"] = "Название шаблона";
+$MESS["MOBILEAPP_SELECT_TEMPLATE"] = "Выбрать существующий";
+$MESS["MOBILEAPP_APP_TEMPLATE"] = "Шаблон приложения";
+$MESS["MOBILEAPP_APP_SAVE_CONFIG_WAIT"] = "Сохранение конфигурации";
+$MESS["MOBILEAPP_APP_REMOVE_CONFIG_WAIT"] = "Удаление конфигурации";
+$MESS["MOBILEAPP_APP_CREATE_CONFIG_WAIT"] = "Создание конфигурации";
+$MESS["MOBILEAPP_APP_IS_ALREADY_EXISTS"] = "Приложение с заданным символьным кодом уже существует!";

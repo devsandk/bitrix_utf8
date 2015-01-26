@@ -1,0 +1,12 @@
+html{overflow:auto;}
+.main, .block,
+.img-block, .btn {behavior:url(/js/43328/PIE.htc);position: relative;}
+.tabs ul.nav li, .div-content{
+	behavior:url(/js/43328/PIE.htc);
+	position: relative;
+	box-shadow:none;
+}
+
+.staff li .img-block>span{behavior:url(/js/43328/PIE.htc);}
+.sf-menu>li>ul,.sf-menu>li.sfHover>ul{background: #fefefe;}
+.block-indent-1 img{behavior:url(/js/43328/PIE.htc);position: relative;}

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001422308843';
+$dateexpire = '001422312443';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:10:{s:27:"type_selector_DETAIL_TEXT27";s:6:"editor";s:17:"medialib_user_set";s:9:"600,450,2";s:28:"type_selector_PREVIEW_TEXT27";s:6:"editor";s:11:"code_editor";a:1:{s:5:"theme";s:5:"light";}s:11:"last_pathes";s:274:"a:10:{i:0;s:15:"/about/contacts";i:1;s:6:"/about";i:2;s:13:"/images/43328";i:3;s:10:"/downloads";i:4;s:35:"/registracija_v_nalogovoj_inspekcii";i:5;s:12:"/catalog/kkm";i:6;s:7:"/search";i:7;s:33:"/catalog/programmnoe_obespechenie";i:8;s:8:"/catalog";i:9;s:11:"/automation";}";s:28:"taskbar_settings_filesrc_pub";s:246:"a:3:{s:19:"BXPropertiesTaskbar";a:3:{s:4:"show";b:1;s:3:"set";i:3;s:6:"active";b:1;}s:20:"BXComponents2Taskbar";a:3:{s:4:"show";b:1;s:3:"set";s:1:"2";s:6:"active";b:1;}s:17:"BXSnippetsTaskbar";a:3:{s:4:"show";b:1;s:3:"set";i:3;s:6:"active";b:0;}}";s:31:"taskbarset_settings_filesrc_pub";s:90:"a:2:{i:2;a:2:{s:4:"show";b:1;s:4:"size";i:200;}i:3;a:2:{s:4:"show";b:1;s:4:"size";i:160;}}";s:18:"file_dialog_config";s:27:"s1;/downloads;list;type;asc";s:25:"type_selector_DESCRIPTION";s:6:"editor";s:26:"type_selector_DETAIL_TEXT1";s:6:"editor";}}';
+return true;
+?>

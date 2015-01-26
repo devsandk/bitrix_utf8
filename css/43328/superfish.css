@@ -1,0 +1,156 @@
+nav{
+	position:relative;
+	display: inline-block;
+	margin: 0;
+	padding: 25px 0 0 0;
+	}
+.sf-menu {margin:0; padding:0; list-style:none;}
+.sf-menu ul {position:absolute;top:-999px; margin:0; padding:0; list-style:none; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu ul li {width:100%}
+.sf-menu li {
+	float:left;
+	position:relative;
+	text-transform:uppercase;
+	margin: 0 0 0 20px;
+	z-index:1;
+	text-shadow:0 1px #cc9611;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	}
+.menu-arrow{
+	position: absolute;
+	top: -1px;
+	right: -10px;
+	color: #000;
+}
+.sf-menu>li>a{
+	display:block;
+	text-align:center;
+	position:relative;
+	font-size: 14px;
+	line-height: 20px;
+	padding:0;
+	color:#bcbcbc;
+	}
+.sf-menu>li:hover strong, .sf-menu>li.current strong, .sf-menu>li.sfHover strong{top:0;left:0;right:0;bottom:0;}
+.sf-menu>li,.sf-menu>li.current,.sf-menu>li.sfHover{ text-shadow:none;}
+.sf-menu>li>a:hover,.sf-menu>li.current>a,.sf-menu>li.sfHover>a{color: #49a5fc;}
+
+
+/*================================>> 2 Level <<========================================*/
+.sf-menu ul .menu-arrow{
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	color: #000;
+}
+
+.sf-menu>li>ul,.sf-menu>li.sfHover>ul{
+	left:0;
+	top:30px;
+	width: 200px;
+	padding:0;
+	z-index:950;
+	/*background: url(/images/43328/bg-li-ul.jpg) 0 0 repeat-x #ffffff;*/
+	background: rgb(237, 237, 237);
+	background: -moz-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: -webkit-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: -o-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: -ms-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: linear-gradient(180deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	}
+.sf-menu>li>ul>li{
+	display:block;
+	width:100%;
+	background:none;
+	padding: 0;
+	text-transform: none;
+	text-align: left;
+	margin: 0;
+	text-shadow:none;
+	}
+.sf-menu>li>ul>li>a{
+	font-size: 14px;
+	line-height: 20px;
+	display:block;
+	padding:9px 20px 9px 23px;
+	color:#55abfc;
+	}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{
+	color:#fff;
+	background: #55abfc url(/images/43328/bg-li-hov.jpg) 0 0 repeat-x;
+}
+/*================================>> 3 Level <<========================================*/
+.sf-menu>li.sfHover>ul>li.sfHover ul {
+	left:200px;
+	top:0px;
+	width: 200px;
+	padding:0;
+	z-index:950;
+	/*background: url(/images/43328/bg-li-ul.jpg) 0 0 repeat-x #ffffff;*/
+	background: rgb(237, 237, 237);
+	background: -moz-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: -webkit-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: -o-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: -ms-linear-gradient(90deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	background: linear-gradient(180deg, rgb(237, 237, 237) 30%, rgb(255, 255, 255) 100%);
+	}
+.sf-menu>li>ul>li>ul li{
+	display:block;
+	width:100%;
+	background:none;
+	padding: 0;
+	text-transform: none;
+	text-align: left;
+	margin: 0;
+	text-shadow:none;
+	}
+.sf-menu>li>ul>li>ul li>a{
+	font-size: 14px;
+	line-height: 20px;
+	display:block;
+	padding:9px 0 9px 23px;
+	color:#55abfc;
+	}
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 995px) {
+.search-nav{padding: 0 20px 0 0;}
+nav{
+	text-align: center;
+}
+.sf-menu{display: inline-block;}
+}
+
+@media only screen and (max-width: 767px) {
+  nav{
+		float:none;
+		font:12px/15px Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		color:#fff;
+		padding:8px 3px 0 3px;
+		margin: 4px 0 0 0;
+		display: block;
+		width: 100%;
+		border-radius: 4px;
+	}
+		nav:before{
+			display: none;
+		}
+	.sf-menu{display:none;}
+	nav select{
+		font:12px/15px Arial, Helvetica, sans-serif;
+		color:#fff;
+		background: #49a5fc;
+		display: block;
+		width:100%;
+        outline: none;
+		border:1px solid #000;
+		border-radius: 3px;
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}

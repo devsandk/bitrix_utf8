@@ -1,0 +1,27 @@
+.ilike-light .bx-ilike-button {color:#929292;  display:inline-block;  height:19px; position:relative;-moz-user-select: none; -khtml-user-select: none; user-select: none;}
+.ilike-light .bx-ilike-left {display:inline-block; height:19px; vertical-align:top; width:10px;}
+.ilike-light .bx-ilike-text { display:inline-block;  height:17px; padding:3px 0px 0;  cursor:pointer; }
+* html .ilike-light .bx-ilike-text{height:19px;}
+.ilike-light .bx-ilike-right-wrap {display:inline-block; height:19px;  cursor:default; margin-right: 3px; }
+.ilike-light .bx-ilike-right {display:inline-block;  height:17px; padding:3px 1px 0 11px; background:url("images/star.png") no-repeat 0 -40px; }
+* html .ilike-light .bx-ilike-right {width:16px;}
+.ilike-light .bx-you-like .bx-ilike-left {}
+.ilike-light .bx-you-like .bx-ilike-text {}
+.ilike-light .bx-you-like .bx-ilike-right-wrap {}
+.ilike-light .bx-you-like .bx-ilike-right {background-position: 0 -20px;}
+.ilike-light .bx-ilike-button-hover .bx-you-like .bx-ilike-left {}
+.ilike-light .bx-ilike-button-hover .bx-you-like .bx-ilike-text {}
+.ilike-light .bx-ilike-button-disable { cursor:default;}
+.ilike-light .bx-ilike-button-disable .bx-ilike-left {background-position:0 -20px;}
+.ilike-light .bx-ilike-button-disable .bx-ilike-text {}
+.ilike-light .bx-ilike-button-disable .bx-ilike-right-wrap {}
+.ilike-light .bx-ilike-button-disable .bx-ilike-right {}
+.ilike-light .bx-ilike-button-hover .bx-ilike-left {}
+.ilike-light .bx-ilike-button-hover .bx-ilike-text {}
+.ilike-light .bx-ilike-button-hover .bx-ilike-right-wrap {}
+.ilike-light .bx-ilike-button-hover .bx-ilike-right {}
+.rating_vote_graphic { display: none!important;}
+.rating_vote_text { display: inline-block!important; }
+.ilike-light .bx-ilike-plus-one { display: inline-block; position: absolute; padding: 4px; background-color: #929292;color: #fff;-webkit-animation: likeLightPlusOne 1.5s 1;-moz-animation: likeLightPlusOne 1.5s 1;border-radius: 16px;line-height: 5px;font-size: 10px;opacity: 0;width: 12px;height: 10px;}
+@-webkit-keyframes likeLightPlusOne { 0% {  opacity: 0;} 40% { opacity: 1; } 60% {  opacity: 1; } 100% {  opacity: 0; }}
+@-moz-keyframes likeLightPlusOne { 0% {  opacity: 0;} 40% { opacity: 1; } 60% {  opacity: 1; } 100% {  opacity: 0; }}

@@ -1,0 +1,4 @@
+<?
+$MESS["CP_CATALOG_STORE_MAIN_SECTION"] = "Магазин";
+$MESS["CP_CATALOG_STORE_STORE_SECTION"] = "Склади";
+?>

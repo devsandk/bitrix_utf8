@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>641</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>800</sort>
+<timestamp_x>1374677072</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Работа с бизнес-процессами</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Обычно контент-менеджеры не работают с бизнес-процессами. Но администраторы могут включить на сайте поддержку бизнес-процессов, например для автоматизации работы.</p>
+
+<p>В общем случае бизнес-процессы представляют некую автоматизированную последовательность действий, которые будут выполняться, например, над элементом инфоблока при его создании или изменении.</p>
+
+<br>
+
+<p>Подробнее про работу с бизнес-процессами можно посмотреть в уроке <a href="/learning/course/index.php?COURSE_ID=41&LESSON_ID=3140&LESSON_PATH=3911.4549.5274.3140">Пример работы с бизнес-процессами</a> курса <b>Администратор. Модули</b>. 
+<br>
+В нем рассмотрен случай, когда контент-менеджер создает новость на сайте, которая будет опубликована только после рассмотрения администрацией сайта.</p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>800</edge_sort>
+<id>641</id>
+</content>

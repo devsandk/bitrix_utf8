@@ -1,0 +1,219 @@
+2015-Jan-27 00:36:27 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2015-Jan-27 00:36:27 Обязательные параметры PHP (check_php_settings): Ok
+Настройки правильные
+2015-Jan-27 00:36:28 Модули веб-сервера (check_security): Ok
+Конфликтов не выявлено
+2015-Jan-27 00:36:28 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2015-Jan-27 00:36:28 Сохранение сессии (check_session): Ok
+50% done
+2015-Jan-27 00:36:28 Сохранение сессии (check_session): Ok
+Успешно
+2015-Jan-27 00:36:28 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в UTF кодировке
+2015-Jan-27 00:36:28 Работа с сокетами (check_socket): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:29 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2015-Jan-27 00:36:29 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:29 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2015-Jan-27 00:36:29 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to www.devsandk.su:80	Success
+
+2015-Jan-27 00:36:29 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:29 Настройки сайтов (check_sites): Ok
+Правильные
+2015-Jan-27 00:36:30 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2015-Jan-27 00:36:30 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2015-Jan-27 00:36:30 Размер стека и pcre.recursion_limit (check_pcre_recursion): Warning
+Connection to www.devsandk.su:80	Success
+
+Замечание. Возможны проблемы в работе с длинными строками из-за системных ограничений
+2015-Jan-27 00:36:30 Вызов method_exists на строке (check_method_exists): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:30 Загрузка файла (check_upload): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:30 Загрузка файла больше 4Мб (check_upload_big): Fail
+Connection to www.devsandk.su:80	Success
+== Request ==
+POST /bitrix/admin/site_checker.php?test_type=upload_test&unique_id=afc63b8c3edb12110269e731dd825f09&big=1&raw=0 HTTP/1.1
+Host: www.devsandk.su
+Content-Type: multipart/form-data; boundary=--------dff76b383acf95f24bbc63e19c15a817
+Content-Length: 4200195
+
+----------dff76b383acf95f24bbc63e19c15a817
+Content-Disposition: form-data; name="test_file"; filename="site_checker.bin
+Content-Type: image/gif
+
+()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~����������������������������������������������������������������������������������������������������������������()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~�������������������������������������������������������������������������������������������������������� ... (4200454 bytes)
+== Response ==
+HTTP/1.1 200 OK
+X-Powered-By: PHP/5.4.36-0+deb7u3
+Content-type: text/html
+Transfer-Encoding: chunked
+Date: Mon, 26 Jan 2015 21:36:30 GMT
+Server: lighttpd/1.4.31
+
+== Body ==
+move_uploaded_file(,/home/sandk/www/entask.ru//bitrix/tmp/site_checker.bin)=false
+$_FILES=
+Array
+(
+    [test_file] => Array
+        (
+            [name] => site_checker.bin
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+==========
+
+Ошибка! Не работает
+2015-Jan-27 00:36:31 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:31 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:31 Отправка почты (check_mail): Ok
+Успешно
+2015-Jan-27 00:36:31 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2015-Jan-27 00:36:32 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2015-Jan-27 00:36:32 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to www.devsandk.su:80	Success
+
+2015-Jan-27 00:36:32 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:32 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to www.devsandk.su:80	Success
+
+2015-Jan-27 00:36:33 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to www.devsandk.su:80	Success
+
+2015-Jan-27 00:36:33 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to www.devsandk.su:80	Success
+
+2015-Jan-27 00:36:33 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to www.devsandk.su:80	Success
+
+2015-Jan-27 00:36:33 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to www.devsandk.su:80	Success
+
+Не менее 256 М
+2015-Jan-27 00:36:33 Работа с файлами кеша (check_cache): Ok
+Успешно
+2015-Jan-27 00:36:34 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2015-Jan-27 00:36:34 HTTP авторизация (check_http_auth): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:34 Создание и запуск файла (check_exec): Ok
+Connection to www.devsandk.su:80	Success
+
+Успешно
+2015-Jan-27 00:36:34 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2015-Jan-27 00:36:34 Версия MySQL сервера (check_mysql_bug_version): Ok
+Успешно
+2015-Jan-27 00:36:36 Время на БД и веб сервере (check_mysql_time): Ok
+Успешно
+2015-Jan-27 00:36:36 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2015-Jan-27 00:36:36 Кодировка соединения (check_mysql_connection_charset): Fail
+character_set_connection=utf8, collation_connection=utf8_general_ci, character_set_results=utf8
+Ошибка! Сравнение соединения с базой данных должно быть utf8_unicode_ci, текущее значение: utf8_general_ci.
+2015-Jan-27 00:36:36 Кодировка базы данных (check_mysql_db_charset): Warning
+Замечание. Не удалось проверить из-за ошибки кодировки соединения
+2015-Jan-27 00:36:37 Кодировки таблиц в БД (check_mysql_table_charset): Warning
+Замечание. Не удалось проверить из-за ошибки кодировки соединения
+2015-Jan-27 00:36:37 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2015-Jan-27 00:36:38 Структура базы данных (check_mysql_table_structure): Ok
+3% done
+2015-Jan-27 00:36:40 Структура базы данных (check_mysql_table_structure): Ok
+7% done
+2015-Jan-27 00:36:41 Структура базы данных (check_mysql_table_structure): Ok
+10% done
+2015-Jan-27 00:36:41 Структура базы данных (check_mysql_table_structure): Ok
+14% done
+2015-Jan-27 00:36:41 Структура базы данных (check_mysql_table_structure): Ok
+17% done
+2015-Jan-27 00:36:43 Структура базы данных (check_mysql_table_structure): Ok
+21% done
+2015-Jan-27 00:36:43 Структура базы данных (check_mysql_table_structure): Ok
+25% done
+2015-Jan-27 00:36:43 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2015-Jan-27 00:36:44 Структура базы данных (check_mysql_table_structure): Ok
+32% done
+2015-Jan-27 00:36:45 Структура базы данных (check_mysql_table_structure): Ok
+35% done
+2015-Jan-27 00:36:46 Структура базы данных (check_mysql_table_structure): Ok
+39% done
+2015-Jan-27 00:36:47 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2015-Jan-27 00:36:47 Структура базы данных (check_mysql_table_structure): Ok
+46% done
+2015-Jan-27 00:36:48 Структура базы данных (check_mysql_table_structure): Ok
+50% done
+2015-Jan-27 00:36:49 Структура базы данных (check_mysql_table_structure): Ok
+53% done
+2015-Jan-27 00:36:49 Структура базы данных (check_mysql_table_structure): Ok
+57% done
+2015-Jan-27 00:36:51 Структура базы данных (check_mysql_table_structure): Ok
+60% done
+2015-Jan-27 00:36:52 Структура базы данных (check_mysql_table_structure): Ok
+64% done
+2015-Jan-27 00:36:52 Структура базы данных (check_mysql_table_structure): Ok
+67% done
+2015-Jan-27 00:36:52 Структура базы данных (check_mysql_table_structure): Ok
+71% done
+2015-Jan-27 00:36:53 Структура базы данных (check_mysql_table_structure): Ok
+75% done
+2015-Jan-27 00:36:54 Структура базы данных (check_mysql_table_structure): Ok
+78% done
+2015-Jan-27 00:36:54 Структура базы данных (check_mysql_table_structure): Ok
+82% done
+2015-Jan-27 00:36:59 Структура базы данных (check_mysql_table_structure): Ok
+85% done
+2015-Jan-27 00:37:03 Структура базы данных (check_mysql_table_structure): Ok
+89% done
+2015-Jan-27 00:37:04 Структура базы данных (check_mysql_table_structure): Ok
+92% done
+2015-Jan-27 00:37:05 Структура базы данных (check_mysql_table_structure): Ok
+96% done
+2015-Jan-27 00:37:05 Структура базы данных (check_mysql_table_structure): Ok
+Успешно

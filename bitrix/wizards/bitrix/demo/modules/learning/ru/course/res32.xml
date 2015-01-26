@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>633</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>350</sort>
+<timestamp_x>1374738452</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Создание новых страниц и разделов в интерфейсе до версии 9.5</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>В рамках файловой структуры сайта страница - это файл, а раздел - это папка. Соответственно, создавая страницу вы создаете файл, создавая раздел - папку.</p>
+
+<div class="hint"><b>Примечание</b>: В данном случае речь идет о статических страницах сайта. Динамические страницы, создаваемые комплексными компонентами работают по другому принципу и не создают файлов и разделов.</div>
+
+<p>Создавать раздел или страницу можно как с Публичной части, так и с Административного раздела. Контент-менеджеру рекомендуется работать с Публичной части.</p>
+
+<b>Создание страниц</b>
+
+<p>Из публичного раздела сайта создание страницы выполняется с помощью удобного мастера. Его запуск можно осуществить в любом из режимов публичного раздела, выбрав пункт <b>Страницу</b> в меню команд кнопки <b>Создать</b>:</p>
+
+<p><img height="73" src="cid:resources/res32/AZReo.Cs7JR.but_new_page1.png" width="106" /></p>
+
+<p>Для навигации по шагам мастера служат кнопки <b>Назад</b> и <b>Далее</b>. Когда все параметры страницы заданы, то для создания служит кнопка <b>Готово</b>, а для прерывания работы мастера - кнопка <b>Отмена</b>. Кроме того, количество шагов мастера может быть разным в зависимости от выбранных вами настроек.</p>
+
+<table width="100%">
+<tr><td colspan="3">Первый шаг. Создание собственно страницы.</td></tr>
+<tr>
+<td>
+<ul>
+<li>В открывшемся окне мастера укажите <b>Имя файла</b> и задайте произвольный <b>Заголовок</b> страницы.</li>
+<li>Если сразу после создания страницы необходимо перейти к ее редактированию, то отметьте опцию <b>перейти к редактированию</b>. В этом случае по окончании работы мастера откроется визуальный редактор, с помощью которого выполняется наполнение страницы содержимым.</li>
+<li>Для добавления страницы в меню отметьте опцию <b>добавить пункт меню</b>. Создание пункта меню выполняется на следующем шаге.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz1.png',612,403,'Создание страницы: первый шаг')"><img style="CURSOR: pointer" height="99" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res32/rXeYE.XocLs.page_wiz1_sm.png" width="150" border="0" /></a></td></tr>
+
+<tr><td colspan="3">Второй шаг. Создание пункта меню.</td></tr>
+
+<tr>
+<td>
+<ul>
+<li>Укажите <b>Имя нового пункта</b> меню. По умолчанию в поле подставляется заголовок страницы.</li>
+<li>Выберите <b>Тип меню</b>, в которое будет добавлен новый пункт.</li>
+<li>Укажите, перед каким пунктом меню должен быть добавлен новый пункт.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz2.png',612,403,'Создание страницы: второй шаг')"><img style="CURSOR: pointer" height="99" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res32/TWmvp.dUsbt.page_wiz2_sm.png" width="150" border="0" /></a></td></tr>
+
+<tr><td colspan="3">Третий шаг. Задание свойств страницы.</td></tr>
+
+<tr>
+<td>
+<ul>
+<li>Значения <b>свойств страницы</b> наследуются из раздела, в котором она создана. Для изменения свойства кликнете по полю и укажите необходимое вам значение.</li>
+<li>Если необходимо, то задайте <b>Теги страницы</b>, которые будут использоваться при ее поиске.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz3.png',612,403,'Создание страницы: третий шаг')"><img style="CURSOR: pointer" height="99" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res32/WyP56.gI1XD.page_wiz3_sm.png" width="150" border="0" /></a></td></tr>
+
+<tr><td colspan="3">Четвертый шаг. Редактирование страницы.</td></tr>
+
+<tr>
+<td><ul>
+<li>Используя средства визуального редактора, наполните страницу содержимым. На странице может быть размещена как статическая, так и динамическая информация.</li>
+<li>Сохраните внесенные данные с помощью кнопки <b>Сохранить</b>.</li>
+</ul></td>
+<td>&nbsp;</td><td><a href="javascript:ShowImg('/images/content_manager/information/page_wiz4.png',780,574,'Создание страницы: четвертый шаг')"><img style="CURSOR: pointer" height="110" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res32/VSapd.P22yh.page_wiz4_sm.png" width="149" border="0" /></a></td></tr>
+</table>
+
+<h4>Видеоролик "Создание новой страницы"</h4>
+
+<p><a href="http://dev.1c-bitrix.ru/download/files/video/learning/page_new.flv">Скачать</a> ролик (10,5 Мб, длительность 4 мин. 26 сек.)</p>
+
+
+<p>Кроме того, вы можете ознакомится с видеороликом <a href="http://dev.1c-bitrix.ru/download/files/video/learning/page_edit.flv">"Редактирование страницы"</a> (9,9 Мб, длительность 2 мин. 52 сек.), в котором описаны возможные режимы редактирования страницы.</p>
+
+<br>
+
+<b>Создание разделов</b>
+
+<p>В общем случае сайт представляет собой совокупность нескольких страниц, как правило, распределенных по тематическим разделам. В рамках системы разделы - это папки, включенные в структуру сайта. Разделы могут содержать подразделы, отдельные страницы и файлы:</p>
+<table>
+  <tbody>
+    <tr><td><a href="javascript:ShowImg('/images/content_manager/information/content.png',759,598,'Раздел Контент')"><img style="CURSOR: pointer" height="197" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res32/I0idq.MD6J4.content_sm.png" width="250" border="0" /></a> </td><td>&nbsp;</td>
+
+<td><a href="javascript:ShowImg('/images/content_manager/information/content_fileman.png',577,463,'Файловая структура раздела Контент')"><img style="CURSOR: pointer" height="197" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res32/aM3lp.KS2ve.content_fileman_sm.png" width="246" border="0" /></a> </td></tr>
+  </tbody>
+</table>
+
+<p>Названия разделов используются в цепочке навигации, а также при отображении логической структуры сайта. Создать новый раздел можно как из административной, так и из публичной части сайта.</p>
+
+<p> Для перехода к созданию нового раздела из <b>публичной части</b> сайта вызовите меню команд кнопки <b>Создать</b>, расположенной на административной панели, и выберите пункт <b>Раздел</b>:</p>
+<p><img height="73" src="cid:resources/res32/Ky7ZG.lSykM.but_new_folder1.png" width="106" /></p> 
+
+<p>Откроется мастер, с помощью которого будет создан новый раздел в текущем (открытом в данный момент) разделе сайта:</p>
+
+<p><img height="403" border="0" width="612" src="cid:resources/res32/LC10I.jrFId.new_folder1.png" /></p>
+
+<p>В процессе создания нового каталога независимо от того, в каком разделе сайта (публичном или административном) он создается, вы можете:</p>
+
+<ul>
+  <li>указать название раздела сайта, соответствующего данной папке. Указанное название будет использоваться в качестве пункта цепочки навигации, ссылающегося на созданный раздел:<br/><br/>
+<img height="32" src="cid:resources/res32/q1P2O.jWYLa.content_breadcrumb.png" width="132" /> </li>
+
+  <li>добавить ссылку на создаваемый раздел в меню сайта:<br/><br/>
+  <img height="26" src="cid:resources/res32/wcFSB.Xuxi3.content_menu.png" width="670" /></li>
+
+  <li>создать индексную страницу раздела.</li>
+</ul>
+
+<div class="important"><b>Внимание!</b> При создании раздела автоматически создается страница <code>index.php</code>, которая и отображается на сайте как главная страница раздела. Удаление этой страницы приведет к тому, что раздел станет недоступен для просмотра.</div>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>350</edge_sort>
+<id>633</id>
+</content>

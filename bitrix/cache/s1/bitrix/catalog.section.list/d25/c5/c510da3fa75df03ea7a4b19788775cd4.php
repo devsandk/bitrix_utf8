@@ -1,0 +1,37 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001422309149';
+$dateexpire = '001458309149';
+$ser_content = 'a:2:{s:7:"CONTENT";s:1607:"<div class="bx_catalog_tile"><ul class="bx_catalog_tile_ul">
+<li id="bx_1847241719_175">
+				<a
+					href="/catalog/avtonomnye_kkm/"
+					class="bx_catalog_tile_img"
+					style="background-image:url(/upload/iblock/687/68751ab77d23ce00728e681d681bf85e.jpg);"
+					title="АВТОНОМНЫЕ ККМ"
+				> </a><h2 class="bx_catalog_tile_title"><a href="/catalog/avtonomnye_kkm/">АВТОНОМНЫЕ ККМ</a></h2></li><li id="bx_1847241719_176">
+				<a
+					href="/catalog/fiskalnye_registratory/"
+					class="bx_catalog_tile_img"
+					style="background-image:url(/upload/iblock/ed0/ed06061bb4f1cdcf78e08246862166f5.jpg);"
+					title="ФИСКАЛЬНЫЕ РЕГИСТРАТОРЫ"
+				> </a><h2 class="bx_catalog_tile_title"><a href="/catalog/fiskalnye_registratory/">ФИСКАЛЬНЫЕ РЕГИСТРАТОРЫ</a></h2></li><li id="bx_1847241719_177">
+				<a
+					href="/catalog/chekovye_printery/"
+					class="bx_catalog_tile_img"
+					style="background-image:url(/upload/iblock/37c/37ca9ff43163b7bb5d98619823ba0a4a.jpg);"
+					title="ЧЕКОВЫЕ ПРИНТЕРЫ"
+				> </a><h2 class="bx_catalog_tile_title"><a href="/catalog/chekovye_printery/">ЧЕКОВЫЕ ПРИНТЕРЫ</a></h2></li><li id="bx_1847241719_178">
+				<a
+					href="/catalog/zhurnaly/"
+					class="bx_catalog_tile_img"
+					style="background-image:url(/bitrix/templates/.default/components/bitrix/catalog.section.list/template3/images/tile-empty.png);"
+					title="ЖУРНАЛЫ"
+				> </a><h2 class="bx_catalog_tile_title"><a href="/catalog/zhurnaly/">ЖУРНАЛЫ</a></h2></li></ul>
+<div style="clear: both;"></div></div>";s:4:"VARS";a:2:{s:8:"arResult";a:2:{s:14:"SECTIONS_COUNT";i:4;s:7:"SECTION";a:60:{s:2:"ID";s:3:"174";s:3:"~ID";s:3:"174";s:11:"TIMESTAMP_X";s:19:"29.04.2014 23:36:35";s:12:"~TIMESTAMP_X";s:19:"29.04.2014 23:36:35";s:11:"MODIFIED_BY";s:1:"1";s:12:"~MODIFIED_BY";s:1:"1";s:11:"DATE_CREATE";s:19:"14.02.2014 15:51:42";s:12:"~DATE_CREATE";s:19:"14.02.2014 15:51:42";s:10:"CREATED_BY";s:1:"5";s:11:"~CREATED_BY";s:1:"5";s:9:"IBLOCK_ID";s:2:"26";s:10:"~IBLOCK_ID";s:2:"26";s:17:"IBLOCK_SECTION_ID";N;s:18:"~IBLOCK_SECTION_ID";N;s:6:"ACTIVE";s:1:"Y";s:7:"~ACTIVE";s:1:"Y";s:13:"GLOBAL_ACTIVE";s:1:"Y";s:14:"~GLOBAL_ACTIVE";s:1:"Y";s:4:"SORT";s:3:"110";s:5:"~SORT";s:3:"110";s:4:"NAME";s:6:"ККМ";s:5:"~NAME";s:6:"ККМ";s:7:"PICTURE";N;s:8:"~PICTURE";N;s:11:"LEFT_MARGIN";s:1:"1";s:12:"~LEFT_MARGIN";s:1:"1";s:12:"RIGHT_MARGIN";s:2:"10";s:13:"~RIGHT_MARGIN";s:2:"10";s:11:"DEPTH_LEVEL";s:1:"1";s:12:"~DEPTH_LEVEL";s:1:"1";s:11:"DESCRIPTION";s:0:"";s:12:"~DESCRIPTION";s:0:"";s:16:"DESCRIPTION_TYPE";s:4:"text";s:17:"~DESCRIPTION_TYPE";s:4:"text";s:18:"SEARCHABLE_CONTENT";s:8:"ККМ
+";s:19:"~SEARCHABLE_CONTENT";s:8:"ККМ
+";s:4:"CODE";s:3:"kkm";s:5:"~CODE";s:3:"kkm";s:6:"XML_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:7:"~XML_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:6:"TMP_ID";N;s:7:"~TMP_ID";N;s:14:"DETAIL_PICTURE";N;s:15:"~DETAIL_PICTURE";N;s:15:"SOCNET_GROUP_ID";N;s:16:"~SOCNET_GROUP_ID";N;s:13:"LIST_PAGE_URL";s:9:"/catalog/";s:14:"~LIST_PAGE_URL";s:9:"/catalog/";s:16:"SECTION_PAGE_URL";s:13:"/catalog/kkm/";s:17:"~SECTION_PAGE_URL";s:13:"/catalog/kkm/";s:14:"IBLOCK_TYPE_ID";s:10:"1c_catalog";s:15:"~IBLOCK_TYPE_ID";s:10:"1c_catalog";s:11:"IBLOCK_CODE";s:0:"";s:12:"~IBLOCK_CODE";s:0:"";s:18:"IBLOCK_EXTERNAL_ID";s:36:"d2cc87b5-7da1-40d5-8e15-600583afa7b8";s:19:"~IBLOCK_EXTERNAL_ID";s:36:"d2cc87b5-7da1-40d5-8e15-600583afa7b8";s:11:"EXTERNAL_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:12:"~EXTERNAL_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:16:"IPROPERTY_VALUES";a:4:{s:21:"SECTION_META_KEYWORDS";s:59:"Теги которые подготовил Алексей";s:24:"SECTION_META_DESCRIPTION";s:67:"META DESCRIPTION которые подготовил Алексей";s:21:"ELEMENT_META_KEYWORDS";s:59:"Теги которые подготовил Алексей";s:24:"ELEMENT_META_DESCRIPTION";s:67:"META DESCRIPTION которые подготовил Алексей";}s:4:"PATH";a:1:{i:0;a:59:{s:2:"ID";s:3:"174";s:3:"~ID";s:3:"174";s:11:"TIMESTAMP_X";s:19:"2014-04-29 23:36:35";s:12:"~TIMESTAMP_X";s:19:"2014-04-29 23:36:35";s:11:"MODIFIED_BY";s:1:"1";s:12:"~MODIFIED_BY";s:1:"1";s:11:"DATE_CREATE";s:19:"2014-02-14 15:51:42";s:12:"~DATE_CREATE";s:19:"2014-02-14 15:51:42";s:10:"CREATED_BY";s:1:"5";s:11:"~CREATED_BY";s:1:"5";s:9:"IBLOCK_ID";s:2:"26";s:10:"~IBLOCK_ID";s:2:"26";s:17:"IBLOCK_SECTION_ID";N;s:18:"~IBLOCK_SECTION_ID";N;s:6:"ACTIVE";s:1:"Y";s:7:"~ACTIVE";s:1:"Y";s:13:"GLOBAL_ACTIVE";s:1:"Y";s:14:"~GLOBAL_ACTIVE";s:1:"Y";s:4:"SORT";s:3:"110";s:5:"~SORT";s:3:"110";s:4:"NAME";s:6:"ККМ";s:5:"~NAME";s:6:"ККМ";s:7:"PICTURE";N;s:8:"~PICTURE";N;s:11:"LEFT_MARGIN";s:1:"1";s:12:"~LEFT_MARGIN";s:1:"1";s:12:"RIGHT_MARGIN";s:2:"10";s:13:"~RIGHT_MARGIN";s:2:"10";s:11:"DEPTH_LEVEL";s:1:"1";s:12:"~DEPTH_LEVEL";s:1:"1";s:11:"DESCRIPTION";s:0:"";s:12:"~DESCRIPTION";s:0:"";s:16:"DESCRIPTION_TYPE";s:4:"text";s:17:"~DESCRIPTION_TYPE";s:4:"text";s:18:"SEARCHABLE_CONTENT";s:8:"ККМ
+";s:19:"~SEARCHABLE_CONTENT";s:8:"ККМ
+";s:4:"CODE";s:3:"kkm";s:5:"~CODE";s:3:"kkm";s:6:"XML_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:7:"~XML_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:6:"TMP_ID";N;s:7:"~TMP_ID";N;s:14:"DETAIL_PICTURE";N;s:15:"~DETAIL_PICTURE";N;s:15:"SOCNET_GROUP_ID";N;s:16:"~SOCNET_GROUP_ID";N;s:13:"LIST_PAGE_URL";s:9:"/catalog/";s:14:"~LIST_PAGE_URL";s:9:"/catalog/";s:16:"SECTION_PAGE_URL";s:13:"/catalog/kkm/";s:17:"~SECTION_PAGE_URL";s:13:"/catalog/kkm/";s:14:"IBLOCK_TYPE_ID";s:10:"1c_catalog";s:15:"~IBLOCK_TYPE_ID";s:10:"1c_catalog";s:11:"IBLOCK_CODE";s:0:"";s:12:"~IBLOCK_CODE";s:0:"";s:18:"IBLOCK_EXTERNAL_ID";s:36:"d2cc87b5-7da1-40d5-8e15-600583afa7b8";s:19:"~IBLOCK_EXTERNAL_ID";s:36:"d2cc87b5-7da1-40d5-8e15-600583afa7b8";s:11:"EXTERNAL_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:12:"~EXTERNAL_ID";s:36:"3308f16d-67d4-11e3-a288-0c84dc35603e";s:16:"IPROPERTY_VALUES";a:4:{s:21:"SECTION_META_KEYWORDS";s:59:"Теги которые подготовил Алексей";s:24:"SECTION_META_DESCRIPTION";s:67:"META DESCRIPTION которые подготовил Алексей";s:21:"ELEMENT_META_KEYWORDS";s:59:"Теги которые подготовил Алексей";s:24:"ELEMENT_META_DESCRIPTION";s:67:"META DESCRIPTION которые подготовил Алексей";}}}}}s:18:"templateCachedData";a:3:{s:13:"additionalCSS";s:85:"/bitrix/templates/.default/components/bitrix/catalog.section.list/template3/style.css";s:9:"frameMode";b:1;s:13:"__editButtons";a:8:{i:0;a:5:{i:0;s:13:"AddEditAction";i:1;s:3:"175";i:2;N;i:3;s:29:"Изменить раздел";i:4;a:0:{}}i:1;a:5:{i:0;s:15:"AddDeleteAction";i:1;s:3:"175";i:2;N;i:3;s:27:"Удалить раздел";i:4;a:1:{s:7:"CONFIRM";N;}}i:2;a:5:{i:0;s:13:"AddEditAction";i:1;s:3:"176";i:2;N;i:3;s:29:"Изменить раздел";i:4;a:0:{}}i:3;a:5:{i:0;s:15:"AddDeleteAction";i:1;s:3:"176";i:2;N;i:3;s:27:"Удалить раздел";i:4;a:1:{s:7:"CONFIRM";N;}}i:4;a:5:{i:0;s:13:"AddEditAction";i:1;s:3:"177";i:2;N;i:3;s:29:"Изменить раздел";i:4;a:0:{}}i:5;a:5:{i:0;s:15:"AddDeleteAction";i:1;s:3:"177";i:2;N;i:3;s:27:"Удалить раздел";i:4;a:1:{s:7:"CONFIRM";N;}}i:6;a:5:{i:0;s:13:"AddEditAction";i:1;s:3:"178";i:2;N;i:3;s:29:"Изменить раздел";i:4;a:0:{}}i:7;a:5:{i:0;s:15:"AddDeleteAction";i:1;s:3:"178";i:2;N;i:3;s:27:"Удалить раздел";i:4;a:1:{s:7:"CONFIRM";N;}}}}}}';
+return true;
+?>

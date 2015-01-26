@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>636</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>500</sort>
+<timestamp_x>1374677072</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Включение ЧПУ</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Для более успешной работы поисковых машин с сайтом рекомендуется использовать человеко-понятные URL (ЧПУ).</p>
+
+<p><div class="note"><b>ЧПУ</b> (англ.  Friendly URL) — веб-адреса, удобные для восприятия человеком (а также систем и методов построения таких адресов). Является аббревиатурой от словосочетания «человеко-понятный урл» (где «урл» — жаргонное обозначение URL).</div></p>
+
+<p><div class="warning"><b>Внимание!</b> Использование ЧПУ должно быть согласовано с администратором сайта.</div></p>
+
+<p>Сайты, работающие под управлением системы <b>1С-Битрикс: Управление сайтом</b>, в основном хранят свои данные в инфоблоках. При выводе содержимого сайта, будь то новости или обзоры, компонент может генерировать человеко-понятные URL, если в его настройках включен режим ЧПУ:</p>
+
+<p><img src="cid:resources/res35/Qu0M3.ooIyA.url_on2_11.png" width="526" height="62"></p>
+
+<p>После этого ссылка, скажем на новость, будет иметь вид <span class="path">mysite.com/news/1/</span>. Чтобы ссылка содержала заголовок новости, при ее добавлении из административного режима укажите символьный код, который в нашем случае представляет собой заголовок новости на латинице:</p>
+
+<p><img src="cid:resources/res35/6DPbP.bN562.element_parameters_11.png" width="700" height="313"></p>
+
+<p>На этой же вкладке вы можете указать основные теги новости.</p>
+
+<p>В параметрах компонента, на вкладке <b>Управление адресами страниц</b> в качестве каталога ЧПУ укажите имя раздела с нужной информацией (в нашем случае это <span class="path">/news/</span>), а в поле <b>Страница детального просмотра</b> введите <b>#ELEMENT_CODE#/</b>.</p>
+
+<p>Сохраните внесенные изменения и URL страницы примет более удобный для восприятия вид:</p>
+
+<p><img src="cid:resources/res35/Jfb2Z.sSbE3.forum_belarus.png" width="177" height="21"></p>
+
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>500</edge_sort>
+<id>636</id>
+</content>

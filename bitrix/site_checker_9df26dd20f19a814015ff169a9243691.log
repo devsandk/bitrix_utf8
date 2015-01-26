@@ -1,0 +1,171 @@
+2013-Dec-04 16:38:03 Наличие необходимых модулей php (check_php_modules): Ok
+Все необходимые модули установлены
+2013-Dec-04 16:38:03 Обязательные параметры PHP (check_php_settings): Fail
+Ошибка! Параметр default_socket_timeout = 5, требуется 60Значение max_input_vars должно быть не ниже 10000. Текущее значение: 1000
+2013-Dec-04 16:38:03 Модули веб сервера (check_security): Ok
+Конфликтов не выявлено
+2013-Dec-04 16:38:03 Значения переменных сервера (check_server_vars): Ok
+Корректные
+2013-Dec-04 16:38:03 Сохранение сессии (check_session): Ok
+50% done
+2013-Dec-04 16:38:04 Сохранение сессии (check_session): Ok
+Успешно
+2013-Dec-04 16:38:04 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+Правильные. Сайт работает в однобайтовой кодировке
+2013-Dec-04 16:38:04 Работа с сокетами (check_socket): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:04 Лишний вывод в файлах конфигурации (check_dbconn): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:05 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание: Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2013-Dec-04 16:38:05 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+2013-Dec-04 16:38:05 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:05 Настройки сайтов (check_sites): Ok
+Правильные
+2013-Dec-04 16:38:05 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2013-Dec-04 16:38:06 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2013-Dec-04 16:38:06 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:06 Вызов method_exists на строке (check_method_exists): Fail
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+== Request ==
+GET /bitrix/admin/site_checker.php?test_type=method_exists&unique_id=89b843b706b1f2a204d9170fd9f02d83 HTTP/1.1
+Host: xn--h1agfec.xn--p1ai
+
+
+== Response ==
+HTTP/1.1 502 Bad Gateway
+Server: nginx
+Date: Wed, 04 Dec 2013 12:38:06 GMT
+Content-Type: text/html
+Content-Length: 1190
+Connection: keep-alive
+Keep-Alive: timeout=5
+ETag: "51ff8867-4a6"
+
+== Body ==
+<HTML><HEAD>
+<title>502 Bad Gateway - Служба временно недоступна</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="icon" href="/favicon5536fc9343e9ab0aca071354084dd3cc.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon5536fc9343e9ab0aca071354084dd3cc.ico" type="image/x-icon" />
+</HEAD>
+<BODY>
+<center>
+<H1>502 Bad Gateway
+Служба временно недоступна</H1>
+</BODY>
+</HTML>
+<!--
+   - Unfortunately, Microsoft has added a clever new
+   - "feature" to Internet Explorer. If the text of
+   - an error's message is "too small", specifically
+   - less than 512 bytes, Internet Explorer returns
+   - its own error message. You can turn that off,
+   - but it's pretty tricky to find switch called
+   - "smart error messages". That means, of course,
+   - that short error messages are censored by default.
+   - IIS always returns error messages that are long
+   - enough to make Internet Explorer happy. The
+   - workaround is pretty simple: pad the error
+   - message with a big comment like this to push it
+   - over the five hundred and twelve bytes minimum.
+   - Of course, that's exactly what you're reading
+   - right now.
+   -->
+
+==========
+Ошибка! Не работает
+2013-Dec-04 16:38:06 Загрузка файла (check_upload): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:06 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:07 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:07 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:07 Отправка почты (check_mail): Ok
+Успешно
+2013-Dec-04 16:38:07 Отправка почтового сообщения больше 64Кб (check_mail_big): Ok
+Успешно
+2013-Dec-04 16:38:07 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2013-Dec-04 16:38:08 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+2013-Dec-04 16:38:08 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:08 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+2013-Dec-04 16:38:08 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+2013-Dec-04 16:38:09 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+2013-Dec-04 16:38:09 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+2013-Dec-04 16:38:09 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Не менее 256 М
+2013-Dec-04 16:38:09 Работа с файлами кеша (check_cache): Ok
+Успешно
+2013-Dec-04 16:38:10 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2013-Dec-04 16:38:10 HTTP авторизация (check_http_auth): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:10 Создание и запуск файла (check_exec): Ok
+Connection to xn--h1agfec.xn--p1ai:80	Success
+
+Успешно
+2013-Dec-04 16:38:11 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2013-Dec-04 16:38:11 Версия MySQL сервера (check_mysql_bug_version): Ok
+Успешно
+2013-Dec-04 16:38:12 Время на БД и веб сервере (check_mysql_time): Ok
+Успешно
+2013-Dec-04 16:38:12 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2013-Dec-04 16:38:12 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=cp1251, collation_connection=cp1251_general_ci, character_set_results=cp1251
+Успешно
+2013-Dec-04 16:38:12 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=cp1251, COLLATION=cp1251_general_ci
+Успешно
+2013-Dec-04 16:38:20 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>723</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1374677074</timestamp_x>
+<date_create>1374677074</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Создание инфоблока</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<style>
+div.warning, div.note {
+	font-family: Verdana, Arial;
+	font-size: 12px;	
+	background:#f9fafe url('/bitrix/templates/learning/icons/imp.gif') no-repeat 0.5em 1em;
+	padding:1em 1em 1em 2em;
+	border: 1px solid #BCCCDC;
+}
+div.note {
+	background-image: url('/bitrix/templates/learning/icons/prim.gif');
+}
+span.path {
+    color:#4682B4;
+	font-style: italic;
+}
+span.link {
+    color:#03C;
+}
+code 
+{
+	font-family: Courier New, Verdana, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:#eee;
+	padding:0 0.2em 0 0.2em;  
+
+}
+table.learning-spoiler{
+    border: 1px solid #dddddd;
+    table-layout:fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #eeeeee
+}
+table.learning-spoiler td{
+    color: black;
+}
+table.learning-spoiler th {
+    font-size:12;
+    font-weight:bold;
+    text-align:left;
+    color: black;
+}
+</style>
+
+<p>Чтобы компонент заработал, необходимо создать информационный блок. Предполагаем, что используется тип инфоблоков из дистрибутива программы (хотя вполне возможно, что администратор сайта создаст для этого другой тип информационных блоков). Перейдите в раздел <span class="path">Контент &gt; Информ. Блоки &gt; Типы информ. Блоков &gt; Сервисы</span></p>
+
+<ul>
+  <li>Нажмите <b>Добавить инфоблок</b> на контекстной панели. Откроется форма создания инфоблока. </li>
+
+  <li>Заполните закладку <b>Инфоблок</b>;</li>
+
+  <li>Введите <b>Символьный код</b>: любое название на латинице; </li>
+
+  <li>Осуществите привязку к нужному сайту; </li>
+
+  <li>Введите <b>Название инфоблока</b>: любое осмысленное название на кириллице. </li>
+</ul>
+
+<p>Остальные поля закладки оставьте без изменений. </p>
+
+<ul>
+  <li>Перейдите в закладку <b>Свойства</b>. </li>
+
+  <li>Создайте свойства со следующими параметрами: </li>
+</ul>
+
+<p><img height="118" border="0" width="700" src="cid:resources/res122/vaJJh.d0X5b.mp_12.png"  /> </p>
+
+<ol>
+  <li>Свойство типа <b>Привязка к файлу (на сервере)</b> для указания пути к файлу с кодом <b>FILE</b>. </li>
+
+  <li>Свойство типа <b>Строка</b> для указания времени проигрывания файла с кодом <b>DURATION</b>; </li>
+
+</ol>
+
+<p>Если вам для работы требуются и другие свойства - укажите их.</p>
+
+<div class="hint"><b>Примечание</b>: коды для свойств могут быть любыми. Если вы используете другие, а не рекомендуемые коды, то не забудьте сменить их в настройках компонента Видеотека.</div>
+<p></p>
+  <li>Перейдите в закладку <b>Доступ</b>. </li>
+
+  <li>Для всех пользователей поставьте уровень прав <b>Чтение</b>, для тех групп, кто будет заниматься созданием видеотеки - поставьте <b>Изменение</b>. </li>
+
+  <li>Перейдите в закладку <b>Подписи</b>. В этой закладке можно изменить названия подписей полей, чтобы они воспринимались адекватно инфоблоку. </li>
+
+  <li>Замените надписи: <b>раздел(ы)</b> на видеоальбом(ы), а <b>элемент(ы)</b> на видеоролик(и). </li>
+
+  <li>Сохраните внесенные изменения. </li>
+</ul>
+
+<p>Инфоблок создастся, система вернется к списку инфоблоков.</p>
+]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>723</id>
+</content>

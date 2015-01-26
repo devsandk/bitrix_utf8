@@ -1,0 +1,36 @@
+<?
+$MESS["P_UP"] = "Галерея";
+$MESS["P_UP_TITLE"] = "Перейти на головну сторінку галереї";
+$MESS["P_PHOTO_SORT_ID"] = "Нові";
+$MESS["P_PHOTO_SORT_ID_TITLE"] = "за датою додавання";
+$MESS["P_PHOTO_SORT_SHOWS"] = "Популярні";
+$MESS["P_PHOTO_SORT_SHOWS_TITLE"] = "за кількістю переглядів";
+$MESS["P_PHOTO_SORT_RATING"] = "Кращі";
+$MESS["P_PHOTO_SORT_RATING_TITLE"] = "за кількістю голосів";
+$MESS["P_PHOTO_SORT_COMMENTS"] = "обговорювані";
+$MESS["P_PHOTO_SORT_COMMENTS_TITLE"] = "за кількістю коментарів";
+$MESS["P_FILTER_SHOW"] = "Показати";
+$MESS["P_FILTER_RESET"] = "Скинути";
+$MESS["P_PHOTO_ORDER_BY_DATE_CREATE"] = "Нові фотографії";
+$MESS["P_PHOTO_ORDER_BY_SHOWS"] = "Популярні фотографії";
+$MESS["P_PHOTO_ORDER_BY_RATING"] = "Кращі фотографії";
+$MESS["P_PHOTO_ORDER_BY_COMMENTS"] = "Обговорювані фотографії";
+$MESS["P_SELECT_PHOTO_FROM_PERIOD"] = "Вибрати фотографії, додані в період";
+$MESS["P_GROUP_BY_DATE_CREATE"] = "Групувати фотографії по дням додавання";
+$MESS["P_OPEN_FILTER"] = "Показати фільтр";
+$MESS["P_CLOSE_FILTER"] = "Сховати фільтр";
+$MESS["P_NO_PHOTO"] = "Список фотографій порожній.";
+$MESS["P_DELETE_CONFIRM"] = "Ви дійсно хочете видалити фотографії без можливості відновлення?";
+$MESS["P_SHOW_FILTER"] = "Фільтр редактора";
+$MESS["P_SHOW_ONLY_NOT_ACTIVE"] = "несхвалені фото";
+$MESS["P_SHOW_ONLY_NOT_ACTIVE_TILTE"] = "Несхвалені фото - це ті, що не пройшли цензуру, не видимі нікому, крім автора та редактора.";
+$MESS["P_SHOW_ONLY_NOT_PUBLIC"] = "неопубліковані фото";
+$MESS["P_SHOW_ONLY_NOT_PUBLIC_TITLE"] = "Неопубліковані фото — це фото, які будуть розміщені на головній сторінці та загальних списках, але не отримали схвалення редактора.";
+$MESS["P_SHOW_ONLY_NOT_PUBLIC_TITLE1"] = "Неопубліковані фото — це фото, які автор захотів розмістити на головній сторінці та загальних списках, але не отримали схвалення редактора.";
+$MESS["P_SHOW_SIMPLE"] = "схвалені фото";
+$MESS["P_SHOW_SIMPLE_TITLE"] = "Будуть показані всі фото, які бачить звичайний користувач.";
+$MESS["P_PUBLIC"] = "Опублікувати";
+$MESS["P_NOT_PUBLIC"] = "Не публікувати";
+$MESS["P_SHOW"] = "Показати";
+$MESS["P_DELETE"] = "Видалити";
+?>

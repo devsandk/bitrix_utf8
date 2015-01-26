@@ -1,0 +1,34 @@
+<?
+$MESS["P_TITLE"] = "Galerien";
+$MESS["P_RATING_PHOTO"] = "Populдr Fotos";
+$MESS["P_COMMENT_PHOTO"] = "Bilder mit Kommentaren";
+$MESS["P_PHOTO_2"] = "Angezeigte Bilder";
+$MESS["P_BEST_PHOTO_RATING"] = "Das beliebteste Bild";
+$MESS["P_BEST_PHOTO_COMMENTS"] = "Am meisten kommentierte Fotos";
+$MESS["P_BEST_PHOTO_SHOWS"] = "Am meisten angezeigtes Bild";
+$MESS["P_PHOTOGRAPHIES"] = "Fotos";
+$MESS["P_PHOTO_NEW"] = "Neue Fotos";
+$MESS["P_PHOTO_SHOWS"] = "Angezeigt";
+$MESS["P_PHOTO_RATING"] = "Populдr";
+$MESS["P_PHOTO_COMMENTS"] = "Am meisten kommentiert";
+$MESS["P_USERS_GALLERIES"] = "Usergalerien";
+$MESS["P_ALL_PHOTOS"] = "Alle Galerien";
+$MESS["P_TAGS_CLOUD"] = "Tag-Wolke";
+$MESS["P_NOT_APPROVED"] = "Nicht genehmigte Fotos";
+$MESS["P_NOT_APPROVED_TITLE"] = "Fotos werden sichtbar fьr alle Benutzer sein, bleiben jedoch nicht genehmigt.";
+$MESS["P_NOT_MODERATED"] = "Nicht genehmigt";
+$MESS["P_NOT_MODERATED_TITLE"] = "Fotos, die auf die Moderation warten.";
+$MESS["P_UPLOAD"] = "Fotos hochladen";
+$MESS["P_PHOTO_VIEW"] = "Meine Bilder";
+$MESS["P_LOGIN"] = "Login";
+$MESS["P_GALLERY_CREATE"] = "Galerie erstellen";
+$MESS["P_GALLERY_VIEW"] = "Meine Galerie";
+$MESS["P_GALLERIES_VIEW"] = "Meine Galerien";
+$MESS["P_ERROR1"] = "Die Galerie enthдlt noch keine Bilder.";
+$MESS["P_ERROR2"] = "<a target=\"_self\" href=\"#CREATE_GALLERY#\">Erstellen Sie</a> Ihre eigene Galerie und laden Sie Ihre Bilder hoch.";
+$MESS["P_ERROR3"] = "<a target=\"_self\" href=\"#UPLOAD#\">Laden Sie</a> neue Bilder hoch.";
+$MESS["P_ERROR4"] = "Kein Bild in dieser Galerie wurde bewertet.";
+$MESS["P_ERROR5"] = "Kein Bild in dieser Galerie wurde kommentiert.";
+$MESS["P_RECALC_7"] = "Bitte berechnen Sie die GaleriegrцЯe neu. <a href=\"#URL#\">Berechnen?</a>";
+$MESS["P_PHOTO_LAST"] = "Neue Fotos";
+?>

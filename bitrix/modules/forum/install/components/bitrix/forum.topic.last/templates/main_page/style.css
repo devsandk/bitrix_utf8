@@ -1,0 +1,13 @@
+.bx-new-layout-include {width: 100%;}
+.bx-new-layout-include .frm-mp-info {border-bottom: solid 1px #C4C4C4; padding: 2px 0px;}
+
+.bx-new-layout-include .frm-mp-info-inner .frm-mp-date, .bx-new-layout-include .frm-mp-info-inner .frm-mp-name, .bx-new-layout-include .frm-mp-info-inner .frm-mp-post {margin-bottom: 2px;}
+
+.bx-new-layout-include .frm-mp-info-inner, .bx-new-layout-include .frm-mp-officelink {margin: 5px 0px;}
+
+.bx-new-layout-include .frm-mp-delimiter {clear: both;}
+
+.frm-mp-date {
+	color: #82929A;
+	font-size: 0.95em;
+}

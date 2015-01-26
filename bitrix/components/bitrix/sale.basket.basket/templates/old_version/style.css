@@ -1,0 +1,65 @@
+/*Table*/
+table.sale_basket_basket
+{
+	width:100%;
+	background-color:#F9FAFB;
+	border-collapse:collapse;
+	font-size:12px;
+}
+
+/*Table head*/
+table.sale_basket_basket th
+{
+	background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+/* Table cells and heads*/
+table.sale_basket_basket th, table.sale_basket_basket td
+{
+	border:1px solid #ADC3D5;
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+/* quantity control table */
+
+table.counter td {
+	border: none !important;
+    vertical-align: middle;
+}
+
+table.counter tbody tr td#quantity_control
+{
+	padding: 0px !important;
+	text-align: left;
+}
+
+.quantity_control {
+	display: inline-block;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.quantity_control a {
+    background: url("images/arrows.png") no-repeat scroll 0 0 transparent;
+    border: 1px solid #D8D8D8;
+    display: block;
+    height: 10px;
+    text-align: center;
+    width: 11px;
+}
+
+.quantity_control a.plus {
+    background-position: 0px 0px;
+    border-radius: 5px 5px 0 0;
+}
+
+.quantity_control a.minus {
+    background-position: 0px -20px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
+}

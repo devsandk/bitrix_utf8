@@ -1,0 +1,30 @@
+<?
+$MESS["COMP_FORM_PARAMS_WEB_FORM_ID"] = "ID веб-форми";
+$MESS["COMP_FORM_PARAMS_RESULT_ID"] = "ID результата";
+$MESS["COMP_FORM_PARAMS_EDIT_ADDITIONAL"] = "Виводити на редагування додаткові поля";
+$MESS["COMP_FORM_PARAMS_EDIT_STATUS"] = "Виводити форму зміни статусу";
+$MESS["COMP_FORM_PARAMS_IGNORE_CUSTOM_TEMPLATE"] = "Ігнорувати свій шаблон";
+$MESS["COMP_FORM_PARAMS_ACTION_ALIAS"] = "Ім'я змінної дії";
+$MESS["COMP_FORM_PARAMS_USE_EXTENDED_ERRORS"] = "Використовувати розширене виведення повідомлень про помилки";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_TABLE_LIST"] = "Коди полів, які не можна показувати в таблиці";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_TABLE"] = "Коди полів, які не можна показувати в таблиці (через кому)";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_FILTER_LIST"] = "Коди полів, які не можна показувати у фільтрі";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_FILTER"] = "Коди полів, які не можна показувати у фільтрі (через кому)";
+$MESS["COMP_FORM_PARAMS_CHAIN_ITEM_TEXT"] = "Назва додаткового пункту у навігаційному ланцюжку";
+$MESS["COMP_FORM_PARAMS_START_PAGE"] = "Головна сторінка";
+$MESS["COMP_FORM_PARAMS_SHOW_ADDITIONAL"] = "Показати додаткові поля веб-форми";
+$MESS["COMP_FORM_PARAMS_SHOW_ANSWER_VALUE"] = "Показати значення параметра ANSWER_VALUE";
+$MESS["COMP_FORM_PARAMS_SHOW_STATUS"] = "Показати поточний статус результату";
+$MESS["COMP_FORM_PARAMS_SHOW_VIEW_PAGE"] = "Показувати сторінку перегляду результату";
+$MESS["COMP_FORM_PARAMS_SHOW_EDIT_PAGE"] = "Показувати сторінку редагування результату";
+$MESS["COMP_FORM_PARAMS_SHOW_LIST_PAGE"] = "Показувати сторінку зі списком результатів";
+$MESS["COMP_FORM_VALUES_LIST"] = "Список результатів";
+$MESS["COMP_FORM_PARAMS_CHAIN_ITEM_LINK"] = "Посилання на додатковому пункті у навігаційному ланцюжку";
+$MESS["COMP_FORM_SEF_RESULT_NEW_PAGE"] = "Сторінка додавання результату";
+$MESS["COMP_FORM_VALUES_NEW"] = "Сторінка додавання результату";
+$MESS["COMP_FORM_SEF_RESULT_VIEW_PAGE"] = "Сторінка перегляду результату";
+$MESS["COMP_FORM_SEF_RESULT_EDIT_PAGE"] = "Сторінка редагування результату";
+$MESS["COMP_FORM_PARAMS_SUCCESS_URL"] = "Сторінка з повідомленням про успішну відправку";
+$MESS["COMP_FORM_SEF_RESULT_LIST_PAGE"] = "Сторінка списку результатів";
+$MESS["COMP_FORM_PARAMS_NAME_TEMPLATE"] = "Формат імені";
+?>

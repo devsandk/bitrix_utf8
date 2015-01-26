@@ -1,0 +1,37 @@
+<?
+$MESS["MOBILEAPP_ANDROID"] = "OS Android";
+$MESS["MOBILEAPP_IOS"] = "iOS";
+$MESS["MOBILEAPP_WP"] = "Windows Phone";
+$MESS["MOBILEAPP_GLOBAL"] = "Common";
+$MESS["MOBILEAPP_CONFIGNAME_ANDROID"] = "Android OS configuration";
+$MESS["MOBILEAPP_CONFIGNAME_GLOBAL"] = "Common configuration";
+$MESS["MOBILEAPP_CONFIGNAME_IOS"] = "iOS configuration";
+$MESS["MOBILEAPP_CONFIGNAME_WP"] = "Windows Phone configuration";
+$MESS["MOBILEAPP_ADD_IMAGE"] = "Add image";
+$MESS["MOBILEAPP_SELECT_IMAGE"] = "Select image";
+$MESS["MOBILEAPP_APP_PLATFORM"] = "Add platform";
+$MESS["MOBILEAPP_SAVE"] = "Save";
+$MESS["MOBILEAPP_CREATE"] = "Create";
+$MESS["MOBILEAPP_CLOSE"] = "Close";
+$MESS["MOBILEAPP_REMOVE"] = "delete";
+$MESS["MOBILEAPP_BACK"] = "back";
+$MESS["MOBILEAPP_TITLE"] = "Title";
+$MESS["MOBILEAPP_NO_APPS"] = "You don't have any applications";
+$MESS["MOBILEAPP_CREATE_APP"] = "Create application";
+$MESS["MOBILEAPP_APP_NAME"] = "Name";
+$MESS["MOBILEAPP_LABEL_CODE"] = "Application code";
+$MESS["MOBILEAPP_LABEL_APP_FOLDER"] = "Application folder";
+$MESS["MOBILEAPP_PREVIEW_MAIN"] = "Main";
+$MESS["MOBILEAPP_PREVIEW_LOAD"] = "Loading";
+$MESS["MOBILEAPP_PREVIEW_LISTS"] = "Grids";
+$MESS["MOBILEAPP_CREATE_NEW_TEMPLATE"] = "Create new template";
+$MESS["MOBILEAPP_WITHOUT_TEMPLATE"] = "Don't create template";
+$MESS["MOBILEAPP_NEW_TEMPLATE_NAME"] = "Template name";
+$MESS["MOBILEAPP_SELECT_TEMPLATE"] = "Select existing";
+$MESS["MOBILEAPP_APP_TEMPLATE"] = "Application template";
+$MESS["MOBILEAPP_PREVIEW_HINT"] = "Click a control to edit properties";
+$MESS["MOBILEAPP_APP_SAVE_CONFIG_WAIT"] = "Saving configuration";
+$MESS["MOBILEAPP_APP_REMOVE_CONFIG_WAIT"] = "Deleting configuration";
+$MESS["MOBILEAPP_APP_CREATE_CONFIG_WAIT"] = "Creating configuration";
+$MESS["MOBILEAPP_APP_IS_ALREADY_EXISTS"] = "An application with this symbolic code already exists!";
+?>

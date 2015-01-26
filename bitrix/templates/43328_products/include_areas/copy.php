@@ -1,0 +1,1 @@
+Accent &copy; 2013   <a href="#">Privacy Policy</a>

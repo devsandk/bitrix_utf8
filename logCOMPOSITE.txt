@@ -1,0 +1,579 @@
+Host: entask.ru
+Date: 2014-11-25 07:13:55
+Module: Composite was rejected
+Reason: /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/search.tags.cloud/.default/template.php
+Request URI: /news/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/search.tags.cloud/component.php:217
+----------
+Host: entask.ru
+Date: 2014-11-25 07:13:58
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/search.tags.cloud/.default/template.php
+Request URI: /news/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/search.tags.cloud/component.php:75
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:14:00
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/search.tags.cloud/.default/template.php
+Request URI: /news/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/search.tags.cloud/component.php:75
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:16:06
+Module: composite
+/home/entask/data/www/entask.ru/bitrix/html_pages/entask.ru/news/index@.html.delete.1416885366.2021
+    Bitrix\Main\Data\StaticHtmlCache::writeDebug < Bitrix\Main\Data\StaticHtmlCache::delete < Bitrix\Main\Page\Frame::processPageContent < Bitrix\Main\Page\Frame::endBuffering < CAllMain::EndBufferContent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/lib/data/statichtmlcache.php:167
+	/home/entask/data/www/entask.ru/bitrix/modules/main/lib/page/frame.php:305
+	/home/entask/data/www/entask.ru/bitrix/modules/main/lib/page/frame.php:255
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:3298
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:3244
+----------
+Host: entask.ru
+Date: 2014-11-25 07:16:10
+Module: Composite was rejected
+Reason: /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/news.detail/.default/template.php
+Request URI: /news/otl4/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/news.detail/component.php:301
+----------
+Host: entask.ru
+Date: 2014-11-25 07:16:13
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/news.detail/.default/template.php
+Request URI: /news/otl4/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/news.detail/component.php:113
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:17:25
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/news.detail/.default/template.php
+Request URI: /news/otl4/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/news.detail/component.php:113
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:17:27
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/news.detail/.default/template.php
+Request URI: /news/otl4/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/news.detail/component.php:113
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:17:29
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/43328_eshop/components/bitrix/news/web21/bitrix/news.detail/.default/template.php
+Request URI: /news/otl4/
+Script: /news/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/news.detail/component.php:113
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:17:56
+Module: Composite was rejected
+Reason: /bitrix/components/bitrix/news/templates/web20/bitrix/search.tags.cloud/.default/template.php
+Request URI: /automation/
+Script: /automation/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/search.tags.cloud/component.php:217
+----------
+Host: entask.ru
+Date: 2014-11-25 07:19:00
+Module: Composite was rejected
+Reason: /bitrix/components/bitrix/main.feedback/templates/.default/template.php
+Request URI: /dogovor_na_obsluzhivanie_kkm/
+Script: /dogovor_na_obsluzhivanie_kkm/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/main.feedback/component.php:111
+----------
+Host: entask.ru
+Date: 2014-11-25 07:19:07
+Module: Composite was rejected
+Reason: /bitrix/templates/.default/components/bitrix/catalog.section.list/template3/template.php
+Request URI: /catalog/kkm/
+Script: /catalog/kkm/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:185
+----------
+Host: entask.ru
+Date: 2014-11-25 07:19:11
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog.section.list/template3/template.php
+Request URI: /catalog/kkm/
+Script: /catalog/kkm/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:16
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog.section.list/template3/template.php
+Request URI: /catalog/kkm/
+Script: /catalog/kkm/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:19
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog.section.list/template3/template.php
+Request URI: /catalog/kkm/
+Script: /catalog/kkm/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:41
+Module: Composite was rejected
+Reason: /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section.list/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:185
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:42
+Module: Composite was rejected
+Reason: /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section/component.php:1145
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:42
+Module: Composite was rejected
+Reason: /bitrix/templates/.default/components/bitrix/catalog/visual2/section.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog/component.php:134
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:46
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section.list/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:46
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section/component.php:379
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:46
+Module: Composite was rejected
+Reason: /bitrix/templates/.default/components/bitrix/catalog/visual2/section.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog/component.php:134
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:48
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section.list/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:48
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section/component.php:379
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:20:48
+Module: Composite was rejected
+Reason: /bitrix/templates/.default/components/bitrix/catalog/visual2/section.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog/component.php:134
+----------
+Host: entask.ru
+Date: 2014-11-25 07:22:50
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section.list/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:22:50
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section/component.php:379
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:22:53
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section.list/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:22:53
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section/component.php:379
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:23:06
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section.list/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section.list/component.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:23:06
+Module: Composite was rejected
+Reason: (from component cache) /bitrix/templates/.default/components/bitrix/catalog/visual2/bitrix/catalog.section/visual/template.php
+Request URI: /catalog/avtonomnye_kkm/
+Script: /catalog/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::startResultCache < include < CBitrixComponent::__includeComponent < CBitrixComponent::includeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:752
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/catalog.section/component.php:379
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:515
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+----------
+Host: entask.ru
+Date: 2014-11-25 07:23:16
+Module: Composite was rejected
+Reason: /bitrix/components/bitrix/sale.basket.basket/templates/visual/template.php
+Request URI: /personal/cart/
+Script: /personal/cart/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponentTemplate::__IncludePHPTemplate < CBitrixComponentTemplate::IncludeTemplate < CBitrixComponent::showComponentTemplate < CBitrixComponent::includeComponentTemplate
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:516
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component_template.php:588
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:593
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:542
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/sale.basket.basket/component.php:106
+----------
+Host: entask.ru
+Date: 2014-11-25 07:23:16
+Module: Composite was rejected
+Reason: bitrix:sale.basket.basket
+Request URI: /personal/cart/
+Script: /personal/cart/index.php
+    Bitrix\Main\Data\StaticHtmlCache::applyComponentFrameMode < CBitrixComponent::includeComponent < CAllMain::IncludeComponent
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:521
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/main.php:1011
+	/home/entask/data/www/entask.ru/personal/cart/index.php:32
+----------
+Host: entask.ru
+Date: 2015-01-20 20:55:31
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 20:55:31') [Incorrect key file for table './shop_data_2/b_forum_stat.MYI'; try to repair it]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 21:07:38
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 21:07:38') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: entask.ru
+Date: 2015-01-20 21:17:17
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 21:17:17') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 21:25:40
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 21:25:40') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 21:36:40
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 21:36:40') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: entask.ru
+Date: 2015-01-20 21:47:17
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 21:47:17') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 21:55:44
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 21:55:44') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 22:06:47
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 22:06:47') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 22:08:51
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2076 MySql Query Error: UPDATE b_forum_stat SET `USER_ID` = 0, `IP_ADDRESS` = '78.25.121.115', `SHOW_NAME` = '', `LAST_VISIT` = now(), `SITE_ID` = 's1', `FORUM_ID` = 2, `TOPIC_ID` = 31 WHERE PHPSESSID='dq1n1p4gs38svc4baq7i76dfo1' [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CDatabaseMysql::Update < CALLForumStat::RegisterUSER < ForumSetLastVisit < include
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/database.php:599
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2076
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/include.php:2243
+	/home/entask/data/www/entask.ru/bitrix/components/bitrix/forum/component.php:413
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/general/component.php:472
+----------
+Host: entask.ru
+Date: 2015-01-20 22:17:17
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 22:17:17') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 22:25:46
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 22:25:46') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: www.entask.ru
+Date: 2015-01-20 22:36:53
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 22:36:53') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------
+Host: entask.ru
+Date: 2015-01-20 22:47:18
+Module: main
+File: /home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php<br>Line: 2218 MySql Query Error: DELETE FROM b_forum_stat
+					WHERE (LAST_VISIT
+					< '2015-01-18 22:47:18') [Table './shop_data_2/b_forum_stat' is marked as crashed and should be repaired]
+    CDatabaseMysql::Query < CALLForumStat::CleanUp < eval < CAgent::ExecuteAgents < CAgent::CheckAgents
+	/home/entask/data/www/entask.ru/bitrix/modules/forum/classes/general/user.php:2218
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php(159) : eval()'d code:1
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:159
+	/home/entask/data/www/entask.ru/bitrix/modules/main/classes/mysql/agent.php:38
+	/home/entask/data/www/entask.ru/bitrix/modules/main/include.php:1
+----------

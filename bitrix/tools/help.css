@@ -1,0 +1,15 @@
+/*Help*/
+.helptitle {font-family: Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;}
+.helplink {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; text-decoration: none; padding: 1px}
+a.helplink:hover {text-decoration: underline;}
+.helplink_current {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 14px; background-color:#0A246A; color: white; text-decoration: none; padding: 1px}
+a.helplink_current:hover {text-decoration: underline;}
+.hbtn{BORDER-BOTTOM: buttonshadow solid 1px; BORDER-LEFT: #F4F4F4 solid 1px; BORDER-RIGHT: buttonshadow solid 1px; BORDER-TOP:  #F4F4F4 solid 1px; HEIGHT: 15px; WIDTH: 15px;}
+.hbtnDown{BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM: #F4F4F4 solid 1px;BORDER-LEFT: buttonshadow solid 1px;BORDER-RIGHT: #F4F4F4 solid 1px;BORDER-TOP:  buttonshadow solid 1px;}
+.htb2{BORDER-BOTTOM: #FFFFFF solid 1px;BORDER-LEFT: #FFFFFF solid 1px;BORDER-RIGHT: #FFFFFF solid 1px;BORDER-TOP: #FFFFFF solid 1px;HEIGHT: 15px;WIDTH: 15px;}
+INPUT.helpinputtext2 {background-color:#FFFFFF; font-size:12px; border: solid 1px #7A7D85; width: 100%}
+INPUT.helpinputtext {background-color:#FFFFFF; font-size:12px; border: solid 1px #7A7D85;}
+INPUT.helpsubmit2 {background-color:#E4E6E7; font-size:10px; border: solid 1px #7A7D85; height: 17px}
+INPUT.helpsubmit {background-color:#CECECE; font-size:12px; border: solid 1px #7A7D85;}
+.helphead {background-color:#E0E0E0;}
+.helpnavchain {font-family:Arial,Helvetica; font-size:12px; color:#1F5887;}

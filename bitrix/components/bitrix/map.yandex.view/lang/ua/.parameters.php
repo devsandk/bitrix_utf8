@@ -1,0 +1,34 @@
+<?
+$MESS["MYMS_PARAM_KEY"] = "Ключ доступу";
+$MESS["MYMS_PARAM_INIT_MAP_TYPE"] = "Стартовий тип карти";
+$MESS["MYMS_PARAM_INIT_MAP_TYPE_MAP"] = "схема";
+$MESS["MYMS_PARAM_INIT_MAP_TYPE_SATELLITE"] = "супутник";
+$MESS["MYMS_PARAM_INIT_MAP_TYPE_HYBRID"] = "гібрид";
+$MESS["MYMS_PARAM_OPTIONS"] = "Налаштування";
+$MESS["MYMS_PARAM_OPTIONS_ENABLE_SCROLL_ZOOM"] = "зміна масштабу колесом миші";
+$MESS["MYMS_PARAM_OPTIONS_ENABLE_DBLCLICK_ZOOM"] = "зміна масштабу подвійним клацанням миші";
+$MESS["MYMS_PARAM_OPTIONS_ENABLE_DRAGGING"] = "перетягування карти";
+$MESS["MYMS_PARAM_OPTIONS_ENABLE_HOTKEYS"] = "гарячі клавіші";
+$MESS["MYMS_PARAM_OPTIONS_ENABLE_RULER"] = "інструмент «лінійка»";
+$MESS["MYMS_PARAM_CONTROLS"] = "Елементи управління";
+$MESS["MYMS_PARAM_CONTROLS_TOOLBAR"] = "Панель інструментів";
+$MESS["MYMS_PARAM_CONTROLS_ZOOM"] = "Повзунок масштабу";
+$MESS["MYMS_PARAM_CONTROLS_SMALLZOOM"] = "Кнопки масштабу";
+$MESS["MYMS_PARAM_CONTROLS_MINIMAP"] = "Міні-карта";
+$MESS["MYMS_PARAM_CONTROLS_TYPECONTROL"] = "Тип карти";
+$MESS["MYMS_PARAM_CONTROLS_SCALELINE"] = "Шкала масштабу";
+$MESS["MYMS_PARAM_DATA"] = "Дані, що виводяться на карті";
+$MESS["MYMS_PARAM_DATA_DEFAULT_LAT"] = "55.7383";
+$MESS["MYMS_PARAM_DATA_DEFAULT_LON"] = "37.5946";
+$MESS["MYMS_PARAM_DATA_SET"] = "змінити";
+$MESS["MYMS_PARAM_DATA_NO_KEY"] = "Не задано ключ для карти!";
+$MESS["MYMS_PARAM_DATA_GET_KEY"] = "Отримати ключ доступу";
+$MESS["MYMS_PARAM_DATA_GET_KEY_URL"] = "http://api.yandex.ru/maps/form.xml";
+$MESS["MYMS_PARAM_MAP_HEIGHT"] = "Висота карти";
+$MESS["MYMS_PARAM_MAP_WIDTH"] = "Ширина карти";
+$MESS["MYMS_PARAM_MAP_ID"] = "Ідентифікатор карти";
+$MESS["MYMS_PARAM_INIT_MAP_TYPE_PUBLIC"] = "народна карта";
+$MESS["MYMS_PARAM_INIT_MAP_TYPE_PUBLIC_HYBRID"] = "народний гібрид";
+$MESS["MYMS_PARAM_OPTIONS_ENABLE_RIGHT_MAGNIFIER"] = "зміна масштабу правою кнопкою миші";
+$MESS["MYMS_PARAM_CONTROLS_SEARCH"] = "Пошук по карті";
+?>

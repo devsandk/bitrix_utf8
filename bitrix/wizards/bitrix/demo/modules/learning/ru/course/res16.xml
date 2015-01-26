@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content type="LES"><lesson_id>616</lesson_id>
+<was_chapter_id></was_chapter_id>
+<keywords></keywords>
+<childs_cnt>0</childs_cnt>
+<is_childs>0</is_childs>
+<sort>100</sort>
+<timestamp_x>1374677072</timestamp_x>
+<date_create>1374677072</date_create>
+<created_user_name>(admin) Иван Иванов</created_user_name>
+<created_by>1</created_by>
+<active>Y</active>
+<name>Режим Просмотр</name>
+<preview_picture></preview_picture>
+<preview_text></preview_text>
+<preview_text_type>text</preview_text_type>
+<detail_text><![CDATA[<p>Режим <b>Просмотр</b> - это состояние административной панели, которое служит для просмотра страниц в том виде, как они будут доступны простым пользователям. В этом режиме также можно выполнять основные операции по управлению содержанием сайта:</p>
+<ul> 
+  <li>Создание страницы или раздела:
+  <p><img height="180" border="0" width="443" src="cid:resources/res16/n6TYx.tNyKm.create_page_section.png" /></p>
+  <p>Страницы, разделы или включаемые области для страниц и разделов, а также форум с использованием режима ЧПУ создаются из публичной части с помощью мастера. С его помощью пользователь, не имеющий подготовки, сможет создать страницу или раздел, последовательно внося данные на каждом шаге мастера. Содержание страницы создается в визуальном редакторе, загружаемом прямо в публичной части.</p>
+  </li>
+ 
+  <li>Редактирование текущей страницы и изменение свойств страницы или раздела: 
+  <p><img border="0" width="232" height="120" src="cid:resources/res16/zyi3d.7ZMCj.change_page_section.png" /></p>
+  <p>Редактирование страницы производится либо в визуальном редакторе, либо в виде HTML-кода без визуального представления. Свойства страницы или раздела изменяются в специальной форме. Все формы загружаются прямо в публичной части. После сохранения изменения сразу вступают в силу.</p>
+  </li>
+ 
+  <li>По кнопке <img height="24" border="0" width="86" src="cid:resources/res16/1HP7t.Z3lvi.structure_button.png" /> можно управлять структурой сайта непосредственно в публичном разделе сайта: 	 
+  <p><img height="337" border="0" width="263" src="cid:resources/res16/ZJjYn.6i2mY.site_structure.png" /></p>
+  <p><div class="hint"><b>Примечание</b>: данная функция доступна только тем пользователям, которые обладают правами на изменение корневого раздела сайта.</div></p>
+  <p>Вы можете добавлять, удалять страницы и разделы, управлять свойствами и доступом к разделам, редактировать страницы. Все необходимые формы загружаются прямо в публичной части. После сохранения все изменения сразу вступают в силу.</p>
+  </li>
+ 
+  <li>Инструменты для поисковой оптимизации сайта доступны по кнопке <img height="24" border="0" width="102" src="cid:resources/res16/Gp6hU.RNuWf.seo_button.png" />. При ее нажатии прямо в публичном разделе загружается форма <b>Инструменты для поисковой оптимизации страницы</b>:
+  <p><a href="javascript:ShowImg('/images/content_manager/controls/public_section/interface_to_version_9_5/seo_form.png',700,503,'Поисковая оптимизация сайта')"><img height="431" border="0" width="600" style="cursor: pointer;" alt="Нажмите на рисунок, чтобы увеличить" src="cid:resources/res16/YMUnc.Ik0Wz.1seo_form_sm.png" /></a></p>
+  <p>Используя данные инструменты, вы можете просматривать статистику страницы (адрес, размер в байтах, количество слов), статистику переходов на нее, статистику индексации страницы и сайта поисковыми системами, статистику сайтов, ссылающихся на эту страницу, изменять заголовок, задавать ключевые слова, описание, производить анализ продвигаемых слов.</p>
+  </li>
+ 
+  <li>Редактирование меню:
+  <p><img height="73" border="0" width="243" src="cid:resources/res16/ujgfl.7JLno.menu_button.png" /></p>
+  <p>Вы можете отредактировать пункты меню в форме из публичной части:</p>
+
+  <p><img height="380" border="0" width="596" src="cid:resources/res16/WxeOm.TvspR.menu_edit_form.png" /></p>
+
+  <p>После сохранения изменения сразу вступят в силу.</p>
+  </li>
+ 
+  <li>Получение информации по статистике данного сайта: 
+  <p><img border="0" width="420" height="73" src="cid:resources/res16/9wkIH.ujHwT.statistics_button.png" /></p>
+  <p>Вы может получить минимальную информацию по статистике сайта. Есть возможность построить график посещаемости данной страницы, а также вывести статистику переходов по ссылкам с данной страницы.</p>
+  </li>
+ 
+  <li>Управление кешем страницы:
+  <p><img border="0" width="204" height="76" src="cid:resources/res16/i2wlo.bFLNN.cache_button.png"/></p>
+  </li>
+ 
+  <li>Изменение профиля текущего пользователя выполняется по кнопке <img height="24" width="135" border="0" src="cid:resources/res16/kZvcG.kkJb4.user_button.png" />, при этом открывается форма редактирования параметров пользователя в административном разделе сайта.</li>
+  <li>Кнопка <img height="24" width="63" border="0" src="cid:resources/res16/kqgmT.bhfP0.logout_button.png" /> служит для завершения авторизованного сеанса работы текущего пользователя.</li>
+</ul>
+ 
+<p>В случае необходимости административная панель может быть временно скрыта:</p>
+<p><img border="0" width="215" height="90" src="cid:resources/res16/RMQ0H.UEabf.hide_panel.png" /></p>
+<p>Развернуть ее в нужный момент можно по стрелке <b>вниз</b>:</p>
+<p><img border="0" width="107" height="35" src="cid:resources/res16/nCsd6.bKhTT.show_panel.png" /> </p>
+<p>Панель может быть зафиксирована вверху экрана: <img border="0" width="17" src="cid:resources/res16/SFHxx.5XGtp.panel_fix.png" height="19" /></p> 
+<p>Кроме того, административная панель позволяет переходить на заранее определенную страницу административной части. Это выполняется с помощью кнопки <b>Пуск</b>. Разделы административной части подгружаются динамически:</p>
+<table> 
+  <tbody> 
+    <tr>
+	  <td valign="top"><img height="77" border="0" width="123" src="cid:resources/res16/dpZ9h.CQmIB.start_button.png" /></td>
+	  <td></td>
+	  <td><img height="259" border="0" width="350" src="cid:resources/res16/WExSN.7QcWI.start_button_content.png" /></td>
+	</tr>
+  </tbody>
+</table>
+ 
+<p>Таким образом, вы можете сразу перейти, например, на страницу со списком заказов:</p>
+<p><a href="javascript:ShowImg('/images/content_manager/controls/public_section/interface_to_version_9_5/sale_order_list.png',641,418,'Список заказов')"><img border="0" width="600" height="391" src="cid:resources/res16/UMn69.PSv5y.1sale_order_list_sm.png" alt="Нажмите на рисунок, чтобы увеличить" style="cursor: pointer;" /></a></p>]]></detail_text>
+<detail_picture></detail_picture>
+<detail_text_type>html</detail_text_type>
+<launch></launch>
+<code></code>
+<active_from></active_from>
+<active_to></active_to>
+<rating></rating>
+<rating_type></rating_type>
+<scorm></scorm>
+<linked_lesson_id></linked_lesson_id>
+<course_id></course_id>
+<course_sort></course_sort>
+<edge_sort>100</edge_sort>
+<id>616</id>
+</content>

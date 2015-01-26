@@ -1,0 +1,32 @@
+<?
+$MESS["IBLOCK_PRICES"] = "Ціни";
+$MESS["T_IBLOCK_DESC_ELEMENT_BOX"] = "Виводить список елементів інфоблоку";
+$MESS["IBLOCK_TYPE"] = "Тип інфоблоку";
+$MESS["IBLOCK_IBLOCK"] = "Інфоблок";
+$MESS["IBLOCK_PROPERTY"] = "Властивості";
+$MESS["IBLOCK_SORT_ASC"] = "за зростанням";
+$MESS["IBLOCK_SORT_DESC"] = "за спаданням";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD"] = "За яким полем сортуємо елементи";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER"] = "Порядок сортування елементів";
+$MESS["IBLOCK_PRICE_CODE"] = "Тип ціни";
+$MESS["IBLOCK_BASKET_URL"] = "URL, що веде на сторінку з кошиком покупця";
+$MESS["IBLOCK_ACTION_VARIABLE"] = "Назва змінної, в якій передається дія";
+$MESS["IBLOCK_PRODUCT_ID_VARIABLE"] = "Назва змінної, в якій передається код товару для покупки";
+$MESS["IBLOCK_SECTION_ID_VARIABLE"] = "Назва змінної, в якій передається код групи";
+$MESS["IBLOCK_USE_PRICE_COUNT"] = "Використовувати виведення цін з діапазонами";
+$MESS["IBLOCK_SHOW_PRICE_COUNT"] = "Виводити ціни для кількості";
+$MESS["IBLOCK_DETAIL_URL"] = "URL, що веде на сторінку зі вмістом елемента розділу";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD_BOX"] = "За яким полем сортуємо список елементів";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER_BOX"] = "Унікальне ім'я для списку порівняння";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD_BOX2"] = "Поле для другого сортування списку елементів";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER_BOX2"] = "Порядок другого сортування списку елементів";
+$MESS["IBLOCK_COMPARE_NAME"] = "Унікальне ім'я для списку порівняння";
+$MESS["IBLOCK_FIELD"] = "Поля";
+$MESS["IBLOCK_VAT_INCLUDE"] = "Включати ПДВ в ціну";
+$MESS["CP_BCCR_OFFERS_FIELD_CODE"] = "Поля пропозицій";
+$MESS["CP_BCCR_OFFERS_PROPERTY_CODE"] = "Властивості пропозицій";
+$MESS["CP_BCCR_CONVERT_CURRENCY"] = "Показувати ціни в одній валюті";
+$MESS["CP_BCCR_CURRENCY_ID"] = "Валюта, в яку будуть сконвертовані ціни";
+$MESS["CP_BCCR_HIDE_NOT_AVAILABLE"] = "Не відображати в списку товари, яких немає на складах";
+$MESS["HIDE_NOT_AVAILABLE_TIP"] = "При зазначеній опції будуть приховані товари, для яких загальна кількість на складах менше або дорівнює нулю, увімкнений кількісний облік і не дозволена купівля за відсутності товару";
+?>

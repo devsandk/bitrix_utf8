@@ -1,0 +1,251 @@
+.bx-finder-box a,
+.bx-finder-box a:active, 
+.bx-finder-box a:link { color: black!important; text-decoration: none}
+
+.bx-finder-box-tab-columns { width: 100%; table-layout:fixed;}
+.bx-finder-box-tab-columns td { width: 50%; padding:0; vertical-align: top; }
+
+.bx-finder-box-search { margin: 0 0 7px 0;}
+.bx-finder-box-search-textbox { width: 100%; border:1px solid; border-color: #b0b0b0 #e2e2e2 #e2e2e2 #b0b0b0; font-size:15px; }
+
+.bx-finder-box-tabs { margin: 0 0 7px 0; white-space: nowrap; }
+.bx-finder-box-tab, .bx-finder-box-tab-left, .bx-finder-box-tab-right, .bx-finder-box-tab-text { font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; display:inline-block; height:21px; vertical-align:top; cursor:pointer; text-decoration: none;}
+.bx-finder-box-tab-left, .bx-finder-box-tab-right { width: 4px; }
+
+.bx-finder-box-tab { margin: 0 3px 0 0; outline:none}
+.bx-finder-box-tab-left {}
+.bx-finder-box-tab-right {}
+.bx-finder-box-tab-text { line-height: 20px; padding: 0 5px; font-weight:bold; color:#333; }
+
+.bx-finder-box-tab:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -621px; }
+.bx-finder-box-tab:hover .bx-finder-box-tab-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -599px; }
+.bx-finder-box-tab:hover .bx-finder-box-tab-right {background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -4px -599px; }
+
+.bx-finder-box .bx-finder-box-tab-selected { background: url(/bitrix/js/main/core/images/controls-sprite.png) repeat-x 0 -643px; }
+.bx-finder-box .bx-finder-box-tab-selected .bx-finder-box-tab-left { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -8px -599px; }
+.bx-finder-box .bx-finder-box-tab-selected .bx-finder-box-tab-right { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -12px -599px; }
+
+.bx-finder-box-tabs-content { margin: 7px 0 0 0; height: 315px; overflow:auto; position:relative;}
+.bx-finder-box-tab-content { display: none; }
+.bx-finder-box-tab-content-selected { display: block; }
+
+
+
+.bx-finder-box-item {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	color: #000;
+	margin: 0 5px 2px 0;
+	text-decoration:none;
+	overflow: hidden;
+	outline: none;
+	border-radius: 4px;
+}
+.bx-finder-box-item-text {
+	color:black;
+	padding:3px 5px;
+	padding-right: 0;
+	font: normal normal normal 12px/normal Arial, Helvetica, sans-serif;
+}
+
+.bx-finder-box-item-left { margin: 0 3px 0 0;}
+.bx-finder-box-item:hover { background: #f7f7f7; }
+.bx-finder-box-item-hover { background-color: #f7f7f7; }
+.bx-finder-box-item-selected { background-color: #f0f0f0; }
+
+.bx-finder-element-disabled, .bx-finder-element-disabled:hover, .bx-finder-element-disabled .bx-finder-company-department-check-inner { background: none!important; cursor: default}
+.bx-finder-element-disabled .bx-finder-company-department-check-arrow, .bx-finder-element-disabled .bx-finder-company-department-employee-avatar, .bx-finder-element-disabled .bx-finder-box-item-t3-avatar { opacity: 0.3 }
+.bx-finder-element-disabled .bx-finder-company-department-check-text, .bx-finder-element-disabled .bx-finder-company-department-employee-name, .bx-finder-element-disabled .bx-finder-company-department-employee-position, .bx-finder-element-disabled .bx-finder-box-item-text, .bx-finder-element-disabled .bx-finder-box-item-t2-text, .bx-finder-element-disabled .bx-finder-box-item-t3-name, .bx-finder-element-disabled .bx-finder-box-item-t3-desc { color: #ccc }
+.bx-finder-element-disabled:hover .bx-finder-company-department-check-text, .bx-finder-element-disabled:hover .bx-finder-company-department-check-arrow { background-color: transparent!important;}
+.bx-finder-box-selected-title {  line-height: 32px; margin:0 8px; border-bottom: 1px solid #DCDCDC;  color: #7A7A7A;  display: block;  font-size: 11px;  font-weight: normal;  padding: 0 0 0px 1px;	 margin-bottom: 7px;    height: 27px;    margin-left: 8px;    }
+.bx-finder-box-selected-title-no-line {  border-bottom:0;}
+.bx-finder-box-selected-item {  overflow: hidden; margin: 0 0 5px 6px; }
+.bx-finder-box-selected-item-icon { display: inline-block;vertical-align: top; cursor: pointer;margin-top:1px; width: 13px; height:15px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -282px;}
+.bx-finder-box-selected-item-icon:hover { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -17px -282px;}
+.bx-finder-box-selected-item-text {font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; display:inline-block; text-decoration: none; overflow: hidden; padding: 0 0 0 4px;  color: #000; width: 164px;}
+
+.bx-finder-workgroup-avatar {  background: url(/bitrix/js/main/core/images/finder-sprite.png) no-repeat 0px -30px;  height: 24px;  width: 24px; }
+
+
+.bx-finder-box-item-t2 {
+	display: inline-block;
+	vertical-align: top;
+	width: 167px;
+	cursor: pointer;
+	position: relative;
+	color: #000;
+	margin: 0 4px 3px 0;
+	text-decoration:none;
+	overflow: hidden;
+	outline: none;
+	border-radius: 4px;
+}
+.bx-finder-box-item-t2-text {
+	font: normal normal normal 12px/normal Arial, Helvetica, sans-serif;
+	padding:3px 5px;
+	float: left;
+	width: 145px;
+	padding-right: 0;
+}
+.bx-finder-box-item-t2-left { margin: 0 3px 0 0;}
+.bx-finder-box-item-t2:hover { background: #f7f7f7; }
+.bx-finder-box-item-t2-hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t2-selected { background-color: #f0f0f0; }
+
+.bx-finder-box-item-t3 {
+	display:inline-block;
+	cursor: pointer;
+	position: relative;
+	margin: 0 0 3px 0;
+	padding: 2px 0;
+	text-decoration: none;
+	vertical-align: top;
+	border-radius: 4px;
+}
+.bx-finder-box-item-t3-avatar { display: block; float: left ; vertical-align: top; width: 24px; height: 24px;  background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -664px;  margin-left: 4px; margin-top: 0; }
+.bx-finder-box-item-t3-info { display: block; float: left; padding: 0; margin: 0 0 0 7px; width: 303px; overflow: hidden}
+.bx-finder-box-item-t3-name { font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; color:#000; }
+.bx-finder-box-item-t3-desc { font: normal normal normal 11px/normal Arial, Helvetica, sans-serif; color: #b2b2b2; line-height:11px; }
+.bx-finder-box-item-t3:hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t3-hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t3-selected { background-color: #f0f0f0; }
+
+
+.bx-finder-box-item-t5 { display:inline-block;  width: 167px; cursor: pointer; position: relative; margin: 0 0 3px 0; padding: 2px 0; text-decoration: none; vertical-align: top;}
+.bx-finder-box-item-t5-avatar { display: block; float: left ; vertical-align: top; width: 24px; height: 24px;  background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -664px;  margin-left: 4px; margin-top: 0; }
+.bx-finder-box-item-t5-info { display: block; float: left; padding: 0; margin: 0 0 0px 7px; width: 130px; overflow: hidden}
+.bx-finder-box-item-t5-name { font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; color:#000; }
+.bx-finder-box-item-t5-desc { font: normal normal normal 11px/normal Arial, Helvetica, sans-serif; color: #b2b2b2; line-height:11px; }
+.bx-finder-box-item-t5:hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t5-hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t5-selected  { background-color: #f0f0f0;  }
+
+.bx-finder-box-item-t6 { display:inline-block; cursor: pointer; position: relative; margin: 0 0 3px 0; padding: 2px 0; text-decoration: none; vertical-align: top;}
+.bx-finder-box-item-t6-avatar { display: block; float: left ; vertical-align: top; width: 24px; height: 24px;  background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -664px;  margin-left: 4px; margin-top: 3px; }
+.bx-finder-box-item-t6-info { display: block; float: left; padding: 2px 0; margin: 0 0 0px 7px; width: 396px; overflow: hidden}
+.bx-finder-box-item-t6-name { font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; color:#000; }
+.bx-finder-box-item-t6-desc { font: normal normal normal 11px/normal Arial, Helvetica, sans-serif; color: #b2b2b2; line-height:11px; }
+.bx-finder-box-item-t6-icon { position:absolute; margin-top:3px; margin-left: 378px; width: 17px; height:21px; }
+.bx-finder-box-item-t6:hover { background-color: #f0f0f0; }
+.bx-finder-box-item-t6-hover { background-color: #f0f0f0; }
+.bx-finder-box-item-t6:hover .bx-finder-box-item-t6-icon { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -19px -469px; }
+.bx-finder-box-item-t6-selected:hover .bx-finder-box-item-t6-icon { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -20px -578px; }
+.bx-finder-box-item-t6-selected .bx-finder-box-item-t6-name { color: #666666; }
+
+.bx-finder-box-item-t7 {
+	position: relative;
+	display:inline-block;
+	width: 48%;
+	height: 30px;
+	margin: 0 6px 3px 0;
+	padding: 0;
+	text-decoration: none;
+	vertical-align: top;
+	overflow: hidden;
+	word-wrap: break-word;
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bx-finder-box-item-t7-avatar {
+	display: block;
+	position: absolute;
+	left:0;
+	top: 3px;
+	width: 24px;
+	height: 24px;
+	background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -664px;
+	margin-left: 4px;
+	margin-top: 0;
+}
+
+.bx-finder-box-item-t7-avatarless .bx-finder-box-item-t7-avatar { display: none; }
+.bx-finder-box-item-t7-avatarless .bx-finder-box-item-t7-info { margin-left: 6px; }
+
+.bx-finder-box-item-t7-info {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 0;
+	margin: 0 0 0 33px;
+	font: normal normal normal 12px/normal Arial, Helvetica, sans-serif;
+	color:#000;
+}
+.bx-finder-box-item-t7-space {
+	display: inline-block;
+	height: 30px;
+	width: 1px;
+	margin-left: -1px;
+	vertical-align: middle;
+}
+.bx-finder-box-item-t7:hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t7-hover { background-color: #f7f7f7; }
+.bx-finder-box-item-t7-selected { background-color: #f0f0f0; }
+
+.bx-finder-box-item-t7-desc { font: normal normal normal 11px/normal Arial, Helvetica, sans-serif; color: #b2b2b2; line-height:11px; }
+.bx-finder-box-item-t7-desc-mode .bx-finder-box-item-t7-info { padding-top: 2px; }
+.bx-finder-box-item-t7-desc-mode .bx-finder-box-item-t7-desc { white-space: nowrap; }
+.bx-finder-box-item-t7-desc-mode .bx-finder-box-item-t7-name { white-space: nowrap; }
+.bx-finder-box-item-t7-desc-mode .bx-finder-box-item-t7-space { display: none; }
+
+
+.bx-finder-box-tab-note { font-style: italic; display:inline-block; margin: 0 0 0 5px;}
+
+.bx-finder-company-structure { padding: 0 0 0 3px; }
+.bx-finder-company-department-check { display: block;  padding: 10px 0 0; text-decoration:none; outline: none;  }
+.bx-finder-company-department-check-first { padding: 3px 0 0 0;}
+.bx-finder-company-department-check-inner { padding-left: 2px; display: block; overflow:hidden; cursor:pointer;  -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; user-select: none;}
+
+.bx-finder-company-department-check-arrow { float: left; width:16px; height: 17px; background: url(/bitrix/js/main/core/images/finder-sprite.png) no-repeat -16px -6px;}
+.bx-finder-company-department-check-checked .bx-finder-company-department-check-arrow,
+.bx-finder-box-item-selected .bx-finder-company-department-check-arrow { background: url(/bitrix/js/main/core/images/finder-sprite.png) no-repeat 2px -6px!important;}
+.bx-finder-company-department-check-text { float: left; display:inline-block; overflow:hidden; padding: 1px 5px 1px 5px; color: #000; font: normal normal normal 12px/normal Arial, Helvetica, sans-serif;
+	width: 308px; width: calc(100% - 28px);
+}
+.bx-finder-company-department-check:hover .bx-finder-company-department-check-text, .bx-finder-company-department-check:hover .bx-finder-company-department-check-arrow { background-color:#f0f0f0; }
+
+.bx-finder-company-department:first-child { padding-top: 3px; }
+.bx-finder-company-department { display: block; padding: 10px 0 0; text-decoration:none; }
+.bx-finder-company-department-first { padding: 3px 0 0 0;}
+.bx-finder-company-department-inner { outline: none; text-decoration: none; padding-left: 2px; display: inline-block; overflow:hidden; cursor:pointer;  -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; user-select: none;}
+
+.bx-finder-company-department-arrow { display:inline-block; float: left; width:16px; height: 17px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -16px -175px;}
+.bx-finder-company-department-opened .bx-finder-company-department-arrow { background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat -16px -191px;}
+.bx-finder-company-department-text { display:inline-block; float: left; overflow:hidden; padding: 1px 5px 1px 5px; color: #000; font: normal normal normal 12px/normal Arial, Helvetica, sans-serif;}
+.bx-finder-company-department-inner:hover .bx-finder-company-department-text, .bx-finder-company-department-inner:hover .bx-finder-company-department-arrow { background-color:#f0f0f0; }
+
+.bx-finder-company-department-children { display: none; margin-left: 4px; padding: 0 0 0 13px;}
+.bx-finder-company-department-children-opened { display: block; border-left: 1px solid #F0F0F0;}
+.bx-finder-box-item-t4 .bx-finder-company-department-children-opened { display: block; margin-left: 4px; padding: 0 0 11px 7px;}
+
+.bx-finder-company-department-employees { margin: 0 0 0 -10px; padding: 5px 0 0 0;}
+.bx-finder-company-department-employee {
+	display:block;
+	height: 30px;
+	cursor: pointer;
+	position: relative;
+	margin: 5px 10px 0 0;
+	text-decoration: none;
+	vertical-align: top;
+	border-radius: 4px;
+}
+.bx-finder-company-department-employee-avatar { position: absolute; width: 24px; height: 24px; background: url(/bitrix/js/main/core/images/controls-sprite.png) no-repeat 0 -664px; top: 3px; /*margin-top: -27px; */margin-left: 3px; }
+.bx-finder-company-department-employee-info { padding: 2px 0; margin: 0 0 0 32px; }
+.bx-finder-company-department-employee-name { font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; color:#000; }
+.bx-finder-company-department-employee-position {font: normal normal normal 11px/normal Arial, Helvetica, sans-serif;  color: #b2b2b2;  line-height:11px;   text-overflow: ellipsis;   white-space: nowrap; overflow: hidden}
+
+.bx-finder-company-department-employee:hover { background-color: #f7f7f7; }
+
+.bx-finder-company-department-employee-selected { background-color: #f0f0f0; }
+
+.bx-finder-company-department-employees-loading { font: normal normal normal 11px/normal Arial, Helvetica, sans-serif;  color: #b2b2b2;   font-style: italic; padding-bottom: 5px; padding-top: 5px; padding-left: 13px; }
+
+.bx-finder-search-wait {background:url("/bitrix/js/main/core/images/wait-big.gif") no-repeat 0 0!important; height: 29px; display: block; margin-top: 4px; line-height: 29px; padding-left: 34px}
+.bx-finder-item-text {display: block; margin-top: 3px; padding-left: 7px;  font: normal normal normal 12px/normal Arial, Helvetica, sans-serif;}
+
+.bx-finder-groupbox { display: block; margin: 0 0 4px 0; }
+.bx-finder-groupbox-name {padding: 3px 0 5px 5px; font: normal normal normal 12px/normal Arial, Helvetica, sans-serif; font-weight: bold; color: #666666; display: block; vertical-align: top;}
+
+.bx-finder-groupbox-content { display: block;}
